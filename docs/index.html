@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>慈濟 TriNetX 發表追蹤</title>
+<meta name="description" content="每週自 PubMed 自動更新：慈濟醫療體系使用 TriNetX 資料庫發表之文章清單與院區統計">
+<style>
+:root{
+  --bg:#f6f7f9;--card:#fff;--text:#1d2430;--muted:#5d6b7c;--line:#e3e7ec;
+  --accent:#1f4e78;--accent-2:#2d7dd2;--bar:#2d7dd2;--bar-2:#8fbfe8;--bar-3:#c9def3;
+  --tag:#eef3f8;--tag-text:#1f4e78;
+}
+:root:not([data-theme="light"]){@media (prefers-color-scheme: dark){
+  --bg:#12161c;--card:#1a2029;--text:#e6eaf0;--muted:#9aa7b7;--line:#2a323d;
+  --accent:#8fbfe8;--accent-2:#5aa2e6;--bar:#5aa2e6;--bar-2:#3b6d9c;--bar-3:#2a4a68;
+  --tag:#243041;--tag-text:#bcd7f2;}}
+:root[data-theme="dark"]{
+  --bg:#12161c;--card:#1a2029;--text:#e6eaf0;--muted:#9aa7b7;--line:#2a323d;
+  --accent:#8fbfe8;--accent-2:#5aa2e6;--bar:#5aa2e6;--bar-2:#3b6d9c;--bar-3:#2a4a68;
+  --tag:#243041;--tag-text:#bcd7f2;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 16px 60px}
+header h1{margin:0 0 4px;font-size:26px;letter-spacing:.3px}
+header p{margin:0;color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:10px;color:var(--muted);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card .k{font-size:12px;color:var(--muted)}
+.card .v{font-size:28px;font-weight:700;color:var(--accent);line-height:1.2}
+.card .s{font-size:12px;color:var(--muted)}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
+section h2{margin:0 0 6px;font-size:18px}
+section .note{color:var(--muted);font-size:13px;margin:0 0 12px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:13px;white-space:nowrap;cursor:pointer;user-select:none}
+th.sorted::after{content:" ▾";color:var(--accent-2)}
+th.sorted.asc::after{content:" ▴"}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.bars{display:grid;grid-template-columns:140px 1fr 60px;gap:6px 10px;align-items:center;font-size:13px}
+.bars .track{height:14px;background:var(--line);border-radius:7px;overflow:hidden}
+.bars .fill{height:100%;background:var(--bar);border-radius:7px}
+.tag{display:inline-block;background:var(--tag);color:var(--tag-text);border-radius:6px;padding:1px 7px;font-size:12px;margin:1px 3px 1px 0;white-space:nowrap}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+input[type=search],select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);font:inherit}
+input[type=search]{flex:1;min-width:220px}
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;background:var(--accent-2);color:#fff;text-decoration:none;font-weight:600;font-size:14px;border:0;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent-2);border:1px solid var(--accent-2)}
+.downloads{display:flex;flex-wrap:wrap;gap:10px}
+a{color:var(--accent-2)}
+.title a{color:inherit;text-decoration:none;font-weight:600}
+.title a:hover{text-decoration:underline}
+.sub{color:var(--muted);font-size:12px}
+.tablewrap{overflow-x:auto}
+details summary{cursor:pointer;color:var(--muted);font-size:13px}
+pre{white-space:pre-wrap;word-break:break-all;font-size:12px;background:var(--bg);padding:10px;border-radius:8px}
+.count{color:var(--muted);font-size:13px;margin-left:auto}
+.src{display:inline-block;border-radius:6px;padding:0 6px;font-size:11px;font-weight:600;margin-top:3px}
+.src.pmc{background:#d7f0dd;color:#1e6b34}.src.oa{background:#dbe9f8;color:#1f4e78}
+.src.em{background:#fff1c7;color:#7a5b00}.src.last{background:#f9d8c8;color:#8a3a12}
+.warn{color:#b4471a;font-size:11px;font-weight:600}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.pills span{font-size:13px}
+@media (max-width:640px){.bars{grid-template-columns:110px 1fr 48px}header h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>慈濟醫療體系 TriNetX 發表文章追蹤</h1>
+  <p>每週一自動自 PubMed 擷取，依院區 / 慈濟大學統計文章數、第一作者與通訊作者分布。</p>
+  <div class="meta">
+    <span>最後更新：<b id="updated">—</b>（台北時間）</span>
+    <span>PubMed 命中：<b id="hits">—</b> 篇</span>
+    <span id="ghlink"></span>
+  </div>
+</header>
+
+<div class="cards" id="cards"></div>
+
+<section>
+  <h2>下載</h2>
+  <p class="note">Excel 內含：總覽、文章清單、作者與隸屬（所有作者 affiliation 原文）、院區×年份、期刊統計。</p>
+  <div class="downloads">
+    <a class="btn" href="data/tzuchi_trinetx.xlsx" download>Excel（.xlsx）</a>
+    <a class="btn ghost" href="data/articles.csv" download>文章清單 CSV</a>
+    <a class="btn ghost" href="data/author_affiliations.csv" download>作者與隸屬 CSV</a>
+    <a class="btn ghost" href="data/articles.json" download>JSON</a>
+  </div>
+</section>
+
+<section>
+  <h2>院區 / 單位統計</h2>
+  <p class="note" id="noteCounting"></p>
+  <div class="tablewrap">
+  <table id="campusTable">
+    <thead><tr>
+      <th>院區 / 單位</th><th class="num">文章數<br><span class="sub">任一作者</span></th>
+      <th class="num">第一作者<br><span class="sub">文章數</span></th>
+      <th class="num">通訊作者<br><span class="sub">文章數</span></th>
+      <th class="num">作者人次</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+  <p class="note" id="noteCorr" style="margin-top:10px"></p>
+  <div class="pills" id="srcPills"></div>
+</section>
+
+<section>
+  <h2>年度趨勢</h2>
+  <div class="bars" id="yearBars"></div>
+</section>
+
+<section>
+  <h2>文章清單</h2>
+  <div class="tools">
+    <input type="search" id="q" placeholder="搜尋標題 / 作者 / 期刊 / PMID…">
+    <select id="fCampus"><option value="">所有院區</option></select>
+    <select id="fYear"><option value="">所有年份</option></select>
+    <select id="fRole">
+      <option value="any">院區：任一作者</option>
+      <option value="first">院區：第一作者</option>
+      <option value="corr">院區：通訊作者</option>
+    </select>
+    <select id="fSrc"><option value="">通訊作者來源：全部</option></select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="tablewrap">
+  <table id="articles">
+    <thead><tr>
+      <th data-k="pmid">PMID</th><th data-k="year" class="num">年份</th><th data-k="title">標題 / 作者</th>
+      <th data-k="journal">期刊</th><th>第一作者院區</th><th>通訊作者</th><th>涉及院區</th><th data-k="citations" class="num">被引</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <details><summary>搜尋策略與方法說明</summary>
+    <pre id="query"></pre>
+    <p class="note">通訊作者：優先採 PMC 全文 JATS 標記（Europe PMC / NCBI PMC），其次 OpenAlex 的 is_corresponding，再其次 PubMed 隸屬中含 e-mail 的作者，最後以末位作者推定。ORCID、出版社、被引次數來自 PubMed / OpenAlex / Crossref。</p>
+    <p class="note">院區判定依作者 affiliation 文字比對（Hualien / Dalin / Taipei / Taichung / Yuli / Guanshan / Douliu Tzu Chi Hospital；Tzu Chi University；Tzu Chi University of Science and Technology）。無法判定院區者歸入「慈濟醫療財團法人(未指明院區)」。</p>
+  </details>
+</section>
+</div>
+
+<script>
+const fmt = n => (n ?? 0).toLocaleString('zh-Hant');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let ARTICLES = [], SUMMARY = {}, sortKey = 'year', sortAsc = false;
+const SRC_CLASS = {'PMC全文':'pmc','OpenAlex':'oa','PubMed e-mail':'em','末位作者(推定)':'last'};
+const srcBadge = s => s ? `<span class="src ${SRC_CLASS[s]||''}">${esc(s)}</span>` : '';
+
+async function load(){
+  const bust = '?v=' + Date.now();
+  const [s, a] = await Promise.all([
+    fetch('data/summary.json' + bust).then(r=>r.json()),
+    fetch('data/articles.json' + bust).then(r=>r.json())
+  ]);
+  SUMMARY = s; ARTICLES = a;
+  render();
+}
+
+function render(){
+  const s = SUMMARY;
+  document.getElementById('updated').textContent = new Date(s.generated_at).toLocaleString('zh-TW',{timeZone:'Asia/Taipei',hour12:false});
+  document.getElementById('hits').textContent = fmt(s.pubmed_count);
+  document.getElementById('query').textContent = s.query + '\n\nPubMed 轉譯：\n' + (s.query_translation||'');
+  document.getElementById('noteCounting').textContent = s.note_counting;
+  document.getElementById('noteCorr').textContent = s.note_corresponding;
+
+  // cards
+  const campusMap = Object.fromEntries(s.campus_table.map(c=>[c.campus,c]));
+  const main = ['花蓮慈濟醫院','大林慈濟醫院','台北慈濟醫院','台中慈濟醫院','慈濟大學'];
+  const cards = [{k:'文章總數',v:s.n_articles,sub:'去重後'}].concat(
+    main.map(c=>({k:c,v:campusMap[c]?.articles||0,sub:`第一作者 ${campusMap[c]?.first_author_articles||0}｜通訊 ${campusMap[c]?.corresponding_author_articles||0}`})));
+  document.getElementById('cards').innerHTML = cards.map(c=>`<div class="card"><div class="k">${esc(c.k)}</div><div class="v">${fmt(c.v)}</div><div class="s">${esc(c.sub)}</div></div>`).join('');
+
+  // campus table
+  document.querySelector('#campusTable tbody').innerHTML = s.campus_table.map(c=>`<tr>
+    <td>${esc(c.campus)}</td><td class="num">${fmt(c.articles)}</td><td class="num">${fmt(c.first_author_articles)}</td>
+    <td class="num">${fmt(c.corresponding_author_articles)}</td><td class="num">${fmt(c.author_slots)}</td></tr>`).join('');
+
+  // corresponding-source pills
+  const srcs = s.corresponding_sources || [];
+  document.getElementById('srcPills').innerHTML = srcs.map(x=>`<span>${srcBadge(x.source)} ${fmt(x.articles)} 篇</span>`).join('')
+    + (s.corresponding_disagreements ? `<span class="warn">PMC 與 OpenAlex 不一致：${fmt(s.corresponding_disagreements)} 篇</span>` : '');
+  document.getElementById('fSrc').innerHTML = '<option value="">通訊作者來源：全部</option>' + srcs.map(x=>`<option>${esc(x.source)}</option>`).join('');
+
+  // year bars
+  const max = Math.max(1, ...s.by_year.map(y=>y.articles));
+  document.getElementById('yearBars').innerHTML = s.by_year.map(y=>`
+    <div>${esc(y.year)}</div><div class="track"><div class="fill" style="width:${(y.articles/max*100).toFixed(1)}%"></div></div><div class="num">${fmt(y.articles)}</div>`).join('');
+
+  // filters
+  const camps = [...new Set(ARTICLES.flatMap(a=>a.campuses))];
+  const order = s.campus_table.map(c=>c.campus);
+  camps.sort((x,y)=>order.indexOf(x)-order.indexOf(y));
+  document.getElementById('fCampus').innerHTML = '<option value="">所有院區</option>' + camps.map(c=>`<option>${esc(c)}</option>`).join('');
+  const years = [...new Set(ARTICLES.map(a=>a.year))].sort().reverse();
+  document.getElementById('fYear').innerHTML = '<option value="">所有年份</option>' + years.map(y=>`<option>${esc(y)}</option>`).join('');
+  renderTable();
+}
+
+function renderTable(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const fc = document.getElementById('fCampus').value;
+  const fy = document.getElementById('fYear').value;
+  const role = document.getElementById('fRole').value;
+  const fs = document.getElementById('fSrc').value;
+  let rows = ARTICLES.filter(a=>{
+    if (fy && a.year !== fy) return false;
+    if (fs && a.corresponding_source !== fs) return false;
+    if (fc){
+      const set = role==='first' ? a.first_author_campuses : role==='corr' ? a.corresponding_campuses : a.campuses;
+      if (!set.includes(fc)) return false;
+    }
+    if (q){
+      const hay = [a.pmid,a.title,a.journal,a.doi,...a.authors.map(x=>x.name)].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  rows.sort((x,y)=>{
+    let a=x[sortKey]??'', b=y[sortKey]??'';
+    if (sortKey==='pmid'||sortKey==='year'||sortKey==='citations'){a=+a||0;b=+b||0;}
+    return (a<b?-1:a>b?1:0)*(sortAsc?1:-1);
+  });
+  document.getElementById('count').textContent = `顯示 ${rows.length} / ${ARTICLES.length} 篇`;
+  const tags = arr => arr.length ? arr.map(c=>`<span class="tag">${esc(c)}</span>`).join('') : '<span class="sub">—</span>';
+  document.querySelector('#articles tbody').innerHTML = rows.map(a=>`<tr>
+    <td><a href="${esc(a.pubmed_url)}" target="_blank" rel="noopener">${esc(a.pmid)}</a></td>
+    <td class="num">${esc(a.year)}</td>
+    <td class="title"><a href="${a.doi?'https://doi.org/'+esc(a.doi):esc(a.pubmed_url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      <div class="sub">${esc(a.authors.map(x=>x.name).join(', '))}</div></td>
+    <td>${esc(a.journal_abbr||a.journal)}<div class="sub">${esc([a.volume,a.issue].filter(Boolean).join('('))}${a.issue?')':''}${a.pages?':'+esc(a.pages):''}</div></td>
+    <td>${tags(a.first_author_campuses)}</td>
+    <td><div class="sub" style="color:var(--text)">${esc(a.corresponding_authors.join('; '))}</div>${tags(a.corresponding_campuses)}
+      <div>${srcBadge(a.corresponding_source)}${a.corresponding_agreement==='不一致'?' <span class="warn">來源不一致</span>':''}</div></td>
+    <td>${tags(a.campuses)}</td>
+    <td class="num">${a.citations ?? '—'}</td></tr>`).join('');
+  document.querySelectorAll('#articles th').forEach(th=>{
+    th.classList.toggle('sorted', th.dataset.k===sortKey);
+    th.classList.toggle('asc', th.dataset.k===sortKey && sortAsc);
+  });
+}
+
+['q','fCampus','fYear','fRole','fSrc'].forEach(id=>document.getElementById(id).addEventListener('input', renderTable));
+document.querySelectorAll('#articles th[data-k]').forEach(th=>th.addEventListener('click',()=>{
+  if (sortKey===th.dataset.k) sortAsc=!sortAsc; else {sortKey=th.dataset.k; sortAsc = sortKey==='title'||sortKey==='journal';}
+  renderTable();
+}));
+load().catch(e=>{document.getElementById('cards').innerHTML=`<div class="card">尚無資料。請先在 GitHub Actions 手動執行一次「Update PubMed data」。<br><span class="sub">${esc(e)}</span></div>`;});
+</script>
+</body>
+</html>
