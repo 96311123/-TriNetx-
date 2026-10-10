@@ -1,0 +1,146 @@
+{
+ "generated_at": "2026-10-10T15:32:00+00:00",
+ "query": "(Tzu Chi[ad] OR \"Buddhist Tzu Chi\"[ad] OR \"Tzu-Chi\"[ad] OR \"Dalin Tzu Chi\"[ad] OR \"Taipei Tzu Chi\"[ad] OR \"Hualien Tzu Chi\"[ad] OR \"Tzu Chi University\"[ad] OR \"Tzu Chi Medical Foundation\"[ad]) AND (TriNetX[tiab] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[tiab])",
+ "query_translation": "(\"Tzu-Chi\"[Affiliation] OR \"Buddhist Tzu Chi\"[Affiliation] OR \"Tzu-Chi\"[Affiliation] OR \"Dalin Tzu Chi\"[Affiliation] OR \"Taipei Tzu Chi\"[Affiliation] OR \"Hualien Tzu Chi\"[Affiliation] OR \"Tzu Chi University\"[Affiliation] OR \"Tzu Chi Medical Foundation\"[Affiliation]) AND (\"TriNetX\"[Title/Abstract] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[Title/Abstract])",
+ "pubmed_count": 108,
+ "n_articles": 108,
+ "n_tzu_chi_university": 25,
+ "campus_table": [
+  {
+   "campus": "花蓮慈濟醫院",
+   "articles": 14,
+   "first_author_articles": 6,
+   "corresponding_author_articles": 11,
+   "author_slots": 49
+  },
+  {
+   "campus": "大林慈濟醫院",
+   "articles": 13,
+   "first_author_articles": 11,
+   "corresponding_author_articles": 5,
+   "author_slots": 27
+  },
+  {
+   "campus": "台北慈濟醫院",
+   "articles": 68,
+   "first_author_articles": 44,
+   "corresponding_author_articles": 55,
+   "author_slots": 144
+  },
+  {
+   "campus": "台中慈濟醫院",
+   "articles": 14,
+   "first_author_articles": 1,
+   "corresponding_author_articles": 10,
+   "author_slots": 15
+  },
+  {
+   "campus": "慈濟大學",
+   "articles": 25,
+   "first_author_articles": 15,
+   "corresponding_author_articles": 14,
+   "author_slots": 57
+  }
+ ],
+ "by_year": [
+  {
+   "year": "2023",
+   "articles": 1
+  },
+  {
+   "year": "2024",
+   "articles": 3
+  },
+  {
+   "year": "2025",
+   "articles": 36
+  },
+  {
+   "year": "2026",
+   "articles": 68
+  }
+ ],
+ "top_journals": [
+  {
+   "journal": "International journal of medical sciences",
+   "articles": 4
+  },
+  {
+   "journal": "Brain, behavior, and immunity",
+   "articles": 3
+  },
+  {
+   "journal": "Cancer epidemiology",
+   "articles": 3
+  },
+  {
+   "journal": "Clinical neurology and neurosurgery",
+   "articles": 3
+  },
+  {
+   "journal": "Diabetes, obesity & metabolism",
+   "articles": 3
+  },
+  {
+   "journal": "Diabetes research and clinical practice",
+   "articles": 3
+  },
+  {
+   "journal": "Healthcare (Basel, Switzerland)",
+   "articles": 2
+  },
+  {
+   "journal": "Medicina (Kaunas, Lithuania)",
+   "articles": 2
+  },
+  {
+   "journal": "JCO oncology practice",
+   "articles": 2
+  },
+  {
+   "journal": "Rheumatology (Oxford, England)",
+   "articles": 2
+  },
+  {
+   "journal": "Journal of gastrointestinal cancer",
+   "articles": 2
+  },
+  {
+   "journal": "Journal of clinical medicine",
+   "articles": 2
+  },
+  {
+   "journal": "Frontiers in nutrition",
+   "articles": 2
+  },
+  {
+   "journal": "Journal of the American Academy of Dermatology",
+   "articles": 2
+  },
+  {
+   "journal": "Frontiers in medicine",
+   "articles": 2
+  }
+ ],
+ "note_counting": "一篇文章若有多個院區的作者，會在每個院區各計一次；第一作者/通訊作者若有多重隸屬亦各計一次。",
+ "corresponding_sources": [
+  {
+   "source": "PMC全文",
+   "articles": 45
+  },
+  {
+   "source": "OpenAlex",
+   "articles": 54
+  },
+  {
+   "source": "PubMed e-mail",
+   "articles": 1
+  },
+  {
+   "source": "末位作者(推定)",
+   "articles": 8
+  }
+ ],
+ "corresponding_disagreements": 1,
+ "note_corresponding": "通訊作者判定優先順序：① PMC 全文 JATS 標記 → ② OpenAlex is_corresponding → ③ PubMed 隸屬含 e-mail → ④ 末位作者。每篇文章標示採用的來源。"
+}
