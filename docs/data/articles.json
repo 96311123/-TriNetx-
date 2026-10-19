@@ -115,7 +115,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 0,
+   "citations": 1,
    "openalex_citations": 0,
    "pmcid_used": "",
    "unmatched": []
@@ -124,7 +124,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 0,
+  "citations": 1,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -1260,10 +1260,10 @@
   "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
   "journal_abbr": "Osteoporos Int",
   "year": "2026",
-  "month": "Jul",
-  "volume": "",
-  "issue": "",
-  "pages": "",
+  "month": "Aug",
+  "volume": "37",
+  "issue": "8",
+  "pages": "2149-2150",
   "doi": "10.1007/s00198-026-08166-4",
   "pmc": "",
   "entrez_date": "2026-07-29",
@@ -1338,7 +1338,7 @@
   "issue": "10",
   "pages": "1772-1782",
   "doi": "10.2215/CJN.0000001144",
-  "pmc": "",
+  "pmc": "PMC13668229",
   "entrez_date": "2026-07-28",
   "pub_types": [
    "Journal Article"
@@ -1452,7 +1452,7 @@
      "Renal Division, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan."
     ],
     "orcid_pubmed": "0000-0003-2109-1522",
-    "corr_pmc": false,
+    "corr_pmc": true,
     "corr_openalex": false,
     "orcid": "0000-0003-2109-1522",
     "campuses": [],
@@ -1460,7 +1460,7 @@
     "position": 6,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": false
+    "is_corresponding": true
    },
    {
     "name": "Vin-Cent Wu",
@@ -1496,20 +1496,20 @@
     "position": 8,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": false
    }
   ],
   "ext": {
-   "pmc_status": "",
+   "pmc_status": "ok",
    "openalex_status": "nocorr",
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 0,
    "openalex_citations": 0,
-   "pmcid_used": "",
+   "pmcid_used": "PMC13668229",
    "unmatched": []
   },
-  "corresponding_method": "last_author",
-  "corresponding_source": "末位作者(推定)",
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 0,
@@ -1520,7 +1520,7 @@
   "first_author": "Li-Yang Chang",
   "first_author_campuses": [],
   "corresponding_authors": [
-   "Taiwan Primary Aldosteronism Investigation (TAIPAI) study group"
+   "Chun-Fu Lai"
   ],
   "corresponding_campuses": [],
   "n_authors": 8,
@@ -6987,7 +6987,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
-   "citations": 14,
+   "citations": 15,
    "openalex_citations": 11,
    "pmcid_used": "PMC12821341",
    "unmatched": []
@@ -6996,7 +6996,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
-  "citations": 14,
+  "citations": 15,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -8078,6 +8078,270 @@
   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364963/"
  },
  {
+  "pmid": "41364874",
+  "title": "Osimertinib Versus First-Generation Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors for Metastatic EGFR-Mutant Non-Small Cell Lung Cancer: A Target Trial Emulation Study of Real-World Survival and Safety Outcomes.",
+  "journal": "JCO oncology practice",
+  "journal_abbr": "JCO Oncol Pract",
+  "year": "2026",
+  "month": "Oct",
+  "volume": "22",
+  "issue": "10",
+  "pages": "1844-1853",
+  "doi": "10.1200/OP-25-00788",
+  "pmc": "",
+  "entrez_date": "2025-12-09",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Ren-Hua Ye",
+    "last": "Ye",
+    "fore": "Ren-Hua",
+    "initials": "RH",
+    "affiliations": [
+     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0003-2418-7829",
+    "campuses": [],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Hong-Jie Jhou",
+    "last": "Jhou",
+    "fore": "Hong-Jie",
+    "initials": "HJ",
+    "affiliations": [
+     "Neurological Institute, Changhua Christian Hospital, Changhua, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0003-3304-4643",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0003-3304-4643",
+    "campuses": [],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Hsin-Yu Chen",
+    "last": "Chen",
+    "fore": "Hsin-Yu",
+    "initials": "HY",
+    "affiliations": [
+     "Department of Family Medicine, Chi Mei Medical Center, Tainan, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-2765-1685",
+    "campuses": [],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Li-Ting Kao",
+    "last": "Kao",
+    "fore": "Li-Ting",
+    "initials": "LT",
+    "affiliations": [
+     "Graduate Institute of Life Sciences, National Defense Medical University, Taipei, Taiwan.",
+     "School of Pharmacy, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Pharmacy Practice, Tri-Service General Hospital, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0003-0692-7408",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0003-0692-7408",
+    "campuses": [],
+    "emails": [],
+    "position": 4,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Tina Yi-Jin Hsieh",
+    "last": "Hsieh",
+    "fore": "Tina Yi-Jin",
+    "initials": "TY",
+    "affiliations": [
+     "Department of Obstetrics and Gynecology, Beth Israel Deaconess Medical Center, Boston, MA."
+    ],
+    "orcid_pubmed": "0000-0001-6296-0689",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0001-6296-0689",
+    "campuses": [],
+    "emails": [],
+    "position": 5,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Yu-Han Chen",
+    "last": "Chen",
+    "fore": "Yu-Han",
+    "initials": "YH",
+    "affiliations": [
+     "Department of Internal Medicine, Englewood Hospital and Medical Center, Englewood, NJ."
+    ],
+    "orcid_pubmed": "0000-0001-9170-7439",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0001-9170-7439",
+    "campuses": [],
+    "emails": [],
+    "position": 6,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Xiaoyi Zhang",
+    "last": "Zhang",
+    "fore": "Xiaoyi",
+    "initials": "X",
+    "affiliations": [
+     "Department of Internal Medicine, NYC Health + Hospitals/Jacobi, Albert Einstein College of Medicine, Bronx, NY."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0001-5124-4919",
+    "campuses": [],
+    "emails": [],
+    "position": 7,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Ming-Shen Dai",
+    "last": "Dai",
+    "fore": "Ming-Shen",
+    "initials": "MS",
+    "affiliations": [
+     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0002-3953-5243",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-3953-5243",
+    "campuses": [],
+    "emails": [],
+    "position": 8,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Ching-Liang Ho",
+    "last": "Ho",
+    "fore": "Ching-Liang",
+    "initials": "CL",
+    "affiliations": [
+     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Division of Hematology and Oncology, Medical Department, Taipei Tzu Chi Hospital, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0002-8378-1687",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-8378-1687",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 9,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Po-Huang Chen",
+    "last": "Chen",
+    "fore": "Po-Huang",
+    "initials": "PH",
+    "affiliations": [
+     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0002-0280-6417",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-0280-6417",
+    "campuses": [],
+    "emails": [],
+    "position": 10,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Cho-Hao Lee",
+    "last": "Lee",
+    "fore": "Cho-Hao",
+    "initials": "CH",
+    "affiliations": [
+     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
+     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0002-6061-5168",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-6061-5168",
+    "campuses": [],
+    "emails": [],
+    "position": 11,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "",
+   "openalex_status": "nocorr",
+   "publisher": "American Society of Clinical Oncology (ASCO)",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "",
+   "unmatched": []
+  },
+  "corresponding_method": "last_author",
+  "corresponding_source": "末位作者(推定)",
+  "corresponding_agreement": "",
+  "publisher": "American Society of Clinical Oncology (ASCO)",
+  "citations": 0,
+  "campuses": [
+   "台北慈濟醫院"
+  ],
+  "first_author": "Ren-Hua Ye",
+  "first_author_campuses": [],
+  "corresponding_authors": [
+   "Cho-Hao Lee"
+  ],
+  "corresponding_campuses": [],
+  "n_authors": 11,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364874/"
+ },
+ {
   "pmid": "41252340",
   "title": "Dosage Studies in TriNetX: The Importance of Eliminating the Unknown.",
   "journal": "Cerebrovascular diseases (Basel, Switzerland)",
@@ -9149,270 +9413,6 @@
   "n_authors": 2,
   "n_tzuchi_authors": 1,
   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41427560/"
- },
- {
-  "pmid": "41364874",
-  "title": "Osimertinib Versus First-Generation Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitors for Metastatic EGFR-Mutant Non-Small Cell Lung Cancer: A Target Trial Emulation Study of Real-World Survival and Safety Outcomes.",
-  "journal": "JCO oncology practice",
-  "journal_abbr": "JCO Oncol Pract",
-  "year": "2025",
-  "month": "Dec",
-  "volume": "",
-  "issue": "",
-  "pages": "OP2500788",
-  "doi": "10.1200/OP-25-00788",
-  "pmc": "",
-  "entrez_date": "2025-12-09",
-  "pub_types": [
-   "Journal Article"
-  ],
-  "authors": [
-   {
-    "name": "Ren-Hua Ye",
-    "last": "Ye",
-    "fore": "Ren-Hua",
-    "initials": "RH",
-    "affiliations": [
-     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0003-2418-7829",
-    "campuses": [],
-    "emails": [],
-    "position": 1,
-    "is_first": true,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Hong-Jie Jhou",
-    "last": "Jhou",
-    "fore": "Hong-Jie",
-    "initials": "HJ",
-    "affiliations": [
-     "Neurological Institute, Changhua Christian Hospital, Changhua, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0003-3304-4643",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0003-3304-4643",
-    "campuses": [],
-    "emails": [],
-    "position": 2,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Hsin-Yu Chen",
-    "last": "Chen",
-    "fore": "Hsin-Yu",
-    "initials": "HY",
-    "affiliations": [
-     "Department of Family Medicine, Chi Mei Medical Center, Tainan, Taiwan."
-    ],
-    "orcid_pubmed": "",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0002-2765-1685",
-    "campuses": [],
-    "emails": [],
-    "position": 3,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Li-Ting Kao",
-    "last": "Kao",
-    "fore": "Li-Ting",
-    "initials": "LT",
-    "affiliations": [
-     "Graduate Institute of Life Sciences, National Defense Medical University, Taipei, Taiwan.",
-     "School of Pharmacy, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Pharmacy Practice, Tri-Service General Hospital, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0003-0692-7408",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0003-0692-7408",
-    "campuses": [],
-    "emails": [],
-    "position": 4,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Tina Yi-Jin Hsieh",
-    "last": "Hsieh",
-    "fore": "Tina Yi-Jin",
-    "initials": "TY",
-    "affiliations": [
-     "Department of Obstetrics and Gynecology, Beth Israel Deaconess Medical Center, Boston, MA."
-    ],
-    "orcid_pubmed": "0000-0001-6296-0689",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0001-6296-0689",
-    "campuses": [],
-    "emails": [],
-    "position": 5,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Yu-Han Chen",
-    "last": "Chen",
-    "fore": "Yu-Han",
-    "initials": "YH",
-    "affiliations": [
-     "Department of Internal Medicine, Englewood Hospital and Medical Center, Englewood, NJ."
-    ],
-    "orcid_pubmed": "0000-0001-9170-7439",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0001-9170-7439",
-    "campuses": [],
-    "emails": [],
-    "position": 6,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Xiaoyi Zhang",
-    "last": "Zhang",
-    "fore": "Xiaoyi",
-    "initials": "X",
-    "affiliations": [
-     "Department of Internal Medicine, NYC Health + Hospitals/Jacobi, Albert Einstein College of Medicine, Bronx, NY."
-    ],
-    "orcid_pubmed": "",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0001-5124-4919",
-    "campuses": [],
-    "emails": [],
-    "position": 7,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Ming-Shen Dai",
-    "last": "Dai",
-    "fore": "Ming-Shen",
-    "initials": "MS",
-    "affiliations": [
-     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0002-3953-5243",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0002-3953-5243",
-    "campuses": [],
-    "emails": [],
-    "position": 8,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Ching-Liang Ho",
-    "last": "Ho",
-    "fore": "Ching-Liang",
-    "initials": "CL",
-    "affiliations": [
-     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Division of Hematology and Oncology, Medical Department, Taipei Tzu Chi Hospital, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0002-8378-1687",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0002-8378-1687",
-    "campuses": [
-     "台北慈濟醫院"
-    ],
-    "emails": [],
-    "position": 9,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Po-Huang Chen",
-    "last": "Chen",
-    "fore": "Po-Huang",
-    "initials": "PH",
-    "affiliations": [
-     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0002-0280-6417",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0002-0280-6417",
-    "campuses": [],
-    "emails": [],
-    "position": 10,
-    "is_first": false,
-    "is_last": false,
-    "is_corresponding": false
-   },
-   {
-    "name": "Cho-Hao Lee",
-    "last": "Lee",
-    "fore": "Cho-Hao",
-    "initials": "CH",
-    "affiliations": [
-     "Division of Hematology and Oncology, Department of Internal Medicine, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan.",
-     "Department of Oncology, Tri-Service General Hospital, National Defense Medical University, Taipei, Taiwan."
-    ],
-    "orcid_pubmed": "0000-0002-6061-5168",
-    "corr_pmc": false,
-    "corr_openalex": false,
-    "orcid": "0000-0002-6061-5168",
-    "campuses": [],
-    "emails": [],
-    "position": 11,
-    "is_first": false,
-    "is_last": true,
-    "is_corresponding": true
-   }
-  ],
-  "ext": {
-   "pmc_status": "",
-   "openalex_status": "nocorr",
-   "publisher": "American Society of Clinical Oncology (ASCO)",
-   "citations": 0,
-   "openalex_citations": 0,
-   "pmcid_used": "",
-   "unmatched": []
-  },
-  "corresponding_method": "last_author",
-  "corresponding_source": "末位作者(推定)",
-  "corresponding_agreement": "",
-  "publisher": "American Society of Clinical Oncology (ASCO)",
-  "citations": 0,
-  "campuses": [
-   "台北慈濟醫院"
-  ],
-  "first_author": "Ren-Hua Ye",
-  "first_author_campuses": [],
-  "corresponding_authors": [
-   "Cho-Hao Lee"
-  ],
-  "corresponding_campuses": [],
-  "n_authors": 11,
-  "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364874/"
  },
  {
   "pmid": "41344335",
@@ -15316,7 +15316,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 48,
+   "citations": 49,
    "openalex_citations": 46,
    "pmcid_used": "",
    "unmatched": []
@@ -15325,7 +15325,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 48,
+  "citations": 49,
   "campuses": [
    "大林慈濟醫院"
   ],
