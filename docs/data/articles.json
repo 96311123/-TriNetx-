@@ -2123,7 +2123,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
-   "citations": 1,
+   "citations": 2,
    "openalex_citations": 1,
    "pmcid_used": "PMC13612769",
    "unmatched": []
@@ -2132,7 +2132,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
-  "citations": 1,
+  "citations": 2,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -6299,7 +6299,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
-   "citations": 12,
+   "citations": 13,
    "openalex_citations": 12,
    "pmcid_used": "",
    "unmatched": []
@@ -6308,7 +6308,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
-  "citations": 12,
+  "citations": 13,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7652,7 +7652,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 4,
+   "citations": 5,
    "openalex_citations": 3,
    "pmcid_used": "",
    "unmatched": []
@@ -7661,7 +7661,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 4,
+  "citations": 5,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7864,7 +7864,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 5,
+   "citations": 6,
    "openalex_citations": 4,
    "pmcid_used": "PMC12931237",
    "unmatched": []
@@ -7873,7 +7873,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
-  "citations": 5,
+  "citations": 6,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -12271,7 +12271,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 2,
+   "citations": 3,
    "openalex_citations": 3,
    "pmcid_used": "PMC12515756",
    "unmatched": []
@@ -12280,7 +12280,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
-  "citations": 2,
+  "citations": 3,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -12898,7 +12898,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "MDPI AG",
-   "citations": 5,
+   "citations": 6,
    "openalex_citations": 5,
    "pmcid_used": "PMC12292594",
    "unmatched": []
@@ -12907,7 +12907,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
-  "citations": 5,
+  "citations": 6,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13859,7 +13859,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Public Library of Science (PLoS)",
-   "citations": 38,
+   "citations": 39,
    "openalex_citations": 34,
    "pmcid_used": "PMC12052210",
    "unmatched": []
@@ -13868,7 +13868,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Public Library of Science (PLoS)",
-  "citations": 38,
+  "citations": 39,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -14354,7 +14354,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 29,
+   "citations": 30,
    "openalex_citations": 27,
    "pmcid_used": "",
    "unmatched": []
@@ -14363,7 +14363,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 29,
+  "citations": 30,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -14943,7 +14943,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 44,
+   "citations": 45,
    "openalex_citations": 43,
    "pmcid_used": "",
    "unmatched": []
@@ -14952,7 +14952,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Wiley",
-  "citations": 44,
+  "citations": 45,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -15316,7 +15316,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 49,
+   "citations": 50,
    "openalex_citations": 46,
    "pmcid_used": "",
    "unmatched": []
@@ -15325,7 +15325,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 49,
+  "citations": 50,
   "campuses": [
    "大林慈濟醫院"
   ],
