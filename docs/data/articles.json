@@ -1,5 +1,260 @@
 [
  {
+  "pmid": "42961971",
+  "title": "Electronic health record phenotype choice and real-world outcome estimates: A propensity score-matched comparison of three invasive breast cancer definitions in TriNetX.",
+  "journal": "PloS one",
+  "journal_abbr": "PLoS One",
+  "year": "2026",
+  "month": "",
+  "volume": "21",
+  "issue": "10",
+  "pages": "e0361883",
+  "doi": "10.1371/journal.pone.0361883",
+  "pmc": "PMC13722328",
+  "entrez_date": "2026-10-30",
+  "pub_types": [
+   "Journal Article",
+   "Comparative Study"
+  ],
+  "authors": [
+   {
+    "name": "Jui-Kun Chiang",
+    "last": "Chiang",
+    "fore": "Jui-Kun",
+    "initials": "JK",
+    "affiliations": [
+     "Department of Family Medicine, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin, Chiayi, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0001-5315-9494",
+    "campuses": [
+     "大林慈濟醫院"
+    ],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Po-Chen Chiang",
+    "last": "Chiang",
+    "fore": "Po-Chen",
+    "initials": "PC",
+    "affiliations": [
+     "Department of Medical Education, National Taiwan University Hospital, Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Malcolm Koo",
+    "last": "Koo",
+    "fore": "Malcolm",
+    "initials": "M",
+    "affiliations": [
+     "Department of Medical Research, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin, Chiayi, Taiwan.",
+     "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada."
+    ],
+    "orcid_pubmed": "0000-0002-9242-9167",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0002-9242-9167",
+    "corr_email": "m.koo@utoronto.ca",
+    "campuses": [
+     "大林慈濟醫院"
+    ],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "ok",
+   "publisher": "Public Library of Science (PLoS)",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "PMC13722328",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "一致",
+  "publisher": "Public Library of Science (PLoS)",
+  "citations": 0,
+  "campuses": [
+   "大林慈濟醫院"
+  ],
+  "first_author": "Jui-Kun Chiang",
+  "first_author_campuses": [
+   "大林慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Malcolm Koo"
+  ],
+  "corresponding_campuses": [
+   "大林慈濟醫院"
+  ],
+  "n_authors": 3,
+  "n_tzuchi_authors": 2,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42961971/"
+ },
+ {
+  "pmid": "42943347",
+  "title": "Cryptococcosis After Initiation of Janus Kinase Inhibitors or Biologic DMARDs in Rheumatoid Arthritis: Three Pairwise Active-Comparator Analyses of Propensity Score-Matched TriNetX Cohorts, 2005-2025.",
+  "journal": "Pharmaceuticals (Basel, Switzerland)",
+  "journal_abbr": "Pharmaceuticals (Basel)",
+  "year": "2026",
+  "month": "Oct",
+  "volume": "19",
+  "issue": "10",
+  "pages": "",
+  "doi": "10.3390/ph19101650",
+  "pmc": "PMC13708528",
+  "entrez_date": "2026-10-27",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Ying Xiu Tay",
+    "last": "Tay",
+    "fore": "Ying Xiu",
+    "initials": "YX",
+    "affiliations": [
+     "Division of Allergy, Immunology and Rheumatology, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin 622401, Chiayi, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [
+     "大林慈濟醫院"
+    ],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Yi-Ting He",
+    "last": "He",
+    "fore": "Yi-Ting",
+    "initials": "YT",
+    "affiliations": [
+     "Center for Health Data & Advanced Translational Analytics, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin 622401, Chiayi, Taiwan.",
+     "Department of Public Health, College of Medicine, National Cheng Kung University, Tainan City 704302, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [
+     "大林慈濟醫院"
+    ],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Malcolm Koo",
+    "last": "Koo",
+    "fore": "Malcolm",
+    "initials": "M",
+    "affiliations": [
+     "Department of Medical Research, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin 622401, Chiayi, Taiwan.",
+     "Dalla Lana School of Public Health, University of Toronto, Toronto, ON M5T 3M7, Canada."
+    ],
+    "orcid_pubmed": "0000-0002-9242-9167",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0002-9242-9167",
+    "corr_email": "m.koo@utoronto.ca",
+    "campuses": [
+     "大林慈濟醫院"
+    ],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": true
+   },
+   {
+    "name": "Ming-Chi Lu",
+    "last": "Lu",
+    "fore": "Ming-Chi",
+    "initials": "MC",
+    "affiliations": [
+     "Division of Allergy, Immunology and Rheumatology, Dalin Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, Dalin 622401, Chiayi, Taiwan.",
+     "School of Medicine, Tzu Chi University, Hualien City 970374, Hualien, Taiwan."
+    ],
+    "orcid_pubmed": "0000-0001-9051-0351",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0001-9051-0351",
+    "corr_email": "m.koo@utoronto.ca",
+    "campuses": [
+     "大林慈濟醫院",
+     "慈濟大學"
+    ],
+    "emails": [],
+    "position": 4,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "ok",
+   "publisher": "MDPI AG",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "PMC13708528",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "一致",
+  "publisher": "MDPI AG",
+  "citations": 0,
+  "campuses": [
+   "大林慈濟醫院",
+   "慈濟大學"
+  ],
+  "first_author": "Ying Xiu Tay",
+  "first_author_campuses": [
+   "大林慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Malcolm Koo",
+   "Ming-Chi Lu"
+  ],
+  "corresponding_campuses": [
+   "大林慈濟醫院",
+   "慈濟大學"
+  ],
+  "n_authors": 4,
+  "n_tzuchi_authors": 4,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42943347/"
+ },
+ {
   "pmid": "42735295",
   "title": "Kaplan-Meier Analysis Inconsistencies in a TriNetX Study of Intervention Rates for Rezum vs. Urolift.",
   "journal": "International journal of urology : official journal of the Japanese Urological Association",
@@ -6164,7 +6419,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 0,
+   "citations": 1,
    "openalex_citations": 0,
    "pmcid_used": "",
    "unmatched": []
@@ -6173,7 +6428,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 0,
+  "citations": 1,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -6987,7 +7242,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
-   "citations": 15,
+   "citations": 16,
    "openalex_citations": 11,
    "pmcid_used": "PMC12821341",
    "unmatched": []
@@ -6996,7 +7251,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
-  "citations": 15,
+  "citations": 16,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -7652,7 +7907,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 5,
+   "citations": 6,
    "openalex_citations": 3,
    "pmcid_used": "",
    "unmatched": []
@@ -7661,7 +7916,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 5,
+  "citations": 6,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -8318,7 +8573,7 @@
    "pmc_status": "",
    "openalex_status": "nocorr",
    "publisher": "American Society of Clinical Oncology (ASCO)",
-   "citations": 0,
+   "citations": 1,
    "openalex_citations": 0,
    "pmcid_used": "",
    "unmatched": []
@@ -8327,7 +8582,7 @@
   "corresponding_source": "末位作者(推定)",
   "corresponding_agreement": "",
   "publisher": "American Society of Clinical Oncology (ASCO)",
-  "citations": 0,
+  "citations": 1,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -10874,7 +11129,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
-   "citations": 1,
+   "citations": 2,
    "openalex_citations": 0,
    "pmcid_used": "PMC12495861",
    "unmatched": []
@@ -10883,7 +11138,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
-  "citations": 1,
+  "citations": 2,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13326,7 +13581,7 @@
    "pmc_status": "ok",
    "openalex_status": "nocorr",
    "publisher": "American Medical Association (AMA)",
-   "citations": 39,
+   "citations": 40,
    "openalex_citations": 35,
    "pmcid_used": "PMC12177727",
    "unmatched": []
@@ -13335,7 +13590,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "",
   "publisher": "American Medical Association (AMA)",
-  "citations": 39,
+  "citations": 40,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -13725,7 +13980,8 @@
   "pmc": "PMC12052210",
   "entrez_date": "2025-04-17",
   "pub_types": [
-   "Journal Article"
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
   ],
   "authors": [
    {
@@ -13859,7 +14115,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Public Library of Science (PLoS)",
-   "citations": 39,
+   "citations": 42,
    "openalex_citations": 34,
    "pmcid_used": "PMC12052210",
    "unmatched": []
@@ -13868,7 +14124,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Public Library of Science (PLoS)",
-  "citations": 39,
+  "citations": 42,
   "campuses": [
    "大林慈濟醫院"
   ],
