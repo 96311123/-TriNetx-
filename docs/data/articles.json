@@ -1,5 +1,224 @@
 [
  {
+  "pmid": "42995535",
+  "title": "Same-day EHR-coded sevoflurane versus propofol exposure and long-term coded dementia in older surgical adults: a propensity-matched cohort study.",
+  "journal": "BMC geriatrics",
+  "journal_abbr": "BMC Geriatr",
+  "year": "2026",
+  "month": "Aug",
+  "volume": "26",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.1186/s12877-026-08095-1",
+  "pmc": "PMC13741560",
+  "entrez_date": "2026-11-08",
+  "pub_types": [
+   "Journal Article",
+   "Comparative Study",
+   "Multicenter Study"
+  ],
+  "authors": [
+   {
+    "name": "Chih-Lang Lin",
+    "last": "Lin",
+    "fore": "Chih-Lang",
+    "initials": "CL",
+    "affiliations": [
+     "Division of Gastroenterology and Hepatology, Department of Internal Medicine, Dali Branch, Jen-Ai Hospital, Taichung, Taiwan.",
+     "College of Medicine, Chang Gung University, Taoyuan, Taiwan.",
+     "Department of Gastroenterology and Hepatology, Liver Research Unit, Keelung Branch, Chang Gung Memorial Hospital, Keelung, Taiwan.",
+     "Community Medicine Research Center, Keelung Branch, Chang Gung Memorial Hospital, Keelung, Taiwan.",
+     "Liver Research Center, Linkou Branch, Chang Gung Memorial Hospital, Taoyuan, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Shyh-Chyi Chang",
+    "last": "Chang",
+    "fore": "Shyh-Chyi",
+    "initials": "SC",
+    "affiliations": [
+     "Department of Urology, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Kuan-Chou Lin",
+    "last": "Lin",
+    "fore": "Kuan-Chou",
+    "initials": "KC",
+    "affiliations": [
+     "Division of Oral and Maxillofacial Surgery, Department of Dentistry, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "School of Dentistry, College of Oral Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Jung-Min Yu",
+    "last": "Yu",
+    "fore": "Jung-Min",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Cardiovascular Surgery, Taichung Tzu Chi Hospital, Taichung, Taiwan.",
+     "Department of Surgery, School of Medicine, Tzu Chi University, Hualien, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [
+     "台中慈濟醫院",
+     "慈濟大學"
+    ],
+    "emails": [],
+    "position": 4,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Chia-Lun Chang",
+    "last": "Chang",
+    "fore": "Chia-Lun",
+    "initials": "CL",
+    "affiliations": [
+     "Department of Hemato-Oncology, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "Department of Internal Medicine, School of Medicine, College of Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 5,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Chih-Yuan Fang",
+    "last": "Fang",
+    "fore": "Chih-Yuan",
+    "initials": "CY",
+    "affiliations": [
+     "Division of Oral and Maxillofacial Surgery, Department of Dentistry, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "School of Dentistry, College of Oral Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 6,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Wan-Ming Chen",
+    "last": "Chen",
+    "fore": "Wan-Ming",
+    "initials": "WM",
+    "affiliations": [
+     "Graduate Institute of Business Administration, College of Management, Fu Jen Catholic University, Taipei, Taiwan.",
+     "Artificial Intelligence Development Center, Fu Jen Catholic University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 7,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Szu-Yuan Wu",
+    "last": "Wu",
+    "fore": "Szu-Yuan",
+    "initials": "SY",
+    "affiliations": [
+     "Department of Food Nutrition and Health Biotechnology, College of Medical and Health Science, Asia University, Taichung, Taiwan. szuyuanwu5399@gmail.com.",
+     "Big Data Center, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Division of Radiation Oncology, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Department of Healthcare Administration, College of Medical and Health Science, Asia University, Taichung, Taiwan. szuyuanwu5399@gmail.com.",
+     "Cancer Center, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Centers for Regional Anesthesia and Pain Medicine, Taipei Municipal Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan. szuyuanwu5399@gmail.com."
+    ],
+    "orcid_pubmed": "0000-0001-5637-558X",
+    "corr_pmc": true,
+    "corr_openalex": false,
+    "orcid": "0000-0001-5637-558X",
+    "campuses": [],
+    "emails": [
+     "szuyuanwu5399@gmail.com."
+    ],
+    "position": 8,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "miss",
+   "publisher": "Springer Science and Business Media LLC",
+   "citations": 0,
+   "openalex_citations": null,
+   "pmcid_used": "PMC13741560",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "",
+  "publisher": "Springer Science and Business Media LLC",
+  "citations": 0,
+  "campuses": [
+   "台中慈濟醫院",
+   "慈濟大學"
+  ],
+  "first_author": "Chih-Lang Lin",
+  "first_author_campuses": [],
+  "corresponding_authors": [
+   "Szu-Yuan Wu"
+  ],
+  "corresponding_campuses": [],
+  "n_authors": 8,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42995535/"
+ },
+ {
   "pmid": "42961971",
   "title": "Electronic health record phenotype choice and real-world outcome estimates: A propensity score-matched comparison of three invasive breast cancer definitions in TriNetX.",
   "journal": "PloS one",
@@ -1411,7 +1630,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 2,
+   "citations": 3,
    "openalex_citations": 2,
    "pmcid_used": "",
    "unmatched": []
@@ -1420,7 +1639,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 2,
+  "citations": 3,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2955,7 +3174,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
     "corr_email": "kuochenglu@gmail.com",
     "campuses": [
@@ -2970,7 +3189,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
@@ -2979,7 +3198,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
   "campuses": [
@@ -3551,7 +3770,7 @@
     ],
     "orcid_pubmed": "0000-0003-3612-653X",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0003-3612-653X",
     "corr_email": "drhkhuang@gmail.com",
     "campuses": [
@@ -3567,7 +3786,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
@@ -3576,7 +3795,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
   "campuses": [
@@ -3667,7 +3886,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "",
     "corr_email": "1010280uijk@gmail.com",
     "campuses": [],
@@ -3687,7 +3906,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0001-9148-4087",
     "corr_email": "1010280uijk@gmail.com",
     "campuses": [],
@@ -3700,7 +3919,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
@@ -3709,7 +3928,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
   "campuses": [
@@ -3925,7 +4144,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
     "corr_email": "kuochenglu@gmail.com",
     "campuses": [
@@ -3940,7 +4159,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
@@ -3949,7 +4168,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
   "campuses": [
@@ -4583,7 +4802,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-9452-5179",
     "corr_email": "096195@mail.fju.edu.tw",
     "campuses": [],
@@ -4596,7 +4815,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
@@ -4605,7 +4824,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
   "campuses": [
@@ -5936,7 +6155,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 3,
+   "citations": 4,
    "openalex_citations": 3,
    "pmcid_used": "",
    "unmatched": []
@@ -5945,7 +6164,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Wiley",
-  "citations": 3,
+  "citations": 4,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -6292,7 +6511,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
     "corr_email": "kuochenglu@gmail.com",
     "campuses": [
@@ -6307,7 +6526,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Frontiers Media SA",
    "citations": 2,
    "openalex_citations": 2,
@@ -6316,7 +6535,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 2,
   "campuses": [
@@ -7242,7 +7461,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
-   "citations": 16,
+   "citations": 18,
    "openalex_citations": 11,
    "pmcid_used": "PMC12821341",
    "unmatched": []
@@ -7251,7 +7470,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
-  "citations": 16,
+  "citations": 18,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -8574,7 +8793,7 @@
    "openalex_status": "nocorr",
    "publisher": "American Society of Clinical Oncology (ASCO)",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -10195,7 +10414,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
     "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [
@@ -10210,7 +10429,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Ivyspring International Publisher",
    "citations": 1,
    "openalex_citations": 1,
@@ -10219,7 +10438,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 1,
   "campuses": [
@@ -12030,7 +12249,7 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
     "corr_email": "kuochenglu@gmail.com",
     "campuses": [
@@ -12045,7 +12264,7 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "nocorr",
+   "openalex_status": "ok",
    "publisher": "Croatian Society for Medical Biochemistry and Laboratory Medicine",
    "citations": 3,
    "openalex_citations": 3,
@@ -12054,7 +12273,7 @@
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Croatian Society for Medical Biochemistry and Laboratory Medicine",
   "citations": 3,
   "campuses": [
@@ -13581,8 +13800,8 @@
    "pmc_status": "ok",
    "openalex_status": "nocorr",
    "publisher": "American Medical Association (AMA)",
-   "citations": 40,
-   "openalex_citations": 35,
+   "citations": 42,
+   "openalex_citations": 40,
    "pmcid_used": "PMC12177727",
    "unmatched": []
   },
@@ -13590,7 +13809,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "",
   "publisher": "American Medical Association (AMA)",
-  "citations": 40,
+  "citations": 42,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -15753,7 +15972,7 @@
     "orcid_pubmed": "",
     "corr_pmc": true,
     "corr_openalex": false,
-    "orcid": "0000-0003-4174-5036",
+    "orcid": "0000-0001-6627-9364",
     "corr_email": "yunanhuang83@gmail.com",
     "campuses": [],
     "emails": [
