@@ -1,5 +1,515 @@
 [
  {
+  "pmid": "43017182",
+  "title": "Cohort definition concerns in a TriNetX study comparing adolescent and young adult sleeve gastrectomy outcomes.",
+  "journal": "Obesity pillars",
+  "journal_abbr": "Obes Pillars",
+  "year": "2026",
+  "month": "Dec",
+  "volume": "20",
+  "issue": "",
+  "pages": "100349",
+  "doi": "10.1016/j.obpill.2026.100349",
+  "pmc": "PMC13753582",
+  "entrez_date": "2026-11-12",
+  "pub_types": [
+   "Letter"
+  ],
+  "authors": [
+   {
+    "name": "Kian-Hwee Chong",
+    "last": "Chong",
+    "fore": "Kian-Hwee",
+    "initials": "KH",
+    "affiliations": [
+     "Department of Surgery, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, No. 289, Jianguo Rd, Fuxing Village, Xindian District, New Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0002-3157-6411",
+    "corr_email": "ckianhwee@gmail.com",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": true
+   },
+   {
+    "name": "Joshua Wang",
+    "last": "Wang",
+    "fore": "Joshua",
+    "initials": "J",
+    "affiliations": [
+     "Department of Research, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, No. 289, Jianguo Rd, Fuxing Village, Xindian District, New Taipei City, Taiwan.",
+     "School of Biomedical Sciences, Queensland University of Technology, 2 George St, Brisbane City, Queensland, Australia."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0002-9458-5665",
+    "corr_email": "reillyjj@qut.edu.au",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "ok",
+   "publisher": "Elsevier BV",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "PMC13753582",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "一致",
+  "publisher": "Elsevier BV",
+  "citations": 0,
+  "campuses": [
+   "台北慈濟醫院"
+  ],
+  "first_author": "Kian-Hwee Chong",
+  "first_author_campuses": [
+   "台北慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Kian-Hwee Chong",
+   "Joshua Wang"
+  ],
+  "corresponding_campuses": [
+   "台北慈濟醫院"
+  ],
+  "n_authors": 2,
+  "n_tzuchi_authors": 2,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43017182/"
+ },
+ {
+  "pmid": "43012889",
+  "title": "Follow-up discrepancies in a TriNetX-based comparison of preoperative tirzepatide or semaglutide use and postoperative total hip/knee arthroplasty outcomes.",
+  "journal": "European journal of orthopaedic surgery & traumatology : orthopedie traumatologie",
+  "journal_abbr": "Eur J Orthop Surg Traumatol",
+  "year": "2026",
+  "month": "Nov",
+  "volume": "37",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.1007/s00590-026-05030-3",
+  "pmc": "",
+  "entrez_date": "2026-11-11",
+  "pub_types": [
+   "Letter"
+  ],
+  "authors": [
+   {
+    "name": "Joshua Wang",
+    "last": "Wang",
+    "fore": "Joshua",
+    "initials": "J",
+    "affiliations": [
+     "Department of Research, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, New Taipei City, Taiwan. reillyjj@qut.edu.au.",
+     "School of Biomedical Sciences, Queensland University of Technology, Brisbane, Australia. reillyjj@qut.edu.au."
+    ],
+    "orcid_pubmed": "0000-0002-9458-5665",
+    "corr_pmc": false,
+    "corr_openalex": true,
+    "orcid": "0000-0002-9458-5665",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [
+     "reillyjj@qut.edu.au."
+    ],
+    "position": 1,
+    "is_first": true,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "",
+   "openalex_status": "ok",
+   "publisher": "Springer Science and Business Media LLC",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "",
+   "unmatched": []
+  },
+  "corresponding_method": "openalex",
+  "corresponding_source": "OpenAlex",
+  "corresponding_agreement": "",
+  "publisher": "Springer Science and Business Media LLC",
+  "citations": 0,
+  "campuses": [
+   "台北慈濟醫院"
+  ],
+  "first_author": "Joshua Wang",
+  "first_author_campuses": [
+   "台北慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Joshua Wang"
+  ],
+  "corresponding_campuses": [
+   "台北慈濟醫院"
+  ],
+  "n_authors": 1,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43012889/"
+ },
+ {
+  "pmid": "43010906",
+  "title": "Distinct temporal neuropsychiatric outcomes associated with GLP-1 receptor agonists versus SGLT2 inhibitors after acute kidney disease in type 2 diabetes.",
+  "journal": "Frontiers in endocrinology",
+  "journal_abbr": "Front Endocrinol (Lausanne)",
+  "year": "2026",
+  "month": "",
+  "volume": "17",
+  "issue": "",
+  "pages": "1963944",
+  "doi": "10.3389/fendo.2026.1963944",
+  "pmc": "PMC13747840",
+  "entrez_date": "2026-11-11",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Yu-Chen Cheng",
+    "last": "Cheng",
+    "fore": "Yu-Chen",
+    "initials": "YC",
+    "affiliations": [
+     "School of Medicine, College of Medicine, Fu Jen Catholic University, New Taipei City, Taiwan.",
+     "Department of Neurology, Fu Jen Catholic University Hospital, Fu Jen Catholic University, New Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Yuahn-Sieh Huang",
+    "last": "Huang",
+    "fore": "Yuahn-Sieh",
+    "initials": "YS",
+    "affiliations": [
+     "Department of Biology and Anatomy, National Defense Medical Center, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0003-3527-6421",
+    "campuses": [],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Jui-Yi Chen",
+    "last": "Chen",
+    "fore": "Jui-Yi",
+    "initials": "JY",
+    "affiliations": [
+     "Division of Nephrology, Department of Internal Medicine, Chi Mei Medical Center, Tainan, Taiwan.",
+     "Department of Health and Nutrition, Chia Nan University of Pharmacy and Science, Tainan, Taiwan.",
+     "Department of Public Health, College of Medicine, National Cheng Kung University, Tainan, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0003-1376-7780",
+    "campuses": [],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Vin-Cent Wu",
+    "last": "Wu",
+    "fore": "Vin-Cent",
+    "initials": "VC",
+    "affiliations": [
+     "Division of Nephrology, Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan.",
+     "NSARF (National Taiwan University Hospital Study Group of Acute Renal Failure) and Taiwan Consortium for Acute Kidney Injury and Renal Diseases (CAKS), Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0001-7935-0991",
+    "campuses": [],
+    "emails": [],
+    "position": 4,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Ruei-Ming Chen",
+    "last": "Chen",
+    "fore": "Ruei-Ming",
+    "initials": "RM",
+    "affiliations": [
+     "Cell Physiology and Molecular Image Research Center, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "Graduate Institute of Medical Sciences, College of Medicine, Taipei Medical University, Taipei, Taiwan.",
+     "Department of Anesthesiology and Health Policy Research Center, Taipei Medical University Hospital, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 5,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Kuo-Cheng Lu",
+    "last": "Lu",
+    "fore": "Kuo-Cheng",
+    "initials": "KC",
+    "affiliations": [
+     "Division of Nephrology, Department of Medicine, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, New Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-7062-8560",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 6,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Ko-Lin Kuo",
+    "last": "Kuo",
+    "fore": "Ko-Lin",
+    "initials": "KL",
+    "affiliations": [
+     "Division of Nephrology, Department of Medicine, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, New Taipei City, Taiwan.",
+     "School of Medicine, Tzu Chi University, Hualien, Taiwan.",
+     "School of Post-Baccalaureate Chinese Medicine, Tzu Chi University, Hualien, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-7477-0388",
+    "campuses": [
+     "台北慈濟醫院",
+     "慈濟大學"
+    ],
+    "emails": [],
+    "position": 7,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Chien-Lin Lu",
+    "last": "Lu",
+    "fore": "Chien-Lin",
+    "initials": "CL",
+    "affiliations": [
+     "School of Medicine, College of Medicine, Fu Jen Catholic University, New Taipei City, Taiwan.",
+     "Division of Nephrology, Department of Internal Medicine, Fu Jen Catholic University Hospital, Fu Jen Catholic University, New Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 8,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Cai-Mei Zheng",
+    "last": "Zheng",
+    "fore": "Cai-Mei",
+    "initials": "CM",
+    "affiliations": [
+     "Division of Nephrology, Department of Internal Medicine, Shuang Ho Hospital, Taipei Medical University, New Taipei City, Taiwan.",
+     "TMU Research Center of Urology and Kidney, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 9,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Yi-Chou Hou",
+    "last": "Hou",
+    "fore": "Yi-Chou",
+    "initials": "YC",
+    "affiliations": [
+     "School of Medicine, College of Medicine, Fu Jen Catholic University, New Taipei City, Taiwan.",
+     "Division of Nephrology, Department of Internal Medicine, Cardinal Tien Hospital, New Taipei City, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "",
+    "corr_email": "athletics910@gmail.com",
+    "campuses": [],
+    "emails": [],
+    "position": 10,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "ok",
+   "publisher": "Frontiers Media SA",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "PMC13747840",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "一致",
+  "publisher": "Frontiers Media SA",
+  "citations": 0,
+  "campuses": [
+   "台北慈濟醫院",
+   "慈濟大學"
+  ],
+  "first_author": "Yu-Chen Cheng",
+  "first_author_campuses": [],
+  "corresponding_authors": [
+   "Yi-Chou Hou"
+  ],
+  "corresponding_campuses": [],
+  "n_authors": 10,
+  "n_tzuchi_authors": 2,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43010906/"
+ },
+ {
+  "pmid": "43009101",
+  "title": "Short-term risk of herpes zoster following acute pyelonephritis vs. lower urinary tract infection: a propensity score-matched cohort study: Short title: Acute pyelonephritis and herpes zoster.",
+  "journal": "Infectious diseases now",
+  "journal_abbr": "Infect Dis Now",
+  "year": "2026",
+  "month": "Nov",
+  "volume": "",
+  "issue": "",
+  "pages": "105394",
+  "doi": "10.1016/j.idnow.2026.105394",
+  "pmc": "",
+  "entrez_date": "2026-11-10",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Shih-Wei Lai",
+    "last": "Lai",
+    "fore": "Shih-Wei",
+    "initials": "SW",
+    "affiliations": [
+     "School of Medicine, China Medical University, Taichung, Taiwan; Department of Family Medicine, China Medical University Hospital, Taichung, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Kuan-Fu Liao",
+    "last": "Liao",
+    "fore": "Kuan-Fu",
+    "initials": "KF",
+    "affiliations": [
+     "Division of Hepatogastroenterology, Department of Internal Medicine, Taichung Tzu Chi Hospital, Taichung, Taiwan. Electronic address: kuanfuliaog@gmail.com."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": true,
+    "orcid": "",
+    "campuses": [
+     "台中慈濟醫院"
+    ],
+    "emails": [
+     "kuanfuliaog@gmail.com."
+    ],
+    "position": 2,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "",
+   "openalex_status": "ok",
+   "publisher": "Elsevier BV",
+   "citations": 0,
+   "openalex_citations": 0,
+   "pmcid_used": "",
+   "unmatched": []
+  },
+  "corresponding_method": "openalex",
+  "corresponding_source": "OpenAlex",
+  "corresponding_agreement": "",
+  "publisher": "Elsevier BV",
+  "citations": 0,
+  "campuses": [
+   "台中慈濟醫院"
+  ],
+  "first_author": "Shih-Wei Lai",
+  "first_author_campuses": [],
+  "corresponding_authors": [
+   "Kuan-Fu Liao"
+  ],
+  "corresponding_campuses": [
+   "台中慈濟醫院"
+  ],
+  "n_authors": 2,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43009101/"
+ },
+ {
   "pmid": "42995535",
   "title": "Same-day EHR-coded sevoflurane versus propofol exposure and long-term coded dementia in older surgical adults: a propensity-matched cohort study.",
   "journal": "BMC geriatrics",
@@ -749,7 +1259,7 @@
    "pmc_status": "",
    "openalex_status": "nocorr",
    "publisher": "Oxford University Press (OUP)",
-   "citations": 0,
+   "citations": 1,
    "openalex_citations": 0,
    "pmcid_used": "",
    "unmatched": []
@@ -758,7 +1268,7 @@
   "corresponding_source": "末位作者(推定)",
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
-  "citations": 0,
+  "citations": 1,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -2426,7 +2936,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "SAGE Publications",
-   "citations": 0,
+   "citations": 1,
    "openalex_citations": 0,
    "pmcid_used": "PMC13332288",
    "unmatched": []
@@ -2435,7 +2945,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "不一致",
   "publisher": "SAGE Publications",
-  "citations": 0,
+  "citations": 1,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -6155,7 +6665,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 4,
+   "citations": 5,
    "openalex_citations": 3,
    "pmcid_used": "",
    "unmatched": []
@@ -6164,7 +6674,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Wiley",
-  "citations": 4,
+  "citations": 5,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -14334,7 +14844,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Public Library of Science (PLoS)",
-   "citations": 42,
+   "citations": 43,
    "openalex_citations": 34,
    "pmcid_used": "PMC12052210",
    "unmatched": []
@@ -14343,7 +14853,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Public Library of Science (PLoS)",
-  "citations": 42,
+  "citations": 43,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -15791,7 +16301,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 50,
+   "citations": 51,
    "openalex_citations": 46,
    "pmcid_used": "",
    "unmatched": []
@@ -15800,7 +16310,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 50,
+  "citations": 51,
   "campuses": [
    "大林慈濟醫院"
   ],
