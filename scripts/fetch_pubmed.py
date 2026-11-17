@@ -313,6 +313,7 @@ def enrich(rec: dict) -> dict:
     )
     rec["publisher"] = ext.get("publisher", "")
     rec["citations"] = ext.get("citations") if ext.get("citations") is not None else ext.get("openalex_citations")
+    rec["impact_factor"] = ext.get("impact_factor")  # OpenAlex 2yr_mean_citedness (approx. IF)
     rec["pmc"] = rec.get("pmc") or ext.get("pmcid_used", "")
 
     rec["campuses"] = list(OrderedDict.fromkeys(article_campuses))
@@ -386,7 +387,7 @@ def write_csvs(records: list[dict]):
         w = csv.writer(f)
         w.writerow(["PMID", "年份", "標題", "期刊", "期刊縮寫", "卷", "期", "頁碼", "DOI", "PMC",
                     "作者(全部)", "第一作者", "第一作者院區", "通訊作者", "通訊作者院區", "通訊作者來源",
-                    "PMC/OpenAlex一致性", "文章涉及院區", "慈濟作者數", "作者總數", "出版社", "被引次數",
+                    "PMC/OpenAlex一致性", "文章涉及院區", "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF(近似)",
                     "PubMed收錄日", "PubMed連結"])
         for r in records:
             w.writerow([r["pmid"], r["year"], r["title"], r["journal"], r["journal_abbr"],
@@ -397,6 +398,7 @@ def write_csvs(records: list[dict]):
                         r.get("corresponding_source", ""), r.get("corresponding_agreement", ""),
                         "; ".join(r["campuses"]), r["n_tzuchi_authors"], r["n_authors"],
                         r.get("publisher", ""), "" if r.get("citations") is None else r["citations"],
+                        "" if r.get("impact_factor") is None else r["impact_factor"],
                         r["entrez_date"], r["pubmed_url"]])
     with open(DATA_DIR / "author_affiliations.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
@@ -490,7 +492,7 @@ def write_xlsx(records: list[dict], summary: dict):
     ws = wb.create_sheet("文章清單")
     cols = ["PMID", "年份", "標題", "期刊", "卷/期/頁", "DOI", "第一作者", "第一作者院區",
             "通訊作者", "通訊作者院區", "通訊作者來源", "PMC/OpenAlex一致性", "文章涉及院區",
-            "慈濟作者數", "作者總數", "出版社", "被引次數", "作者(全部)", "PubMed連結"]
+            "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF(近似)", "作者(全部)", "PubMed連結"]
     src_fill = {"PMC全文": "C6EFCE", "OpenAlex": "DDEBF7", "PubMed e-mail": "FFF2CC", "末位作者(推定)": "F8CBAD"}
     ws.append(cols)
     for r in records:
@@ -500,11 +502,11 @@ def write_xlsx(records: list[dict], summary: dict):
                    "; ".join(r["first_author_campuses"]), "; ".join(r["corresponding_authors"]),
                    "; ".join(r["corresponding_campuses"]), r.get("corresponding_source", ""),
                    r.get("corresponding_agreement", ""), "; ".join(r["campuses"]),
-                   r["n_tzuchi_authors"], r["n_authors"], r.get("publisher", ""), r.get("citations"),
+                   r["n_tzuchi_authors"], r["n_authors"], r.get("publisher", ""), r.get("citations"), r.get("impact_factor"),
                    "; ".join(a["name"] for a in r["authors"]), r["pubmed_url"]])
         rr = ws.max_row
-        ws.cell(row=rr, column=19).hyperlink = r["pubmed_url"]
-        ws.cell(row=rr, column=19).font = Font(color="0563C1", underline="single")
+        ws.cell(row=rr, column=20).hyperlink = r["pubmed_url"]
+        ws.cell(row=rr, column=20).font = Font(color="0563C1", underline="single")
         if r.get("corresponding_source") in src_fill:
             ws.cell(row=rr, column=11).fill = PatternFill("solid", fgColor=src_fill[r["corresponding_source"]])
         if r.get("corresponding_agreement") == "不一致":
@@ -512,7 +514,7 @@ def write_xlsx(records: list[dict], summary: dict):
         if r["doi"]:
             ws.cell(row=rr, column=6).hyperlink = f"https://doi.org/{r['doi']}"
             ws.cell(row=rr, column=6).font = Font(color="0563C1", underline="single")
-    style_header(ws, len(cols), [10, 6, 60, 30, 14, 26, 18, 18, 22, 18, 14, 12, 28, 8, 8, 22, 8, 50, 36])
+    style_header(ws, len(cols), [10, 6, 60, 30, 14, 26, 18, 18, 22, 18, 14, 12, 28, 8, 8, 22, 8, 10, 50, 36])
 
     # --- Sheet 3: 作者與隸屬 ---
     ws = wb.create_sheet("作者與隸屬")
