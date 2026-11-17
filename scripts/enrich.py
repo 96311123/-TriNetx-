@@ -36,6 +36,7 @@ OPENALEX = "https://api.openalex.org/works"
 EUROPEPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML"
 NCBI_PMC = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
 CROSSREF = "https://api.crossref.org/works/{doi}"
+OPENALEX_SOURCES = "https://api.openalex.org/sources"
 
 # Re-query policy (days). "found" results are kept; misses are retried.
 TTL = {
@@ -44,6 +45,7 @@ TTL = {
     "pmc_found": 3650,
     "pmc_miss": 30,
     "crossref": 7,      # citation counts change; refresh weekly
+    "source": 30,       # journal-level metric (OpenAlex 2yr_mean_citedness); refresh monthly
     "error": 0,         # always retry errors
 }
 
@@ -156,7 +158,7 @@ def match_author(authors: list[dict], surname: str = "", given: str = "", full: 
 # ---------------------------------------------------------------------------
 def fetch_openalex(pmids: list[str]) -> dict[str, dict]:
     out: dict[str, dict] = {}
-    params_base = {"select": "id,doi,ids,authorships,cited_by_count", "per-page": 100}
+    params_base = {"select": "id,doi,ids,authorships,cited_by_count,primary_location", "per-page": 100}
     if CONTACT:
         params_base["mailto"] = CONTACT
     if os.getenv("OPENALEX_API_KEY"):
@@ -209,8 +211,55 @@ def parse_openalex_work(w: dict) -> dict:
         "openalex_id": (w.get("id") or "").replace("https://openalex.org/", ""),
         "pmcid": f"PMC{m.group(1)}" if m else "",
         "cited_by_count": w.get("cited_by_count"),
+        "source_id": (((w.get("primary_location") or {}).get("source") or {}).get("id") or "")
+                     .replace("https://openalex.org/", ""),
         "authors": auths,
     }
+
+
+# ---------------------------------------------------------------------------
+# OpenAlex journal-level metric (approximate impact factor)
+# ---------------------------------------------------------------------------
+def fetch_sources(source_ids: list[str]) -> dict[str, dict]:
+    """Journal metric from OpenAlex `summary_stats.2yr_mean_citedness`.
+
+    This is an *approximation* of the JCR Impact Factor (same 2-year window idea,
+    but computed from OpenAlex data), not the official Clarivate number.
+    """
+    out: dict[str, dict] = {}
+    params_base = {"select": "id,display_name,summary_stats", "per-page": 100}
+    if CONTACT:
+        params_base["mailto"] = CONTACT
+    if os.getenv("OPENALEX_API_KEY"):
+        params_base["api_key"] = os.environ["OPENALEX_API_KEY"]
+    for i in range(0, len(source_ids), 50):
+        chunk = source_ids[i:i + 50]
+        code, text = _http_get(OPENALEX_SOURCES, dict(params_base, filter="openalex:" + "|".join(chunk)))
+        if code != 200:
+            for sid in chunk:
+                out[sid] = {"status": "error", "fetched_at": _now(), "http": code}
+            continue
+        try:
+            results = json.loads(text).get("results", [])
+        except json.JSONDecodeError:
+            results = []
+        seen = set()
+        for src in results:
+            sid = (src.get("id") or "").replace("https://openalex.org/", "")
+            val = (src.get("summary_stats") or {}).get("2yr_mean_citedness")
+            seen.add(sid)
+            out[sid] = {
+                "status": "ok" if val is not None else "miss",
+                "fetched_at": _now(),
+                "name": src.get("display_name") or "",
+                "impact_factor": round(val, 3) if isinstance(val, (int, float)) else None,
+            }
+        for sid in chunk:
+            if sid not in seen:
+                out[sid] = {"status": "miss", "fetched_at": _now()}
+        time.sleep(0.15)
+        print(f"  OpenAlex sources {min(i+50, len(source_ids))}/{len(source_ids)}", file=sys.stderr)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -379,7 +428,7 @@ def load_cache(path: Path = CACHE_PATH) -> dict:
             return json.loads(path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
-    return {"openalex": {}, "pmc": {}, "crossref": {}}
+    return {"openalex": {}, "pmc": {}, "crossref": {}, "sources": {}}
 
 
 def save_cache(cache: dict, path: Path = CACHE_PATH):
@@ -391,15 +440,26 @@ def refresh_cache(records: list[dict], cache: dict, sources=("openalex", "pmc", 
     if requests is None:
         print("requests not installed; skipping external enrichment", file=sys.stderr)
         return cache
-    for k in ("openalex", "pmc", "crossref"):
+    for k in ("openalex", "pmc", "crossref", "sources"):
         cache.setdefault(k, {})
 
     if "openalex" in sources:
+        # entries cached before journal metrics were added have no "source_id" key -> re-query once
         todo = [r["pmid"] for r in records
-                if _stale(cache["openalex"].get(r["pmid"]), "openalex_found", "openalex_miss")]
+                if _stale(cache["openalex"].get(r["pmid"]), "openalex_found", "openalex_miss")
+                or (cache["openalex"].get(r["pmid"]) or {}).get("status") in ("ok", "nocorr")
+                and "source_id" not in cache["openalex"][r["pmid"]]]
         print(f"OpenAlex: {len(todo)} to query", file=sys.stderr)
         if todo:
             cache["openalex"].update(fetch_openalex(todo))
+
+        # journal-level metric (approximate impact factor)
+        sids = sorted({(cache["openalex"].get(r["pmid"]) or {}).get("source_id", "") for r in records} - {""})
+        todo_s = [sid for sid in sids
+                  if (lambda e: not e or e.get("status") == "error" or _age_days(e.get("fetched_at")) > TTL["source"])(cache["sources"].get(sid))]
+        print(f"OpenAlex sources (journal metric): {len(todo_s)} to query", file=sys.stderr)
+        if todo_s:
+            cache["sources"].update(fetch_sources(todo_s))
 
     if "pmc" in sources:
         todo = []
@@ -435,7 +495,7 @@ def apply_cache(rec: dict, cache: dict) -> dict:
     authors = rec["authors"]
     pm = rec["pmid"]
     ext = {"pmc_status": "", "openalex_status": "", "publisher": "", "citations": None,
-           "openalex_citations": None, "pmcid_used": "", "unmatched": []}
+           "openalex_citations": None, "impact_factor": None, "pmcid_used": "", "unmatched": []}
     for a in authors:
         a["corr_pmc"] = False
         a["corr_openalex"] = False
@@ -446,6 +506,9 @@ def apply_cache(rec: dict, cache: dict) -> dict:
     if oa:
         ext["openalex_status"] = oa.get("status", "")
         ext["openalex_citations"] = oa.get("cited_by_count")
+        src = cache.get("sources", {}).get(oa.get("source_id") or "")
+        if src and src.get("status") == "ok":
+            ext["impact_factor"] = src.get("impact_factor")
         oa_auths = oa.get("authors", [])
         same_len = len(oa_auths) == len(authors)
         for j, x in enumerate(oa_auths):

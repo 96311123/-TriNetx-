@@ -56,6 +56,7 @@ PubMed 本身沒有通訊作者欄位，因此依下列優先順序判定，每�
 
 - 同時有 PMC 與 OpenAlex 結果時會比對，不一致的文章在網頁與 Excel 中標紅，方便人工複核。
 - **Crossref 沒有通訊作者欄位**，用於補充 ORCID、出版社、被引次數。
+- **期刊 IF(近似)**：取自 OpenAlex 期刊的 `2yr_mean_citedness`（近 2 年平均被引），與 JCR 官方 Impact Factor 相近但不相同；官方 IF 為 Clarivate 付費資料，無免費 API。
 - 外部查詢結果存於 `cache/enrich_cache.json` 並一起 commit；每週只查新文章或過期項目
   （OpenAlex 找到 90 天／未找到 14 天、PMC 找到永久／未找到 30 天、Crossref 7 天更新被引次數）。
 - 只想跑 PubMed、不查外部來源：`python scripts/fetch_pubmed.py --no-external`（仍會套用既有快取）。

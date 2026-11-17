@@ -115,6 +115,20 @@ pre{white-space:pre-wrap;word-break:break-all;font-size:12px;background:var(--bg
 </section>
 
 <section>
+  <h2>歷年 IF &gt; 10 的文章</h2>
+  <p class="note" id="highIFNote"></p>
+  <div class="tablewrap">
+  <table id="highIFTable">
+    <thead><tr>
+      <th class="num">年份</th><th>標題 / 作者</th><th>期刊</th><th>第一作者院區</th><th>通訊作者</th>
+      <th class="num">被引</th><th class="num">IF(近似)</th>
+    </tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</section>
+
+<section>
   <h2>文章清單</h2>
   <div class="tools">
     <input type="search" id="q" placeholder="搜尋標題 / 作者 / 期刊 / PMID…">
@@ -132,7 +146,7 @@ pre{white-space:pre-wrap;word-break:break-all;font-size:12px;background:var(--bg
   <table id="articles">
     <thead><tr>
       <th data-k="pmid">PMID</th><th data-k="year" class="num">年份</th><th data-k="title">標題 / 作者</th>
-      <th data-k="journal">期刊</th><th>第一作者院區</th><th>通訊作者</th><th>涉及院區</th><th data-k="citations" class="num">被引</th>
+      <th data-k="journal">期刊</th><th>第一作者院區</th><th>通訊作者</th><th>涉及院區</th><th data-k="citations" class="num">被引</th><th data-k="impact_factor" class="num" title="OpenAlex 近似值（2 年平均被引），非 JCR 官方 IF">IF(近似)</th>
     </tr></thead>
     <tbody></tbody>
   </table>
@@ -142,7 +156,7 @@ pre{white-space:pre-wrap;word-break:break-all;font-size:12px;background:var(--bg
 <section>
   <details><summary>搜尋策略與方法說明</summary>
     <pre id="query"></pre>
-    <p class="note">通訊作者：優先採 PMC 全文 JATS 標記（Europe PMC / NCBI PMC），其次 OpenAlex 的 is_corresponding，再其次 PubMed 隸屬中含 e-mail 的作者，最後以末位作者推定。ORCID、出版社、被引次數來自 PubMed / OpenAlex / Crossref。</p>
+    <p class="note">通訊作者：優先採 PMC 全文 JATS 標記（Europe PMC / NCBI PMC），其次 OpenAlex 的 is_corresponding，再其次 PubMed 隸屬中含 e-mail 的作者，最後以末位作者推定。ORCID、出版社、被引次數來自 PubMed / OpenAlex / Crossref。IF(近似)為期刊層級指標，取自 OpenAlex 的 2yr_mean_citedness（近 2 年平均被引），與 Clarivate JCR 官方 Impact Factor 數值接近但不相同，僅供參考。</p>
     <p class="note">院區判定依作者 affiliation 文字比對（Hualien / Dalin / Taipei / Taichung / Yuli / Guanshan / Douliu Tzu Chi Hospital；Tzu Chi University；Tzu Chi University of Science and Technology）。無法判定院區者歸入「慈濟醫療財團法人(未指明院區)」。</p>
   </details>
 </section>
@@ -196,6 +210,8 @@ function render(){
   document.getElementById('yearBars').innerHTML = s.by_year.map(y=>`
     <div>${esc(y.year)}</div><div class="track"><div class="fill" style="width:${(y.articles/max*100).toFixed(1)}%"></div></div><div class="num">${fmt(y.articles)}</div>`).join('');
 
+  renderHighIF();
+
   // filters
   const camps = [...new Set(ARTICLES.flatMap(a=>a.campuses))];
   const order = s.campus_table.map(c=>c.campus);
@@ -204,6 +220,27 @@ function render(){
   const years = [...new Set(ARTICLES.map(a=>a.year))].sort().reverse();
   document.getElementById('fYear').innerHTML = '<option value="">所有年份</option>' + years.map(y=>`<option>${esc(y)}</option>`).join('');
   renderTable();
+}
+
+const HIGH_IF = 10;
+function renderHighIF(){
+  const tags = arr => arr.length ? arr.map(c=>`<span class="tag">${esc(c)}</span>`).join('') : '<span class="sub">—</span>';
+  const hasIF = ARTICLES.some(a=>a.impact_factor != null);
+  const rows = ARTICLES.filter(a=>a.impact_factor != null && +a.impact_factor > HIGH_IF)
+    .sort((x,y)=>(+y.impact_factor)-(+x.impact_factor) || (+y.year)-(+x.year));
+  document.getElementById('highIFNote').textContent = !hasIF
+    ? '尚無 IF 資料（待下次排程更新後顯示）。'
+    : `共 ${rows.length} 篇，依 IF 由高到低排序。IF 為 OpenAlex 近似值（期刊近 2 年平均被引），非 JCR 官方數字，僅供參考。`;
+  document.querySelector('#highIFTable tbody').innerHTML = rows.length ? rows.map(a=>`<tr>
+    <td class="num">${esc(a.year)}</td>
+    <td class="title"><a href="${a.doi?'https://doi.org/'+esc(a.doi):esc(a.pubmed_url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      <div class="sub">${esc(a.authors.map(x=>x.name).join(', '))}</div></td>
+    <td>${esc(a.journal_abbr||a.journal)}</td>
+    <td>${tags(a.first_author_campuses)}</td>
+    <td><div class="sub" style="color:var(--text)">${esc(a.corresponding_authors.join('; '))}</div>${tags(a.corresponding_campuses)}</td>
+    <td class="num">${a.citations ?? '—'}</td>
+    <td class="num">${Number(a.impact_factor).toFixed(2)}</td></tr>`).join('')
+    : `<tr><td colspan="7" class="sub">${hasIF ? '目前沒有 IF > 10 的文章。' : '—'}</td></tr>`;
 }
 
 function renderTable(){
@@ -227,7 +264,7 @@ function renderTable(){
   });
   rows.sort((x,y)=>{
     let a=x[sortKey]??'', b=y[sortKey]??'';
-    if (sortKey==='pmid'||sortKey==='year'||sortKey==='citations'){a=+a||0;b=+b||0;}
+    if (sortKey==='pmid'||sortKey==='year'||sortKey==='citations'||sortKey==='impact_factor'){a=+a||0;b=+b||0;}
     return (a<b?-1:a>b?1:0)*(sortAsc?1:-1);
   });
   document.getElementById('count').textContent = `顯示 ${rows.length} / ${ARTICLES.length} 篇`;
@@ -242,7 +279,8 @@ function renderTable(){
     <td><div class="sub" style="color:var(--text)">${esc(a.corresponding_authors.join('; '))}</div>${tags(a.corresponding_campuses)}
       <div>${srcBadge(a.corresponding_source)}${a.corresponding_agreement==='不一致'?' <span class="warn">來源不一致</span>':''}</div></td>
     <td>${tags(a.campuses)}</td>
-    <td class="num">${a.citations ?? '—'}</td></tr>`).join('');
+    <td class="num">${a.citations ?? '—'}</td>
+    <td class="num">${a.impact_factor != null ? Number(a.impact_factor).toFixed(2) : '—'}</td></tr>`).join('');
   document.querySelectorAll('#articles th').forEach(th=>{
     th.classList.toggle('sorted', th.dataset.k===sortKey);
     th.classList.toggle('asc', th.dataset.k===sortKey && sortAsc);
