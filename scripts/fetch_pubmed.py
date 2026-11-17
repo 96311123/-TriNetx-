@@ -516,6 +516,30 @@ def write_xlsx(records: list[dict], summary: dict):
             ws.cell(row=rr, column=6).font = Font(color="0563C1", underline="single")
     style_header(ws, len(cols), [10, 6, 60, 30, 14, 26, 18, 18, 22, 18, 14, 12, 28, 8, 8, 22, 8, 10, 50, 36])
 
+    # --- Sheet 2b: 歷年 IF > 10 的文章 (IF = OpenAlex approximation) ---
+    ws = wb.create_sheet("IF大於10文章")
+    cols = ["年份", "PMID", "標題", "期刊", "期刊IF(近似)", "被引次數", "第一作者", "第一作者院區",
+            "通訊作者", "通訊作者院區", "DOI", "PubMed連結"]
+    ws.append(cols)
+    high = sorted((r for r in records if r.get("impact_factor") is not None and r["impact_factor"] > 10),
+                  key=lambda r: (-r["impact_factor"], -(int(r["year"]) if r["year"].isdigit() else 0)))
+    for r in high:
+        ws.append([int(r["year"]) if r["year"].isdigit() else r["year"], r["pmid"], r["title"], r["journal"],
+                   r["impact_factor"], r.get("citations"), r["first_author"],
+                   "; ".join(r["first_author_campuses"]), "; ".join(r["corresponding_authors"]),
+                   "; ".join(r["corresponding_campuses"]), r["doi"], r["pubmed_url"]])
+        rr = ws.max_row
+        ws.cell(row=rr, column=12).hyperlink = r["pubmed_url"]
+        ws.cell(row=rr, column=12).font = Font(color="0563C1", underline="single")
+        if r["doi"]:
+            ws.cell(row=rr, column=11).hyperlink = f"https://doi.org/{r['doi']}"
+            ws.cell(row=rr, column=11).font = Font(color="0563C1", underline="single")
+    if not high:
+        ws.append(["目前沒有 IF > 10 的文章（或尚無 IF 資料）"])
+    style_header(ws, len(cols), [6, 10, 60, 30, 12, 10, 18, 18, 22, 18, 26, 36])
+    ws.append([])
+    ws.append(["註：IF 為 OpenAlex 期刊 2yr_mean_citedness（近 2 年平均被引）之近似值，非 JCR 官方 Impact Factor。"])
+
     # --- Sheet 3: 作者與隸屬 ---
     ws = wb.create_sheet("作者與隸屬")
     cols = ["PMID", "年份", "順位", "作者", "ORCID", "第一作者", "通訊作者", "通訊作者來源",
