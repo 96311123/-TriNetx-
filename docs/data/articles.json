@@ -68,6 +68,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 7.18,
    "pmcid_used": "PMC13753582",
    "unmatched": []
   },
@@ -76,6 +77,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 7.18,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -142,6 +144,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.33,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -150,6 +153,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 2.33,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -398,6 +402,7 @@
    "publisher": "Frontiers Media SA",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 6.73,
    "pmcid_used": "PMC13747840",
    "unmatched": []
   },
@@ -406,6 +411,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 0,
+  "impact_factor": 6.73,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -422,13 +428,13 @@
  },
  {
   "pmid": "43009101",
-  "title": "Short-term risk of herpes zoster following acute pyelonephritis vs. lower urinary tract infection: a propensity score-matched cohort study: Short title: Acute pyelonephritis and herpes zoster.",
+  "title": "Short-term risk of herpes zoster following acute pyelonephritis vs. lower urinary tract infection: a propensity score-matched cohort study.",
   "journal": "Infectious diseases now",
   "journal_abbr": "Infect Dis Now",
   "year": "2026",
   "month": "Nov",
-  "volume": "",
-  "issue": "",
+  "volume": "57",
+  "issue": "1",
   "pages": "105394",
   "doi": "10.1016/j.idnow.2026.105394",
   "pmc": "",
@@ -486,6 +492,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.9,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -494,6 +501,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 2.9,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -706,6 +714,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": null,
+   "impact_factor": null,
    "pmcid_used": "PMC13741560",
    "unmatched": []
   },
@@ -714,6 +723,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": null,
   "campuses": [
    "台中慈濟醫院",
    "慈濟大學"
@@ -816,6 +826,7 @@
    "publisher": "Public Library of Science (PLoS)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.3,
    "pmcid_used": "PMC13722328",
    "unmatched": []
   },
@@ -824,6 +835,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Public Library of Science (PLoS)",
   "citations": 0,
+  "impact_factor": 4.3,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -955,6 +967,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 7.51,
    "pmcid_used": "PMC13708528",
    "unmatched": []
   },
@@ -963,6 +976,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 7.51,
   "campuses": [
    "大林慈濟醫院",
    "慈濟大學"
@@ -1029,6 +1043,7 @@
    "publisher": "Wiley",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.92,
    "pmcid_used": "PMC13574320",
    "unmatched": []
   },
@@ -1037,6 +1052,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
   "citations": 0,
+  "impact_factor": 1.92,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -1100,7 +1116,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 1.82,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -1109,6 +1126,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 1,
+  "impact_factor": 1.82,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -1172,6 +1190,7 @@
    "publisher": "SAGE Publications",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.54,
    "pmcid_used": "PMC13522673",
    "unmatched": []
   },
@@ -1180,6 +1199,7 @@
   "corresponding_agreement": "一致",
   "publisher": "SAGE Publications",
   "citations": 0,
+  "impact_factor": 2.54,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -1260,7 +1280,8 @@
    "openalex_status": "nocorr",
    "publisher": "Oxford University Press (OUP)",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 3.98,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -1269,6 +1290,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 1,
+  "impact_factor": 3.98,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -1533,6 +1555,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.91,
    "pmcid_used": "PMC13464869",
    "unmatched": []
   },
@@ -1541,6 +1564,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 5.91,
   "campuses": [
    "慈濟大學",
    "花蓮慈濟醫院"
@@ -1760,6 +1784,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 7.05,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -1768,6 +1793,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 7.05,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -1905,6 +1931,7 @@
    "publisher": "Informa UK Limited",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.6,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -1913,6 +1940,7 @@
   "corresponding_agreement": "",
   "publisher": "Informa UK Limited",
   "citations": 0,
+  "impact_factor": 1.6,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -1971,6 +1999,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.26,
    "pmcid_used": "PMC13449368",
    "unmatched": []
   },
@@ -1979,6 +2008,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 5.26,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2141,7 +2171,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 3,
-   "openalex_citations": 2,
+   "openalex_citations": 3,
+   "impact_factor": 4.12,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -2150,6 +2181,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 3,
+  "impact_factor": 4.12,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2213,6 +2245,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.49,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -2221,6 +2254,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 5.49,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2286,6 +2320,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.58,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -2294,6 +2329,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 5.58,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2489,6 +2525,7 @@
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.41,
    "pmcid_used": "PMC13668229",
    "unmatched": []
   },
@@ -2497,6 +2534,7 @@
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 0,
+  "impact_factor": 4.41,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -2603,6 +2641,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 6.15,
    "pmcid_used": "PMC13409890",
    "unmatched": []
   },
@@ -2611,6 +2650,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 6.15,
   "campuses": [
    "大林慈濟醫院",
    "慈濟大學"
@@ -2675,6 +2715,7 @@
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.52,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -2683,6 +2724,7 @@
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 0,
+  "impact_factor": 2.52,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -2769,6 +2811,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.7,
    "pmcid_used": "PMC13638875",
    "unmatched": []
   },
@@ -2777,6 +2820,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 5.7,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -2937,7 +2981,8 @@
    "openalex_status": "ok",
    "publisher": "SAGE Publications",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 9.72,
    "pmcid_used": "PMC13332288",
    "unmatched": []
   },
@@ -2946,6 +2991,7 @@
   "corresponding_agreement": "不一致",
   "publisher": "SAGE Publications",
   "citations": 1,
+  "impact_factor": 9.72,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -3108,7 +3154,8 @@
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
    "citations": 2,
-   "openalex_citations": 1,
+   "openalex_citations": 2,
+   "impact_factor": 6.36,
    "pmcid_used": "PMC13612769",
    "unmatched": []
   },
@@ -3117,6 +3164,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 2,
+  "impact_factor": 6.36,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -3197,6 +3245,7 @@
    "publisher": "Wiley",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.77,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -3205,6 +3254,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 0,
+  "impact_factor": 4.77,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -3283,6 +3333,7 @@
    "publisher": "Oxford University Press (OUP)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.36,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -3291,6 +3342,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 0,
+  "impact_factor": 2.36,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -3463,6 +3515,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.77,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -3471,6 +3524,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 5.77,
   "campuses": [
    "大林慈濟醫院",
    "慈濟大學"
@@ -3703,6 +3757,7 @@
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.35,
    "pmcid_used": "PMC13280741",
    "unmatched": []
   },
@@ -3711,6 +3766,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
+  "impact_factor": 4.35,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -3759,7 +3815,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0000-0002-3157-6411",
     "campuses": [
      "台北慈濟醫院",
      "慈濟大學"
@@ -3909,6 +3965,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.03,
    "pmcid_used": "PMC13311794",
    "unmatched": []
   },
@@ -3917,6 +3974,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 2.03,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -3985,6 +4043,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 3.71,
    "pmcid_used": "PMC13308222",
    "unmatched": []
   },
@@ -3993,6 +4052,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 3.71,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -4159,6 +4219,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.84,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -4167,6 +4228,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 4.84,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -4300,6 +4362,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 7.51,
    "pmcid_used": "PMC13210746",
    "unmatched": []
   },
@@ -4308,6 +4371,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 7.51,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -4433,6 +4497,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.58,
    "pmcid_used": "PMC13208848",
    "unmatched": []
   },
@@ -4441,6 +4506,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 4.58,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -4523,6 +4589,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 3.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -4531,6 +4598,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 3.75,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -4673,6 +4741,7 @@
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.35,
    "pmcid_used": "PMC13181386",
    "unmatched": []
   },
@@ -4681,6 +4750,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
+  "impact_factor": 4.35,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -4783,6 +4853,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 6.15,
    "pmcid_used": "PMC13163481",
    "unmatched": []
   },
@@ -4791,6 +4862,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 6.15,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -5052,6 +5124,7 @@
    "publisher": "American Society of Clinical Oncology (ASCO)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.76,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5060,6 +5133,7 @@
   "corresponding_agreement": "",
   "publisher": "American Society of Clinical Oncology (ASCO)",
   "citations": 0,
+  "impact_factor": 1.76,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -5160,6 +5234,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.49,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5168,6 +5243,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 5.49,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -5329,6 +5405,7 @@
    "publisher": "Ivyspring International Publisher",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.35,
    "pmcid_used": "PMC13133889",
    "unmatched": []
   },
@@ -5337,6 +5414,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 0,
+  "impact_factor": 4.35,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -5397,6 +5475,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 3.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5405,6 +5484,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 3.75,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -5468,6 +5548,7 @@
    "publisher": "Wiley",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.38,
    "pmcid_used": "PMC13103276",
    "unmatched": []
   },
@@ -5476,6 +5557,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
   "citations": 0,
+  "impact_factor": 4.38,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -5647,6 +5729,7 @@
    "publisher": "Elsevier BV",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 5.49,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5655,6 +5738,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 1,
+  "impact_factor": 5.49,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -5744,6 +5828,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.16,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5752,6 +5837,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 2.16,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -5818,6 +5904,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.08,
    "pmcid_used": "PMC13049402",
    "unmatched": []
   },
@@ -5826,6 +5913,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 1.08,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -5890,6 +5978,7 @@
    "publisher": "Oxford University Press (OUP)",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 2.72,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -5898,6 +5987,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 2,
+  "impact_factor": 2.72,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -6142,6 +6232,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.73,
    "pmcid_used": "PMC13159298",
    "unmatched": []
   },
@@ -6150,6 +6241,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 4.73,
   "campuses": [
    "慈濟大學",
    "花蓮慈濟醫院"
@@ -6216,7 +6308,8 @@
    "openalex_status": "ok",
    "publisher": "S. Karger AG",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 1.52,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -6225,6 +6318,7 @@
   "corresponding_agreement": "",
   "publisher": "S. Karger AG",
   "citations": 1,
+  "impact_factor": 1.52,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -6308,6 +6402,7 @@
    "publisher": "Wiley",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.65,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -6316,6 +6411,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 0,
+  "impact_factor": 1.65,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -6397,6 +6493,7 @@
    "publisher": "Elsevier BV",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 3.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -6405,6 +6502,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 2,
+  "impact_factor": 3.75,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -6490,6 +6588,7 @@
    "publisher": "MDPI AG",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.58,
    "pmcid_used": "PMC13028217",
    "unmatched": []
   },
@@ -6498,6 +6597,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 4.58,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -6666,7 +6766,8 @@
    "openalex_status": "ok",
    "publisher": "Wiley",
    "citations": 5,
-   "openalex_citations": 3,
+   "openalex_citations": 6,
+   "impact_factor": 4.32,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -6675,6 +6776,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 5,
+  "impact_factor": 4.32,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -6739,6 +6841,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.52,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -6747,6 +6850,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 2.52,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -6889,6 +6993,7 @@
    "publisher": "MDPI AG",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 4.71,
    "pmcid_used": "PMC12942526",
    "unmatched": []
   },
@@ -6897,6 +7002,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 1,
+  "impact_factor": 4.71,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7040,6 +7146,7 @@
    "publisher": "Frontiers Media SA",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 6.76,
    "pmcid_used": "PMC12929110",
    "unmatched": []
   },
@@ -7048,6 +7155,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 2,
+  "impact_factor": 6.76,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7149,7 +7257,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 1.27,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -7158,6 +7267,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 1,
+  "impact_factor": 1.27,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -7179,10 +7289,10 @@
   "journal": "European journal of epidemiology",
   "journal_abbr": "Eur J Epidemiol",
   "year": "2026",
-  "month": "Feb",
-  "volume": "",
-  "issue": "",
-  "pages": "",
+  "month": "Sep",
+  "volume": "41",
+  "issue": "9",
+  "pages": "1149-1154",
   "doi": "10.1007/s10654-025-01342-6",
   "pmc": "",
   "entrez_date": "2026-02-21",
@@ -7284,7 +7394,8 @@
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
    "citations": 13,
-   "openalex_citations": 12,
+   "openalex_citations": 13,
+   "impact_factor": 7.09,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -7293,6 +7404,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 13,
+  "impact_factor": 7.09,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7379,6 +7491,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.19,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -7387,6 +7500,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 2.19,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -7532,7 +7646,8 @@
    "openalex_status": "ok",
    "publisher": "Frontiers Media SA",
    "citations": 5,
-   "openalex_citations": 4,
+   "openalex_citations": 6,
+   "impact_factor": 4.66,
    "pmcid_used": "PMC12872890",
    "unmatched": []
   },
@@ -7541,6 +7656,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 5,
+  "impact_factor": 4.66,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -7604,6 +7720,7 @@
    "publisher": "Elsevier BV",
    "citations": 0,
    "openalex_citations": 1,
+   "impact_factor": 1.6,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -7612,6 +7729,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 0,
+  "impact_factor": 1.6,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7698,6 +7816,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 2.71,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -7706,6 +7825,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 1,
+  "impact_factor": 2.71,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7850,7 +7970,8 @@
    "openalex_status": "ok",
    "publisher": "MDPI AG",
    "citations": 0,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 7.9,
    "pmcid_used": "PMC12844972",
    "unmatched": []
   },
@@ -7859,6 +7980,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 0,
+  "impact_factor": 7.9,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -7972,7 +8094,8 @@
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
    "citations": 18,
-   "openalex_citations": 11,
+   "openalex_citations": 18,
+   "impact_factor": 6.18,
    "pmcid_used": "PMC12821341",
    "unmatched": []
   },
@@ -7981,6 +8104,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
   "citations": 18,
+  "impact_factor": 6.18,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -8066,6 +8190,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 2.52,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -8074,6 +8199,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
+  "impact_factor": 2.52,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -8275,6 +8401,7 @@
    "publisher": "Oxford University Press (OUP)",
    "citations": 6,
    "openalex_citations": 6,
+   "impact_factor": 0.36,
    "pmcid_used": "PMC13391088",
    "unmatched": []
   },
@@ -8283,6 +8410,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Oxford University Press (OUP)",
   "citations": 6,
+  "impact_factor": 0.36,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -8436,6 +8564,7 @@
    "publisher": "Wiley",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 5.84,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -8444,6 +8573,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 0,
+  "impact_factor": 5.84,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -8637,7 +8767,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 6,
-   "openalex_citations": 3,
+   "openalex_citations": 6,
+   "impact_factor": 2.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -8646,6 +8777,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 6,
+  "impact_factor": 2.75,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -8849,7 +8981,8 @@
    "openalex_status": "ok",
    "publisher": "Wiley",
    "citations": 6,
-   "openalex_citations": 4,
+   "openalex_citations": 8,
+   "impact_factor": 13.61,
    "pmcid_used": "PMC12931237",
    "unmatched": []
   },
@@ -8858,6 +8991,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
   "citations": 6,
+  "impact_factor": 13.61,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -8944,6 +9078,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 2.82,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -8952,6 +9087,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 2,
+  "impact_factor": 2.82,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -9036,6 +9172,7 @@
    "publisher": "Elsevier BV",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 2.19,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9044,6 +9181,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 2,
+  "impact_factor": 2.19,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -9303,7 +9441,8 @@
    "openalex_status": "nocorr",
    "publisher": "American Society of Clinical Oncology (ASCO)",
    "citations": 1,
-   "openalex_citations": 1,
+   "openalex_citations": 3,
+   "impact_factor": 1.76,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9312,6 +9451,7 @@
   "corresponding_agreement": "",
   "publisher": "American Society of Clinical Oncology (ASCO)",
   "citations": 1,
+  "impact_factor": 1.76,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -9394,6 +9534,7 @@
    "publisher": "S. Karger AG",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 1.86,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9402,6 +9543,7 @@
   "corresponding_agreement": "",
   "publisher": "S. Karger AG",
   "citations": 1,
+  "impact_factor": 1.86,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -9487,7 +9629,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 3,
-   "openalex_citations": 5,
+   "openalex_citations": 6,
+   "impact_factor": 0.87,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9496,6 +9639,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 3,
+  "impact_factor": 0.87,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -9582,7 +9726,8 @@
    "openalex_status": "nocorr",
    "publisher": "Georg Thieme Verlag KG",
    "citations": 1,
-   "openalex_citations": 1,
+   "openalex_citations": 3,
+   "impact_factor": 3.79,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9591,6 +9736,7 @@
   "corresponding_agreement": "",
   "publisher": "Georg Thieme Verlag KG",
   "citations": 1,
+  "impact_factor": 3.79,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -9757,7 +9903,8 @@
    "openalex_status": "ok",
    "publisher": "Oxford University Press (OUP)",
    "citations": 5,
-   "openalex_citations": 5,
+   "openalex_citations": 7,
+   "impact_factor": 2.72,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9766,6 +9913,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 5,
+  "impact_factor": 2.72,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -9849,6 +9997,7 @@
    "publisher": "Oxford University Press (OUP)",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 0.94,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -9857,6 +10006,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 2,
+  "impact_factor": 0.94,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -10048,7 +10198,8 @@
    "openalex_status": "ok",
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 0,
-   "openalex_citations": 0,
+   "openalex_citations": 1,
+   "impact_factor": 2.03,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -10057,6 +10208,7 @@
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 0,
+  "impact_factor": 2.03,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -10287,6 +10439,7 @@
    "publisher": "Frontiers Media SA",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 6.76,
    "pmcid_used": "PMC12723871",
    "unmatched": []
   },
@@ -10295,6 +10448,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 0,
+  "impact_factor": 6.76,
   "campuses": [
    "台北慈濟醫院",
    "花蓮慈濟醫院",
@@ -10377,6 +10531,7 @@
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 1.98,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -10385,6 +10540,7 @@
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 0,
+  "impact_factor": 1.98,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -10618,7 +10774,8 @@
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
    "citations": 2,
-   "openalex_citations": 2,
+   "openalex_citations": 3,
+   "impact_factor": 4.48,
    "pmcid_used": "PMC12679846",
    "unmatched": []
   },
@@ -10627,6 +10784,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
   "citations": 2,
+  "impact_factor": 4.48,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -10694,7 +10852,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0000-0002-3157-6411",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -10732,7 +10890,8 @@
    "openalex_status": "ok",
    "publisher": "Oxford University Press (OUP)",
    "citations": 2,
-   "openalex_citations": 1,
+   "openalex_citations": 2,
+   "impact_factor": 3.34,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -10741,6 +10900,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 2,
+  "impact_factor": 3.34,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -10943,6 +11103,7 @@
    "publisher": "Ivyspring International Publisher",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 4.35,
    "pmcid_used": "PMC12595327",
    "unmatched": []
   },
@@ -10951,6 +11112,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ivyspring International Publisher",
   "citations": 1,
+  "impact_factor": 4.35,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11055,7 +11217,8 @@
    "openalex_status": "ok",
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 6,
-   "openalex_citations": 8,
+   "openalex_citations": 9,
+   "impact_factor": 2.9,
    "pmcid_used": "PMC12574988",
    "unmatched": []
   },
@@ -11064,6 +11227,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 6,
+  "impact_factor": 2.9,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11149,6 +11313,7 @@
    "publisher": "SAGE Publications",
    "citations": 0,
    "openalex_citations": 0,
+   "impact_factor": 4.05,
    "pmcid_used": "PMC12547140",
    "unmatched": []
   },
@@ -11157,6 +11322,7 @@
   "corresponding_agreement": "一致",
   "publisher": "SAGE Publications",
   "citations": 0,
+  "impact_factor": 4.05,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11282,7 +11448,8 @@
    "openalex_status": "nocorr",
    "publisher": "Journal of Neurosurgery Publishing Group (JNSPG)",
    "citations": 1,
-   "openalex_citations": 0,
+   "openalex_citations": 3,
+   "impact_factor": 3.67,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -11291,6 +11458,7 @@
   "corresponding_agreement": "",
   "publisher": "Journal of Neurosurgery Publishing Group (JNSPG)",
   "citations": 1,
+  "impact_factor": 3.67,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11377,6 +11545,7 @@
    "publisher": "Wiley",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 3.08,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -11385,6 +11554,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 2,
+  "impact_factor": 3.08,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -11555,7 +11725,8 @@
    "openalex_status": "ok",
    "publisher": "Frontiers Media SA",
    "citations": 2,
-   "openalex_citations": 2,
+   "openalex_citations": 4,
+   "impact_factor": 4.66,
    "pmcid_used": "PMC12497860",
    "unmatched": []
   },
@@ -11564,6 +11735,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Frontiers Media SA",
   "citations": 2,
+  "impact_factor": 4.66,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11859,7 +12031,8 @@
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
    "citations": 2,
-   "openalex_citations": 0,
+   "openalex_citations": 3,
+   "impact_factor": 6.18,
    "pmcid_used": "PMC12495861",
    "unmatched": []
   },
@@ -11868,6 +12041,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 2,
+  "impact_factor": 6.18,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -11970,6 +12144,7 @@
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 3,
    "openalex_citations": 3,
+   "impact_factor": 1.2,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -11978,6 +12153,7 @@
   "corresponding_agreement": "",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 3,
+  "impact_factor": 1.2,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -12084,6 +12260,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 7,
    "openalex_citations": 7,
+   "impact_factor": 2.82,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -12092,6 +12269,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 7,
+  "impact_factor": 2.82,
   "campuses": [
    "台中慈濟醫院"
   ],
@@ -12316,6 +12494,7 @@
    "publisher": "Elsevier BV",
    "citations": 5,
    "openalex_citations": 6,
+   "impact_factor": 2.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -12324,6 +12503,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 5,
+  "impact_factor": 2.75,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -12409,6 +12589,7 @@
    "publisher": "Elsevier BV",
    "citations": 6,
    "openalex_citations": 6,
+   "impact_factor": 2.19,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -12417,6 +12598,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 6,
+  "impact_factor": 2.19,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -12550,6 +12732,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 4,
    "openalex_citations": 4,
+   "impact_factor": 3.1,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -12558,6 +12741,7 @@
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 4,
+  "impact_factor": 3.1,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -12643,7 +12827,8 @@
    "openalex_status": "ok",
    "publisher": "Cambridge University Press (CUP)",
    "citations": 0,
-   "openalex_citations": 0,
+   "openalex_citations": 2,
+   "impact_factor": 1.08,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -12652,6 +12837,7 @@
   "corresponding_agreement": "",
   "publisher": "Cambridge University Press (CUP)",
   "citations": 0,
+  "impact_factor": 1.08,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -12778,6 +12964,7 @@
    "publisher": "Croatian Society for Medical Biochemistry and Laboratory Medicine",
    "citations": 3,
    "openalex_citations": 3,
+   "impact_factor": 2.86,
    "pmcid_used": "PMC12334939",
    "unmatched": []
   },
@@ -12786,6 +12973,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Croatian Society for Medical Biochemistry and Laboratory Medicine",
   "citations": 3,
+  "impact_factor": 2.86,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -12914,6 +13102,7 @@
    "publisher": "Springer Science and Business Media LLC",
    "citations": 6,
    "openalex_citations": 6,
+   "impact_factor": 6.54,
    "pmcid_used": "PMC12357886",
    "unmatched": []
   },
@@ -12922,6 +13111,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 6,
+  "impact_factor": 6.54,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13087,6 +13277,7 @@
    "publisher": "MDPI AG",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 4.71,
    "pmcid_used": "PMC12347412",
    "unmatched": []
   },
@@ -13095,6 +13286,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 1,
+  "impact_factor": 4.71,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13257,6 +13449,7 @@
    "publisher": "Wiley",
    "citations": 3,
    "openalex_citations": 3,
+   "impact_factor": 5.84,
    "pmcid_used": "PMC12515756",
    "unmatched": []
   },
@@ -13265,6 +13458,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Wiley",
   "citations": 3,
+  "impact_factor": 5.84,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13388,6 +13582,7 @@
    "publisher": "Elsevier BV",
    "citations": 4,
    "openalex_citations": 4,
+   "impact_factor": 0.89,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -13396,6 +13591,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 4,
+  "impact_factor": 0.89,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -13565,6 +13761,7 @@
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 2.9,
    "pmcid_used": "PMC12306865",
    "unmatched": []
   },
@@ -13573,6 +13770,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Ovid Technologies (Wolters Kluwer Health)",
   "citations": 1,
+  "impact_factor": 2.9,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -13748,6 +13946,7 @@
    "publisher": "MDPI AG",
    "citations": 1,
    "openalex_citations": 1,
+   "impact_factor": 6.13,
    "pmcid_used": "PMC12293121",
    "unmatched": []
   },
@@ -13756,6 +13955,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 1,
+  "impact_factor": 6.13,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -13883,7 +14083,8 @@
    "openalex_status": "ok",
    "publisher": "MDPI AG",
    "citations": 6,
-   "openalex_citations": 5,
+   "openalex_citations": 8,
+   "impact_factor": 6.02,
    "pmcid_used": "PMC12292594",
    "unmatched": []
   },
@@ -13892,6 +14093,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 6,
+  "impact_factor": 6.02,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -14042,7 +14244,8 @@
    "openalex_status": "ok",
    "publisher": "MDPI AG",
    "citations": 2,
-   "openalex_citations": 1,
+   "openalex_citations": 5,
+   "impact_factor": 6.02,
    "pmcid_used": "PMC12292093",
    "unmatched": []
   },
@@ -14051,6 +14254,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 2,
+  "impact_factor": 6.02,
   "campuses": [
    "台北慈濟醫院",
    "慈濟大學"
@@ -14137,7 +14341,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 8,
-   "openalex_citations": 8,
+   "openalex_citations": 10,
+   "impact_factor": 2.12,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -14146,6 +14351,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 8,
+  "impact_factor": 2.12,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -14311,7 +14517,8 @@
    "openalex_status": "nocorr",
    "publisher": "American Medical Association (AMA)",
    "citations": 42,
-   "openalex_citations": 40,
+   "openalex_citations": 42,
+   "impact_factor": 5.26,
    "pmcid_used": "PMC12177727",
    "unmatched": []
   },
@@ -14320,6 +14527,7 @@
   "corresponding_agreement": "",
   "publisher": "American Medical Association (AMA)",
   "citations": 42,
+  "impact_factor": 5.26,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -14482,6 +14690,7 @@
    "publisher": "MDPI AG",
    "citations": 2,
    "openalex_citations": 2,
+   "impact_factor": 7.9,
    "pmcid_used": "PMC12073363",
    "unmatched": []
   },
@@ -14490,6 +14699,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 2,
+  "impact_factor": 7.9,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -14672,6 +14882,7 @@
    "publisher": "MDPI AG",
    "citations": 3,
    "openalex_citations": 3,
+   "impact_factor": 6.13,
    "pmcid_used": "PMC12071158",
    "unmatched": []
   },
@@ -14680,6 +14891,7 @@
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
   "citations": 3,
+  "impact_factor": 6.13,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -14845,7 +15057,8 @@
    "openalex_status": "ok",
    "publisher": "Public Library of Science (PLoS)",
    "citations": 43,
-   "openalex_citations": 34,
+   "openalex_citations": 51,
+   "impact_factor": 11.62,
    "pmcid_used": "PMC12052210",
    "unmatched": []
   },
@@ -14854,6 +15067,7 @@
   "corresponding_agreement": "一致",
   "publisher": "Public Library of Science (PLoS)",
   "citations": 43,
+  "impact_factor": 11.62,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -15038,7 +15252,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 8,
-   "openalex_citations": 7,
+   "openalex_citations": 10,
+   "impact_factor": 2.75,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -15047,6 +15262,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 8,
+  "impact_factor": 2.75,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -15230,14 +15446,14 @@
     ],
     "orcid_pubmed": "",
     "corr_pmc": false,
-    "corr_openalex": true,
+    "corr_openalex": false,
     "orcid": "",
     "campuses": [],
     "emails": [],
     "position": 8,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": false
    },
    {
     "name": "Azin Ghamari",
@@ -15340,7 +15556,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 30,
-   "openalex_citations": 27,
+   "openalex_citations": 34,
+   "impact_factor": 3.25,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -15349,6 +15566,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 30,
+  "impact_factor": 3.25,
   "campuses": [
    "台北慈濟醫院"
   ],
@@ -15356,8 +15574,7 @@
   "first_author_campuses": [],
   "corresponding_authors": [
    "Cho-Han Chiang",
-   "Yuan Ping Hsia",
-   "Cho-Hung Chiang"
+   "Yuan Ping Hsia"
   ],
   "corresponding_campuses": [
    "台北慈濟醫院"
@@ -15510,7 +15727,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 15,
-   "openalex_citations": 15,
+   "openalex_citations": 16,
+   "impact_factor": 1.33,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -15519,6 +15737,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 15,
+  "impact_factor": 1.33,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -15720,7 +15939,8 @@
    "openalex_status": "nocorr",
    "publisher": "Oxford University Press (OUP)",
    "citations": 9,
-   "openalex_citations": 10,
+   "openalex_citations": 11,
+   "impact_factor": 1.56,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -15729,6 +15949,7 @@
   "corresponding_agreement": "",
   "publisher": "Oxford University Press (OUP)",
   "citations": 9,
+  "impact_factor": 1.56,
   "campuses": [
    "花蓮慈濟醫院"
   ],
@@ -15929,7 +16150,8 @@
    "openalex_status": "ok",
    "publisher": "Wiley",
    "citations": 45,
-   "openalex_citations": 43,
+   "openalex_citations": 54,
+   "impact_factor": 5.84,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -15938,6 +16160,7 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 45,
+  "impact_factor": 5.84,
   "campuses": [
    "花蓮慈濟醫院",
    "慈濟大學"
@@ -16075,14 +16298,14 @@
     ],
     "orcid_pubmed": "0000-0002-7910-2338",
     "corr_pmc": false,
-    "corr_openalex": true,
+    "corr_openalex": false,
     "orcid": "0000-0002-7910-2338",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": false
    },
    {
     "name": "Yuan Ping Hsia",
@@ -16131,6 +16354,7 @@
    "publisher": "Wiley",
    "citations": 1,
    "openalex_citations": 3,
+   "impact_factor": 2.89,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -16139,13 +16363,13 @@
   "corresponding_agreement": "",
   "publisher": "Wiley",
   "citations": 1,
+  "impact_factor": 2.89,
   "campuses": [
    "台北慈濟醫院"
   ],
   "first_author": "Yu-Cheng Chang",
   "first_author_campuses": [],
   "corresponding_authors": [
-   "Cho-Hung Chiang",
    "Yuan Ping Hsia",
    "Cho-Han Chiang"
   ],
@@ -16302,7 +16526,8 @@
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
    "citations": 51,
-   "openalex_citations": 46,
+   "openalex_citations": 57,
+   "impact_factor": 1.27,
    "pmcid_used": "",
    "unmatched": []
   },
@@ -16311,6 +16536,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 51,
+  "impact_factor": 1.27,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -16482,7 +16708,7 @@
     "orcid_pubmed": "",
     "corr_pmc": true,
     "corr_openalex": false,
-    "orcid": "0000-0001-6627-9364",
+    "orcid": "0000-0003-4174-5036",
     "corr_email": "yunanhuang83@gmail.com",
     "campuses": [],
     "emails": [
@@ -16500,6 +16726,7 @@
    "publisher": "International Institute of Anticancer Research",
    "citations": 0,
    "openalex_citations": 1,
+   "impact_factor": 2.26,
    "pmcid_used": "PMC10621449",
    "unmatched": []
   },
@@ -16508,6 +16735,7 @@
   "corresponding_agreement": "",
   "publisher": "International Institute of Anticancer Research",
   "citations": 0,
+  "impact_factor": 2.26,
   "campuses": [
    "台中慈濟醫院"
   ],

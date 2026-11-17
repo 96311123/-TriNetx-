@@ -4512,14 +4512,15 @@
      "display_name": "Pen‐Hua Su",
      "is_corresponding": false,
      "name": "PEN-HUA SU",
-     "orcid": "0000-0001-6627-9364",
+     "orcid": "0000-0003-4174-5036",
      "position": "last"
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4388034536",
    "pmcid": "PMC10621449",
+   "source_id": "S115443242",
    "status": "nocorr"
   },
   "38878041": {
@@ -4567,10 +4568,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 46,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "cited_by_count": 57,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4399692682",
    "pmcid": "",
+   "source_id": "S58727509",
    "status": "ok"
   },
   "38981737": {
@@ -4612,13 +4614,6 @@
     },
     {
      "display_name": "Cho‐Hung Chiang",
-     "is_corresponding": true,
-     "name": "Cho‐Hung Chiang",
-     "orcid": "0000-0002-7910-2338",
-     "position": "middle"
-    },
-    {
-     "display_name": "Cho‐Hung Chiang",
      "is_corresponding": false,
      "name": "Cho‐Hung Chiang",
      "orcid": "0000-0002-7910-2338",
@@ -4633,13 +4628,6 @@
     },
     {
      "display_name": "Cho‐Han Chiang",
-     "is_corresponding": false,
-     "name": "Cho‐Han Chiang",
-     "orcid": "0000-0002-5757-6161",
-     "position": "middle"
-    },
-    {
-     "display_name": "Cho‐Han Chiang",
      "is_corresponding": true,
      "name": "Cho‐Han Chiang",
      "orcid": "0000-0002-5757-6161",
@@ -4647,9 +4635,10 @@
     }
    ],
    "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4399922355",
    "pmcid": "",
+   "source_id": "S153015021",
    "status": "ok"
   },
   "39171569": {
@@ -4711,10 +4700,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 43,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "cited_by_count": 54,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4401745416",
    "pmcid": "",
+   "source_id": "S148394532",
    "status": "ok"
   },
   "39585798": {
@@ -4776,10 +4766,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 10,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 11,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4404672948",
    "pmcid": "",
+   "source_id": "S45720283",
    "status": "nocorr"
   },
   "39613228": {
@@ -4827,27 +4818,21 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 15,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "cited_by_count": 16,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4404814383",
    "pmcid": "",
+   "source_id": "S153558830",
    "status": "ok"
   },
   "39709670": {
    "authors": [
     {
      "display_name": "Cho‐Han Chiang",
-     "is_corresponding": false,
+     "is_corresponding": true,
      "name": "Cho-Han Chiang",
      "orcid": "0000-0002-5757-6161",
      "position": "first"
-    },
-    {
-     "display_name": "Cho-Han Chiang",
-     "is_corresponding": true,
-     "name": "Cho-Han Chiang",
-     "orcid": "",
-     "position": "middle"
     },
     {
      "display_name": "Junmin Song",
@@ -4899,13 +4884,6 @@
      "position": "middle"
     },
     {
-     "display_name": "Cho-Hung Chiang",
-     "is_corresponding": true,
-     "name": "Cho-Hung Chiang",
-     "orcid": "",
-     "position": "middle"
-    },
-    {
      "display_name": "Azin Ghamari",
      "is_corresponding": false,
      "name": "Azin Ghamari",
@@ -4941,10 +4919,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 27,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "cited_by_count": 34,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4405284399",
    "pmcid": "",
+   "source_id": "S16731738",
    "status": "ok"
   },
   "40057043": {
@@ -4999,10 +4978,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 7,
-   "fetched_at": "2026-10-10T15:29:34+00:00",
+   "cited_by_count": 10,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4408170409",
    "pmcid": "",
+   "source_id": "S171311646",
    "status": "ok"
   },
   "40245096": {
@@ -5050,10 +5030,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 34,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 51,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4409560188",
-   "pmcid": "",
+   "pmcid": "PMC12052210",
+   "source_id": "S197939330",
    "status": "ok"
   },
   "40361386": {
@@ -5109,9 +5090,10 @@
     }
    ],
    "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4409896093",
-   "pmcid": "",
+   "pmcid": "PMC12071158",
+   "source_id": "S168415115",
    "status": "ok"
   },
   "40362848": {
@@ -5160,9 +5142,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4410007369",
-   "pmcid": "",
+   "pmcid": "PMC12073363",
+   "source_id": "S110785341",
    "status": "ok"
   },
   "40531497": {
@@ -5210,10 +5193,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 40,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 42,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4411413351",
    "pmcid": "PMC12177727",
+   "source_id": "S146641495",
    "status": "nocorr"
   },
   "40701318": {
@@ -5233,10 +5217,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 8,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 10,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4412528542",
    "pmcid": "",
+   "source_id": "S185186944",
    "status": "ok"
   },
   "40722632": {
@@ -5277,10 +5262,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 5,
+   "fetched_at": "2026-11-17T08:08:25+00:00",
    "openalex_id": "W4411700152",
-   "pmcid": "",
+   "pmcid": "PMC12292093",
+   "source_id": "S2737005842",
    "status": "ok"
   },
   "40722700": {
@@ -5314,10 +5300,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 5,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 8,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4412008309",
-   "pmcid": "",
+   "pmcid": "PMC12292594",
+   "source_id": "S2737005842",
    "status": "ok"
   },
   "40723190": {
@@ -5366,9 +5353,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4412191433",
-   "pmcid": "",
+   "pmcid": "PMC12293121",
+   "source_id": "S168415115",
    "status": "ok"
   },
   "40729752": {
@@ -5423,10 +5411,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4412724627",
    "pmcid": "",
+   "source_id": "S19572933",
    "status": "ok"
   },
   "40741611": {
@@ -5475,9 +5464,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4411051498",
-   "pmcid": "",
+   "pmcid": "PMC12306865",
+   "source_id": "S168861512",
    "status": "ok"
   },
   "40753836": {
@@ -5512,9 +5502,10 @@
     }
    ],
    "cited_by_count": 4,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4412707405",
    "pmcid": "",
+   "source_id": "S169054600",
    "status": "ok"
   },
   "40757430": {
@@ -5563,9 +5554,10 @@
     }
    ],
    "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4412943760",
-   "pmcid": "",
+   "pmcid": "PMC12515756",
+   "source_id": "S148394532",
    "status": "ok"
   },
   "40807197": {
@@ -5614,9 +5606,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4413038983",
-   "pmcid": "",
+   "pmcid": "PMC12347412",
+   "source_id": "S2737969411",
    "status": "ok"
   },
   "40818996": {
@@ -5651,9 +5644,10 @@
     }
    ],
    "cited_by_count": 6,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4413270399",
-   "pmcid": "",
+   "pmcid": "PMC12357886",
+   "source_id": "S196734849",
    "status": "ok"
   },
   "40822843": {
@@ -5688,9 +5682,10 @@
     }
    ],
    "cited_by_count": 3,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4413036870",
    "pmcid": "PMC12334939",
+   "source_id": "S185467459",
    "status": "ok"
   },
   "40859911": {
@@ -5710,10 +5705,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 2,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4413740954",
    "pmcid": "",
+   "source_id": "S159891131",
    "status": "ok"
   },
   "40938392": {
@@ -5748,9 +5744,10 @@
     }
    ],
    "cited_by_count": 4,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414160402",
    "pmcid": "",
+   "source_id": "S90626604",
    "status": "ok"
   },
   "40967057": {
@@ -5771,9 +5768,10 @@
     }
    ],
    "cited_by_count": 6,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414243437",
    "pmcid": "",
+   "source_id": "S165396890",
    "status": "ok"
   },
   "40976497": {
@@ -5843,9 +5841,10 @@
     }
    ],
    "cited_by_count": 6,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414399326",
    "pmcid": "",
+   "source_id": "S171311646",
    "status": "ok"
   },
   "41014190": {
@@ -5866,9 +5865,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414564593",
    "pmcid": "",
+   "source_id": "S57131103",
    "status": "ok"
   },
   "41021093": {
@@ -5896,9 +5896,10 @@
     }
    ],
    "cited_by_count": 7,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414625414",
    "pmcid": "",
+   "source_id": "S44888363",
    "status": "ok"
   },
   "41025681": {
@@ -5926,9 +5927,10 @@
     }
    ],
    "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414659394",
    "pmcid": "",
+   "source_id": "S2893128",
    "status": "ok"
   },
   "41044787": {
@@ -6025,10 +6027,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414794079",
-   "pmcid": "",
+   "pmcid": "PMC12495861",
+   "source_id": "S52792101",
    "status": "ok"
   },
   "41058624": {
@@ -6076,10 +6079,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 4,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4414397754",
-   "pmcid": "",
+   "pmcid": "PMC12497860",
+   "source_id": "S2597052008",
    "status": "ok"
   },
   "41091540": {
@@ -6100,9 +6104,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4415225064",
    "pmcid": "",
+   "source_id": "S2506670899",
    "status": "ok"
   },
   "41105233": {
@@ -6150,10 +6155,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 5,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 7,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4415283598",
    "pmcid": "",
+   "source_id": "S183989336",
    "status": "ok"
   },
   "41105984": {
@@ -6187,10 +6193,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4415333255",
    "pmcid": "",
+   "source_id": "S1995308",
    "status": "nocorr"
   },
   "41108405": {
@@ -6211,9 +6218,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4415333107",
-   "pmcid": "",
+   "pmcid": "PMC12547140",
+   "source_id": "S83029640",
    "status": "ok"
   },
   "41167602": {
@@ -6233,10 +6241,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 1,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4415717868",
    "pmcid": "",
+   "source_id": "S96726197",
    "status": "nocorr"
   },
   "41180502": {
@@ -6263,10 +6272,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 8,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 9,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4408549823",
-   "pmcid": "",
+   "pmcid": "PMC12574988",
+   "source_id": "S168861512",
    "status": "ok"
   },
   "41209548": {
@@ -6329,9 +6339,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4416016268",
    "pmcid": "PMC12595327",
+   "source_id": "S46225466",
    "status": "ok"
   },
   "41225710": {
@@ -6347,7 +6358,7 @@
      "display_name": "Kian-Hwee Chong",
      "is_corresponding": false,
      "name": "Kian-Hwee Chong",
-     "orcid": "",
+     "orcid": "0000-0002-3157-6411",
      "position": "middle"
     },
     {
@@ -6358,10 +6369,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 2,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4416195213",
    "pmcid": "",
+   "source_id": "S201064403",
    "status": "ok"
   },
   "41242897": {
@@ -6381,10 +6393,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 5,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 6,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4416197529",
    "pmcid": "",
+   "source_id": "S193617204",
    "status": "ok"
   },
   "41252340": {
@@ -6405,9 +6418,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4416323410",
    "pmcid": "",
+   "source_id": "S43436036",
    "status": "nocorr"
   },
   "41344335": {
@@ -6476,10 +6490,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417012700",
-   "pmcid": "",
+   "pmcid": "PMC12679846",
+   "source_id": "S159051371",
    "status": "ok"
   },
   "41364874": {
@@ -6562,10 +6577,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 1,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417173817",
    "pmcid": "",
+   "source_id": "S4210202425",
    "status": "nocorr"
   },
   "41364963": {
@@ -6586,9 +6602,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417093571",
    "pmcid": "",
+   "source_id": "S165396890",
    "status": "ok"
   },
   "41366181": {
@@ -6609,9 +6626,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417173992",
    "pmcid": "",
+   "source_id": "S44888363",
    "status": "ok"
   },
   "41387113": {
@@ -6673,10 +6691,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 4,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 8,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417289743",
-   "pmcid": "",
+   "pmcid": "PMC12931237",
+   "source_id": "S2737737698",
    "status": "ok"
   },
   "41427560": {
@@ -6697,9 +6716,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7116798248",
    "pmcid": "",
+   "source_id": "S44433048",
    "status": "ok"
   },
   "41445831": {
@@ -6769,9 +6789,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W4417162298",
-   "pmcid": "",
+   "pmcid": "PMC12723871",
+   "source_id": "S2596909297",
    "status": "ok"
   },
   "41453566": {
@@ -6826,10 +6847,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 6,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7117265128",
    "pmcid": "",
+   "source_id": "S171311646",
    "status": "ok"
   },
   "41457357": {
@@ -6871,9 +6893,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7117455908",
    "pmcid": "",
+   "source_id": "S148394532",
    "status": "ok"
   },
   "41490291": {
@@ -6936,9 +6959,10 @@
     }
    ],
    "cited_by_count": 6,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7118243274",
-   "pmcid": "",
+   "pmcid": "PMC13391088",
+   "source_id": "S139075330",
    "status": "ok"
   },
   "41493687": {
@@ -6959,9 +6983,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7119028298",
    "pmcid": "",
+   "source_id": "S76249319",
    "status": "ok"
   },
   "41555749": {
@@ -6988,10 +7013,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 11,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 18,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7124879941",
-   "pmcid": "",
+   "pmcid": "PMC12821341",
+   "source_id": "S203391715",
    "status": "ok"
   },
   "41599875": {
@@ -7032,10 +7058,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7124154979",
-   "pmcid": "",
+   "pmcid": "PMC12844972",
+   "source_id": "S110785341",
    "status": "ok"
   },
   "41609863": {
@@ -7056,9 +7083,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7126020981",
    "pmcid": "",
+   "source_id": "S25178087",
    "status": "ok"
   },
   "41651215": {
@@ -7072,9 +7100,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7127646617",
    "pmcid": "",
+   "source_id": "S126162762",
    "status": "ok"
   },
   "41658601": {
@@ -7115,10 +7144,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 4,
-   "fetched_at": "2026-10-10T15:29:33+00:00",
+   "cited_by_count": 6,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7125411773",
-   "pmcid": "",
+   "pmcid": "PMC12872890",
+   "source_id": "S2597052008",
    "status": "ok"
   },
   "41719970": {
@@ -7139,9 +7169,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7129101584",
    "pmcid": "",
+   "source_id": "S165396890",
    "status": "ok"
   },
   "41721987": {
@@ -7175,10 +7206,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 12,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 13,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7130832273",
    "pmcid": "",
+   "source_id": "S48690275",
    "status": "ok"
   },
   "41722866": {
@@ -7205,10 +7237,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7130508224",
    "pmcid": "",
+   "source_id": "S58727509",
    "status": "ok"
   },
   "41743061": {
@@ -7250,9 +7283,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7128469555",
    "pmcid": "PMC12929110",
+   "source_id": "S2596909297",
    "status": "ok"
   },
   "41753118": {
@@ -7294,9 +7328,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7128689744",
-   "pmcid": "",
+   "pmcid": "PMC12942526",
+   "source_id": "S2737969411",
    "status": "ok"
   },
   "41762410": {
@@ -7310,9 +7345,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:24+00:00",
    "openalex_id": "W7132844822",
    "pmcid": "",
+   "source_id": "S76249319",
    "status": "ok"
   },
   "41830903": {
@@ -7360,10 +7396,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 3,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 6,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7135383376",
    "pmcid": "",
+   "source_id": "S159852663",
    "status": "ok"
   },
   "41901672": {
@@ -7384,9 +7421,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7139917542",
-   "pmcid": "",
+   "pmcid": "PMC13028217",
+   "source_id": "S1008817457",
    "status": "ok"
   },
   "41905181": {
@@ -7407,9 +7445,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7141970772",
    "pmcid": "",
+   "source_id": "S71791848",
    "status": "ok"
   },
   "41913376": {
@@ -7430,9 +7469,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7144388308",
    "pmcid": "",
+   "source_id": "S154207414",
    "status": "ok"
   },
   "41915606": {
@@ -7445,10 +7485,11 @@
      "position": "first"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7147415621",
    "pmcid": "",
+   "source_id": "S130320380",
    "status": "ok"
   },
   "41918007": {
@@ -7518,9 +7559,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7143707082",
-   "pmcid": "",
+   "pmcid": "PMC13159298",
+   "source_id": "S160567915",
    "status": "ok"
   },
   "41923358": {
@@ -7534,9 +7576,10 @@
     }
    ],
    "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7148406777",
    "pmcid": "",
+   "source_id": "S183989336",
    "status": "ok"
   },
   "41938481": {
@@ -7550,9 +7593,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7131268563",
-   "pmcid": "",
+   "pmcid": "PMC13049402",
+   "source_id": "S2764731433",
    "status": "ok"
   },
   "42000667": {
@@ -7573,9 +7617,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7154491945",
    "pmcid": "",
+   "source_id": "S17762386",
    "status": "ok"
   },
   "42035811": {
@@ -7624,9 +7669,10 @@
     }
    ],
    "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7155525966",
    "pmcid": "",
+   "source_id": "S102243518",
    "status": "ok"
   },
   "42040918": {
@@ -7640,9 +7686,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7155358187",
-   "pmcid": "",
+   "pmcid": "PMC13103276",
+   "source_id": "S4210188016",
    "status": "ok"
   },
   "42066741": {
@@ -7656,9 +7703,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7159798991",
    "pmcid": "",
+   "source_id": "S71791848",
    "status": "ok"
   },
   "42080079": {
@@ -7707,9 +7755,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7150139263",
    "pmcid": "PMC13133889",
+   "source_id": "S46225466",
    "status": "ok"
   },
   "42082123": {
@@ -7737,9 +7786,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7160235356",
    "pmcid": "",
+   "source_id": "S102243518",
    "status": "ok"
   },
   "42090641": {
@@ -7823,9 +7873,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7160404689",
    "pmcid": "",
+   "source_id": "S4210202425",
    "status": "nocorr"
   },
   "42121573": {
@@ -7853,9 +7904,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7155362409",
-   "pmcid": "",
+   "pmcid": "PMC13163481",
+   "source_id": "S4210214101",
    "status": "ok"
   },
   "42158815": {
@@ -7897,9 +7949,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7160151335",
    "pmcid": "PMC13181386",
+   "source_id": "S46225466",
    "status": "ok"
   },
   "42160992": {
@@ -7920,9 +7973,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7161827232",
    "pmcid": "",
+   "source_id": "S71791848",
    "status": "ok"
   },
   "42195188": {
@@ -7957,9 +8011,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7162305918",
    "pmcid": "PMC13208848",
+   "source_id": "S1008817457",
    "status": "ok"
   },
   "42198424": {
@@ -7994,9 +8049,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7162106827",
    "pmcid": "PMC13210746",
+   "source_id": "S16322639",
    "status": "ok"
   },
   "42287777": {
@@ -8045,9 +8101,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7164766850",
    "pmcid": "",
+   "source_id": "S4210186504",
    "status": "ok"
   },
   "42312779": {
@@ -8061,9 +8118,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7165043508",
-   "pmcid": "",
+   "pmcid": "PMC13308222",
+   "source_id": "S4220651314",
    "status": "ok"
   },
   "42314565": {
@@ -8072,7 +8130,7 @@
      "display_name": "Kian-Hwee Chong",
      "is_corresponding": false,
      "name": "Kian-Hwee Chong",
-     "orcid": "",
+     "orcid": "0000-0002-3157-6411",
      "position": "first"
     },
     {
@@ -8119,9 +8177,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7164936230",
-   "pmcid": "",
+   "pmcid": "PMC13311794",
+   "source_id": "S181123643",
    "status": "ok"
   },
   "42328118": {
@@ -8184,9 +8243,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7164032151",
    "pmcid": "PMC13280741",
+   "source_id": "S46225466",
    "status": "ok"
   },
   "42332278": {
@@ -8235,9 +8295,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7165576161",
    "pmcid": "",
+   "source_id": "S175814247",
    "status": "ok"
   },
   "42348717": {
@@ -8258,9 +8319,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7165863206",
    "pmcid": "",
+   "source_id": "S52165136",
    "status": "nocorr"
   },
   "42360816": {
@@ -8281,9 +8343,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7166155339",
    "pmcid": "",
+   "source_id": "S5382288",
    "status": "ok"
   },
   "42400648": {
@@ -8331,10 +8394,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 1,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 2,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7167353458",
-   "pmcid": "",
+   "pmcid": "PMC13612769",
+   "source_id": "S203303425",
    "status": "ok"
   },
   "42404804": {
@@ -8382,10 +8446,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7167355155",
-   "pmcid": "",
+   "pmcid": "PMC13332288",
+   "source_id": "S114986954",
    "status": "ok"
   },
   "42423818": {
@@ -8406,9 +8471,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7167816935",
-   "pmcid": "",
+   "pmcid": "PMC13638875",
+   "source_id": "S2764371953",
    "status": "ok"
   },
   "42454708": {
@@ -8422,9 +8488,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7168409409",
    "pmcid": "",
+   "source_id": "S69483707",
    "status": "ok"
   },
   "42512659": {
@@ -8452,9 +8519,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7168724996",
-   "pmcid": "",
+   "pmcid": "PMC13409890",
+   "source_id": "S4210214101",
    "status": "ok"
   },
   "42519970": {
@@ -8517,9 +8585,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7171497662",
    "pmcid": "PMC13668229",
+   "source_id": "S184267533",
    "status": "nocorr"
   },
   "42525112": {
@@ -8533,9 +8602,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7171647957",
    "pmcid": "",
+   "source_id": "S170889201",
    "status": "ok"
   },
   "42542195": {
@@ -8549,9 +8619,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7172221413",
    "pmcid": "",
+   "source_id": "S102243518",
    "status": "ok"
   },
   "42546867": {
@@ -8599,10 +8670,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 2,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 3,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7172309711",
    "pmcid": "",
+   "source_id": "S50016660",
    "status": "ok"
   },
   "42569116": {
@@ -8616,9 +8688,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7171644231",
-   "pmcid": "",
+   "pmcid": "PMC13449368",
+   "source_id": "S2898327595",
    "status": "ok"
   },
   "42573076": {
@@ -8660,9 +8733,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7202097320",
    "pmcid": "",
+   "source_id": "S87184256",
    "status": "ok"
   },
   "42575952": {
@@ -8732,9 +8806,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7202082834",
    "pmcid": "",
+   "source_id": "S149476849",
    "status": "ok"
   },
   "42587612": {
@@ -8811,9 +8886,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7171593776",
-   "pmcid": "",
+   "pmcid": "PMC13464869",
+   "source_id": "S4210172076",
    "status": "ok"
   },
   "42627966": {
@@ -8833,10 +8909,11 @@
      "position": "last"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-11-09T06:21:10+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7203895563",
    "pmcid": "",
+   "source_id": "S43893605",
    "status": "nocorr"
   },
   "42666597": {
@@ -8850,9 +8927,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7204493600",
-   "pmcid": "",
+   "pmcid": "PMC13522673",
+   "source_id": "S32190847",
    "status": "ok"
   },
   "42722558": {
@@ -8865,10 +8943,11 @@
      "position": "first"
     }
    ],
-   "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "cited_by_count": 1,
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7212189758",
    "pmcid": "",
+   "source_id": "S4802544",
    "status": "ok"
   },
   "42735295": {
@@ -8882,9 +8961,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-10-10T15:29:32+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7212597540",
-   "pmcid": "",
+   "pmcid": "PMC13574320",
+   "source_id": "S134892809",
    "status": "ok"
   },
   "42943347": {
@@ -8919,9 +8999,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-02T05:58:22+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7222958264",
    "pmcid": "PMC13708528",
+   "source_id": "S16322639",
    "status": "ok"
   },
   "42961971": {
@@ -8949,9 +9030,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-02T05:58:22+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7224734317",
-   "pmcid": "",
+   "pmcid": "PMC13722328",
+   "source_id": "S202381698",
    "status": "ok"
   },
   "42995535": {
@@ -8976,9 +9058,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-16T06:23:27+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7225728706",
    "pmcid": "",
+   "source_id": "S4210196242",
    "status": "ok"
   },
   "43010906": {
@@ -9055,9 +9138,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-16T06:23:27+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7224001317",
    "pmcid": "PMC13747840",
+   "source_id": "S2597401208",
    "status": "ok"
   },
   "43012889": {
@@ -9071,9 +9155,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-16T06:23:27+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7225802618",
    "pmcid": "",
+   "source_id": "S54672533",
    "status": "ok"
   },
   "43017182": {
@@ -9094,9 +9179,10 @@
     }
    ],
    "cited_by_count": 0,
-   "fetched_at": "2026-11-16T06:23:27+00:00",
+   "fetched_at": "2026-11-17T08:08:23+00:00",
    "openalex_id": "W7224749251",
    "pmcid": "PMC13753582",
+   "source_id": "S4210224575",
    "status": "ok"
   }
  },
@@ -9987,6 +10073,524 @@
    "note": "contrib-flag",
    "pmcid": "PMC13753582",
    "source": "europepmc",
+   "status": "ok"
+  }
+ },
+ "sources": {
+  "S1008817457": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.58,
+   "name": "Medicina",
+   "status": "ok"
+  },
+  "S102243518": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.49,
+   "name": "Brain Behavior and Immunity",
+   "status": "ok"
+  },
+  "S110785341": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 7.9,
+   "name": "Nutrients",
+   "status": "ok"
+  },
+  "S114986954": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 9.72,
+   "name": "Therapeutic Advances in Endocrinology and Metabolism",
+   "status": "ok"
+  },
+  "S115443242": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.26,
+   "name": "In Vivo",
+   "status": "ok"
+  },
+  "S126162762": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.6,
+   "name": "Canadian Journal of Cardiology",
+   "status": "ok"
+  },
+  "S130320380": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.52,
+   "name": "Pediatric Neurosurgery",
+   "status": "ok"
+  },
+  "S134892809": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.92,
+   "name": "International Journal of Urology",
+   "status": "ok"
+  },
+  "S139075330": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 0.36,
+   "name": "QJM",
+   "status": "ok"
+  },
+  "S146641495": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.26,
+   "name": "JAMA Dermatology",
+   "status": "ok"
+  },
+  "S148394532": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.84,
+   "name": "Diabetes Obesity and Metabolism",
+   "status": "ok"
+  },
+  "S149476849": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 7.05,
+   "name": "Leukemia",
+   "status": "ok"
+  },
+  "S153015021": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.89,
+   "name": "British Journal of Haematology",
+   "status": "ok"
+  },
+  "S153558830": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.33,
+   "name": "Annals of Allergy Asthma & Immunology",
+   "status": "ok"
+  },
+  "S154207414": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.65,
+   "name": "Human Psychopharmacology Clinical and Experimental",
+   "status": "ok"
+  },
+  "S159051371": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.48,
+   "name": "Renal Failure",
+   "status": "ok"
+  },
+  "S159852663": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.32,
+   "name": "Clinical Pharmacology & Therapeutics",
+   "status": "ok"
+  },
+  "S159891131": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.08,
+   "name": "Cardiology in the Young",
+   "status": "ok"
+  },
+  "S160567915": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.73,
+   "name": "Journal of Orthopaedic Surgery and Research",
+   "status": "ok"
+  },
+  "S16322639": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 7.51,
+   "name": "Pharmaceuticals",
+   "status": "ok"
+  },
+  "S165396890": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.19,
+   "name": "Clinical Neurology and Neurosurgery",
+   "status": "ok"
+  },
+  "S16731738": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.25,
+   "name": "European Journal of Cancer",
+   "status": "ok"
+  },
+  "S168415115": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.13,
+   "name": "Cancers",
+   "status": "ok"
+  },
+  "S168861512": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.9,
+   "name": "Tzu Chi Medical Journal",
+   "status": "ok"
+  },
+  "S169054600": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 0.89,
+   "name": "Journal of the Neurological Sciences",
+   "status": "ok"
+  },
+  "S170889201": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.58,
+   "name": "Osteoporosis International",
+   "status": "ok"
+  },
+  "S171311646": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.75,
+   "name": "Diabetes Research and Clinical Practice",
+   "status": "ok"
+  },
+  "S175814247": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.77,
+   "name": "Journal of Neurology",
+   "status": "ok"
+  },
+  "S17762386": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.16,
+   "name": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+   "status": "ok"
+  },
+  "S181123643": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.03,
+   "name": "The Breast",
+   "status": "ok"
+  },
+  "S183989336": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.72,
+   "name": "Rheumatology",
+   "status": "ok"
+  },
+  "S184267533": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.41,
+   "name": "Clinical Journal of the American Society of Nephrology",
+   "status": "ok"
+  },
+  "S185186944": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.12,
+   "name": "The American Journal of Cardiology",
+   "status": "ok"
+  },
+  "S185467459": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.86,
+   "name": "Biochemia Medica",
+   "status": "ok"
+  },
+  "S193617204": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 0.87,
+   "name": "Pancreatology",
+   "status": "ok"
+  },
+  "S19572933": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.03,
+   "name": "Retina",
+   "status": "ok"
+  },
+  "S196734849": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.54,
+   "name": "Scientific Reports",
+   "status": "ok"
+  },
+  "S197939330": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 11.62,
+   "name": "PLoS Medicine",
+   "status": "ok"
+  },
+  "S1995308": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.67,
+   "name": "Journal of neurosurgery",
+   "status": "ok"
+  },
+  "S201064403": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.34,
+   "name": "European Journal of Preventive Cardiology",
+   "status": "ok"
+  },
+  "S202381698": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.3,
+   "name": "PLoS ONE",
+   "status": "ok"
+  },
+  "S203303425": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.36,
+   "name": "Cancer Immunology Immunotherapy",
+   "status": "ok"
+  },
+  "S203391715": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.18,
+   "name": "Annals of Medicine",
+   "status": "ok"
+  },
+  "S2506670899": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.08,
+   "name": "International Forum of Allergy & Rhinology",
+   "status": "ok"
+  },
+  "S25178087": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.71,
+   "name": "Pediatric Nephrology",
+   "status": "ok"
+  },
+  "S2596909297": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.76,
+   "name": "Frontiers in Nutrition",
+   "status": "ok"
+  },
+  "S2597052008": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.66,
+   "name": "Frontiers in Medicine",
+   "status": "ok"
+  },
+  "S2597401208": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.73,
+   "name": "Frontiers in Endocrinology",
+   "status": "ok"
+  },
+  "S2737005842": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.02,
+   "name": "Biomedicines",
+   "status": "ok"
+  },
+  "S2737737698": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 13.61,
+   "name": "Advanced Science",
+   "status": "ok"
+  },
+  "S2737969411": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.71,
+   "name": "Journal of Clinical Medicine",
+   "status": "ok"
+  },
+  "S2764371953": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.7,
+   "name": "Journal of Epidemiology and Global Health",
+   "status": "ok"
+  },
+  "S2764731433": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.08,
+   "name": "Journal of Vascular Surgery Cases and Innovative Techniques",
+   "status": "ok"
+  },
+  "S2893128": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.2,
+   "name": "Journal of Pediatric Orthopaedics B",
+   "status": "ok"
+  },
+  "S2898327595": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.26,
+   "name": "Mayo Clinic Proceedings Innovations Quality & Outcomes",
+   "status": "ok"
+  },
+  "S32190847": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.54,
+   "name": "Geriatric Orthopaedic Surgery & Rehabilitation",
+   "status": "ok"
+  },
+  "S4210172076": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 5.91,
+   "name": "Diagnostics",
+   "status": "ok"
+  },
+  "S4210186504": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.84,
+   "name": "Cancer Treatment and Research Communications",
+   "status": "ok"
+  },
+  "S4210188016": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.38,
+   "name": "Health Science Reports",
+   "status": "ok"
+  },
+  "S4210196242": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.9,
+   "name": "Infectious Diseases Now",
+   "status": "ok"
+  },
+  "S4210202425": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.76,
+   "name": "JCO Oncology Practice",
+   "status": "ok"
+  },
+  "S4210214101": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.15,
+   "name": "Healthcare",
+   "status": "ok"
+  },
+  "S4210224575": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 7.18,
+   "name": "Obesity Pillars",
+   "status": "ok"
+  },
+  "S4220651314": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.71,
+   "name": "JACC Advances",
+   "status": "ok"
+  },
+  "S43436036": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.86,
+   "name": "Cerebrovascular Diseases",
+   "status": "ok"
+  },
+  "S43893605": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.98,
+   "name": "Postgraduate Medical Journal",
+   "status": "ok"
+  },
+  "S44433048": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.98,
+   "name": "Journal of Pediatric Orthopaedics",
+   "status": "ok"
+  },
+  "S44888363": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.82,
+   "name": "Clinical Rheumatology",
+   "status": "ok"
+  },
+  "S45720283": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.56,
+   "name": "British Journal of Dermatology",
+   "status": "ok"
+  },
+  "S46225466": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.35,
+   "name": "International Journal of Medical Sciences",
+   "status": "ok"
+  },
+  "S4802544": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.82,
+   "name": "Urologic Oncology Seminars and Original Investigations",
+   "status": "ok"
+  },
+  "S48690275": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 7.09,
+   "name": "European Journal of Epidemiology",
+   "status": "ok"
+  },
+  "S50016660": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.12,
+   "name": "American Journal of Ophthalmology",
+   "status": "ok"
+  },
+  "S52165136": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.36,
+   "name": "Family Practice",
+   "status": "ok"
+  },
+  "S52792101": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 6.18,
+   "name": "Diabetology & Metabolic Syndrome",
+   "status": "ok"
+  },
+  "S5382288": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.77,
+   "name": "International Journal of Cancer",
+   "status": "ok"
+  },
+  "S54672533": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.33,
+   "name": "European Journal of Orthopaedic Surgery & Traumatology",
+   "status": "ok"
+  },
+  "S57131103": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 0.94,
+   "name": "Journal of Burn Care & Research",
+   "status": "ok"
+  },
+  "S58727509": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.27,
+   "name": "Journal of the American Academy of Dermatology",
+   "status": "ok"
+  },
+  "S69483707": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.52,
+   "name": "Journal of Clinical Gastroenterology",
+   "status": "ok"
+  },
+  "S71791848": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.75,
+   "name": "Cancer Epidemiology",
+   "status": "ok"
+  },
+  "S76249319": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 2.52,
+   "name": "Journal of Gastrointestinal Cancer",
+   "status": "ok"
+  },
+  "S83029640": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 4.05,
+   "name": "Therapeutic Advances in Respiratory Disease",
+   "status": "ok"
+  },
+  "S87184256": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 1.6,
+   "name": "Acta Clinica Belgica",
+   "status": "ok"
+  },
+  "S90626604": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.1,
+   "name": "European Journal of Trauma and Emergency Surgery",
+   "status": "ok"
+  },
+  "S96726197": {
+   "fetched_at": "2026-11-17T08:08:25+00:00",
+   "impact_factor": 3.79,
+   "name": "Seminars in Thrombosis and Hemostasis",
    "status": "ok"
   }
  }
