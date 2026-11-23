@@ -46,7 +46,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:26+00:00",
+   "fetched_at": "2026-11-23T07:33:34+00:00",
    "license": [],
    "publisher": "International Institute of Anticancer Research",
    "status": "ok",
@@ -92,7 +92,7 @@
     }
    ],
    "citations": 51,
-   "fetched_at": "2026-11-16T06:24:26+00:00",
+   "fetched_at": "2026-11-23T07:33:33+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -152,7 +152,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "fetched_at": "2026-11-23T07:33:33+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -212,7 +212,7 @@
     }
    ],
    "citations": 45,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "fetched_at": "2026-11-23T07:33:33+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -272,7 +272,7 @@
     }
    ],
    "citations": 9,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "fetched_at": "2026-11-23T07:33:33+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -320,7 +320,7 @@
     }
    ],
    "citations": 15,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "fetched_at": "2026-11-23T07:33:32+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -409,8 +409,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 30,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "citations": 31,
+   "fetched_at": "2026-11-23T07:33:32+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -463,8 +463,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 8,
-   "fetched_at": "2026-11-16T06:24:25+00:00",
+   "citations": 9,
+   "fetched_at": "2026-11-23T07:33:32+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -512,7 +512,7 @@
     }
    ],
    "citations": 43,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:32+00:00",
    "license": [
     "http://creativecommons.org/licenses/by/4.0/"
    ],
@@ -566,7 +566,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:31+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -614,7 +614,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:31+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -661,8 +661,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 42,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "citations": 43,
+   "fetched_at": "2026-11-23T07:33:31+00:00",
    "license": [],
    "publisher": "American Medical Association (AMA)",
    "status": "ok",
@@ -684,7 +684,7 @@
     }
    ],
    "citations": 8,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:31+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -726,7 +726,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:30+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -762,7 +762,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:24+00:00",
+   "fetched_at": "2026-11-23T07:33:30+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -810,7 +810,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:30+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -864,7 +864,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:30+00:00",
    "license": [],
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "status": "ok",
@@ -910,7 +910,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:29+00:00",
    "license": [
     "http://creativecommons.org/licenses/by-nc-sa/4.0"
    ],
@@ -946,7 +946,7 @@
     }
    ],
    "citations": 4,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:29+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -994,7 +994,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:29+00:00",
    "license": [
     "http://creativecommons.org/licenses/by-nc/4.0/"
    ],
@@ -1042,7 +1042,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:23+00:00",
+   "fetched_at": "2026-11-23T07:33:29+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -1078,7 +1078,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:29+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -1114,7 +1114,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:28+00:00",
    "license": [],
    "publisher": "Croatian Society for Medical Biochemistry and Laboratory Medicine",
    "status": "ok",
@@ -1136,7 +1136,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:28+00:00",
    "license": [
     "https://www.cambridge.org/core/terms"
    ],
@@ -1172,7 +1172,7 @@
     }
    ],
    "citations": 4,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:28+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -1196,7 +1196,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:28+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -1262,7 +1262,7 @@
     }
    ],
    "citations": 5,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:27+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -1286,7 +1286,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:22+00:00",
+   "fetched_at": "2026-11-23T07:33:27+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -1316,7 +1316,7 @@
     }
    ],
    "citations": 7,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:27+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -1346,7 +1346,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:27+00:00",
    "license": [],
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "status": "ok",
@@ -1434,7 +1434,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:26+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -1482,7 +1482,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:26+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -1506,7 +1506,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:26+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -1554,7 +1554,7 @@
     }
    ],
    "citations": 5,
-   "fetched_at": "2026-11-16T06:24:21+00:00",
+   "fetched_at": "2026-11-23T07:33:26+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -1590,7 +1590,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:25+00:00",
    "license": [],
    "publisher": "Journal of Neurosurgery Publishing Group (JNSPG)",
    "status": "ok",
@@ -1612,7 +1612,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:25+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0/"
    ],
@@ -1636,7 +1636,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:25+00:00",
    "license": [],
    "publisher": "Georg Thieme Verlag KG",
    "status": "ok",
@@ -1664,7 +1664,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:25+00:00",
    "license": [
     "http://creativecommons.org/licenses/by-nc-sa/4.0"
    ],
@@ -1724,7 +1724,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:24+00:00",
    "license": [],
    "publisher": "Ivyspring International Publisher",
    "status": "ok",
@@ -1752,7 +1752,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:20+00:00",
+   "fetched_at": "2026-11-23T07:33:24+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -1776,7 +1776,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:24+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -1800,7 +1800,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:24+00:00",
    "license": [
     "https://karger.com/pages/terms-and-conditions"
    ],
@@ -1866,7 +1866,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:23+00:00",
    "license": [
     "http://creativecommons.org/licenses/by/4.0/"
    ],
@@ -1944,7 +1944,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:23+00:00",
    "license": [],
    "publisher": "American Society of Clinical Oncology (ASCO)",
    "status": "ok",
@@ -1966,7 +1966,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:23+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -1990,7 +1990,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:19+00:00",
+   "fetched_at": "2026-11-23T07:33:23+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -2050,7 +2050,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:22+00:00",
    "license": [
     "http://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2074,7 +2074,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:22+00:00",
    "license": [],
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "status": "ok",
@@ -2138,7 +2138,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:22+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2192,7 +2192,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:22+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2234,7 +2234,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:21+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -2294,7 +2294,7 @@
     }
    ],
    "citations": 6,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:21+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2318,7 +2318,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:18+00:00",
+   "fetched_at": "2026-11-23T07:33:21+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -2347,8 +2347,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 18,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "citations": 21,
+   "fetched_at": "2026-11-23T07:33:21+00:00",
    "license": [
     "http://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2390,7 +2390,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "fetched_at": "2026-11-23T07:33:20+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2414,7 +2414,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "fetched_at": "2026-11-23T07:33:20+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -2432,7 +2432,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "fetched_at": "2026-11-23T07:33:20+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2474,7 +2474,7 @@
     }
    ],
    "citations": 5,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "fetched_at": "2026-11-23T07:33:20+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2498,7 +2498,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:17+00:00",
+   "fetched_at": "2026-11-23T07:33:19+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2533,8 +2533,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 13,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "citations": 15,
+   "fetched_at": "2026-11-23T07:33:19+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -2564,7 +2564,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "fetched_at": "2026-11-23T07:33:19+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2606,7 +2606,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "fetched_at": "2026-11-23T07:33:19+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2647,8 +2647,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 1,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "citations": 2,
+   "fetched_at": "2026-11-23T07:33:18+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2666,7 +2666,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "fetched_at": "2026-11-23T07:33:18+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -2713,8 +2713,8 @@
      "sequence": "additional"
     }
    ],
-   "citations": 5,
-   "fetched_at": "2026-11-16T06:24:16+00:00",
+   "citations": 7,
+   "fetched_at": "2026-11-23T07:33:18+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -2738,7 +2738,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:18+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -2762,7 +2762,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:17+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2786,7 +2786,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:17+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -2799,14 +2799,14 @@
     {
      "family": "Wang",
      "given": "Joshua",
-     "orcid": "0000-0002-9458-5665",
+     "orcid": "",
      "sequence": "first"
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:17+00:00",
    "license": [
-    "https://karger.com/pages/terms-and-conditions"
+    "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
    "publisher": "S. Karger AG",
    "status": "ok",
@@ -2870,7 +2870,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:17+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -2888,7 +2888,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:15+00:00",
+   "fetched_at": "2026-11-23T07:33:16+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -2906,7 +2906,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:16+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2930,7 +2930,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:16+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2978,7 +2978,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:16+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -2996,7 +2996,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:15+00:00",
    "license": [
     "http://creativecommons.org/licenses/by-nc/4.0/"
    ],
@@ -3014,7 +3014,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:15+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3062,7 +3062,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:14+00:00",
+   "fetched_at": "2026-11-23T07:33:15+00:00",
    "license": [],
    "publisher": "Ivyspring International Publisher",
    "status": "ok",
@@ -3090,7 +3090,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:15+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3168,7 +3168,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:14+00:00",
    "license": [],
    "publisher": "American Society of Clinical Oncology (ASCO)",
    "status": "ok",
@@ -3196,7 +3196,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:14+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -3238,7 +3238,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:14+00:00",
    "license": [],
    "publisher": "Ivyspring International Publisher",
    "status": "ok",
@@ -3260,7 +3260,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:14+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3296,7 +3296,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:13+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -3332,7 +3332,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:13+00:00",
+   "fetched_at": "2026-11-23T07:33:13+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -3380,7 +3380,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:12+00:00",
+   "fetched_at": "2026-11-23T07:33:13+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3398,7 +3398,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:12+00:00",
+   "fetched_at": "2026-11-23T07:33:13+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3452,7 +3452,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:12+00:00",
+   "fetched_at": "2026-11-23T07:33:12+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3512,7 +3512,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:12+00:00",
+   "fetched_at": "2026-11-23T07:33:12+00:00",
    "license": [],
    "publisher": "Ivyspring International Publisher",
    "status": "ok",
@@ -3558,7 +3558,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:12+00:00",
+   "fetched_at": "2026-11-23T07:33:12+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -3582,7 +3582,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:12+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -3606,7 +3606,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:11+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -3654,7 +3654,7 @@
     }
    ],
    "citations": 2,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:11+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -3702,7 +3702,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:11+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc/4.0/"
    ],
@@ -3726,7 +3726,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:11+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -3744,7 +3744,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:11+00:00",
+   "fetched_at": "2026-11-23T07:33:10+00:00",
    "license": [],
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "status": "ok",
@@ -3772,7 +3772,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:10+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -3832,7 +3832,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:10+00:00",
    "license": [],
    "publisher": "Ovid Technologies (Wolters Kluwer Health)",
    "status": "ok",
@@ -3848,7 +3848,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:10+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -3866,7 +3866,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:09+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3914,7 +3914,7 @@
     }
    ],
    "citations": 3,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:09+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3932,7 +3932,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:10+00:00",
+   "fetched_at": "2026-11-23T07:33:09+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -3974,7 +3974,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:09+00:00",
+   "fetched_at": "2026-11-23T07:33:09+00:00",
    "license": [
     "https://doi.org/10.1080/policies-text-data-mining"
    ],
@@ -4040,7 +4040,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:09+00:00",
+   "fetched_at": "2026-11-23T07:33:08+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -4112,7 +4112,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:09+00:00",
+   "fetched_at": "2026-11-23T07:33:08+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -4136,7 +4136,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:09+00:00",
+   "fetched_at": "2026-11-23T07:33:08+00:00",
    "license": [
     "https://academic.oup.com/pages/standard-publication-reuse-rights"
    ],
@@ -4154,7 +4154,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:09+00:00",
+   "fetched_at": "2026-11-23T07:33:08+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc/4.0/"
    ],
@@ -4172,7 +4172,7 @@
     }
    ],
    "citations": 1,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:07+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -4190,7 +4190,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:07+00:00",
    "license": [
     "http://onlinelibrary.wiley.com/termsAndConditions#vor"
    ],
@@ -4226,7 +4226,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:07+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -4256,7 +4256,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:07+00:00",
    "license": [
     "http://creativecommons.org/licenses/by/4.0/"
    ],
@@ -4316,7 +4316,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:06+00:00",
    "license": [
     "https://creativecommons.org/licenses/by-nc-nd/4.0"
    ],
@@ -4340,7 +4340,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:08+00:00",
+   "fetched_at": "2026-11-23T07:33:06+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
@@ -4412,7 +4412,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:07+00:00",
+   "fetched_at": "2026-11-23T07:33:06+00:00",
    "license": [
     "https://creativecommons.org/licenses/by/4.0/"
    ],
@@ -4430,7 +4430,7 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:07+00:00",
+   "fetched_at": "2026-11-23T07:33:06+00:00",
    "license": [
     "https://www.springernature.com/gp/researchers/text-and-data-mining"
    ],
@@ -4454,11 +4454,107 @@
     }
    ],
    "citations": 0,
-   "fetched_at": "2026-11-16T06:24:07+00:00",
+   "fetched_at": "2026-11-23T07:33:05+00:00",
    "license": [
     "https://www.elsevier.com/tdm/userlicense/1.0/"
    ],
    "publisher": "Elsevier BV",
+   "status": "ok",
+   "type": "journal-article"
+  },
+  "43043994": {
+   "authors": [
+    {
+     "family": "Wang",
+     "given": "Joshua",
+     "orcid": "",
+     "sequence": "first"
+    }
+   ],
+   "citations": 1,
+   "fetched_at": "2026-11-23T07:33:05+00:00",
+   "license": [
+    "https://academic.oup.com/pages/standard-publication-reuse-rights"
+   ],
+   "publisher": "S. Karger AG",
+   "status": "ok",
+   "type": "journal-article"
+  },
+  "43046176": {
+   "authors": [
+    {
+     "family": "Lin",
+     "given": "Chih-Lang",
+     "orcid": "",
+     "sequence": "first"
+    },
+    {
+     "family": "Lin",
+     "given": "Kuan-Chou",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Yu",
+     "given": "Jung-Min",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Chang",
+     "given": "Chia-Lun",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Lin",
+     "given": "Yu-Yi",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Fang",
+     "given": "Chih-Yuan",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Chen",
+     "given": "Wan-Ming",
+     "orcid": "",
+     "sequence": "additional"
+    },
+    {
+     "family": "Wu",
+     "given": "Szu-Yuan",
+     "orcid": "0000-0001-5637-558X",
+     "sequence": "additional"
+    }
+   ],
+   "citations": 0,
+   "fetched_at": "2026-11-23T07:33:05+00:00",
+   "license": [
+    "https://creativecommons.org/licenses/by-nc-nd/4.0"
+   ],
+   "publisher": "Springer Science and Business Media LLC",
+   "status": "ok",
+   "type": "journal-article"
+  },
+  "43050694": {
+   "authors": [
+    {
+     "family": "Wang",
+     "given": "Joshua",
+     "orcid": "0000-0002-9458-5665",
+     "sequence": "first"
+    }
+   ],
+   "citations": 0,
+   "fetched_at": "2026-11-23T07:33:05+00:00",
+   "license": [
+    "https://academic.oup.com/pages/standard-publication-reuse-rights"
+   ],
+   "publisher": "Oxford University Press (OUP)",
    "status": "ok",
    "type": "journal-article"
   }
@@ -9037,8 +9133,70 @@
    "status": "ok"
   },
   "42995535": {
-   "fetched_at": "2026-11-09T06:21:10+00:00",
-   "status": "miss"
+   "authors": [
+    {
+     "display_name": "Chih‐Lang Lin",
+     "is_corresponding": false,
+     "name": "Chih-Lang Lin",
+     "orcid": "0000-0002-1225-3895",
+     "position": "first"
+    },
+    {
+     "display_name": "Shyh-Chyi Chang",
+     "is_corresponding": false,
+     "name": "Shyh-Chyi Chang",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Kuan-Chou Lin",
+     "is_corresponding": false,
+     "name": "Kuan-Chou Lin",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Jung‐Min Yu",
+     "is_corresponding": false,
+     "name": "Jung-Min Yu",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Chia‐Lun Chang",
+     "is_corresponding": false,
+     "name": "Chia-Lun Chang",
+     "orcid": "0000-0002-2597-0842",
+     "position": "middle"
+    },
+    {
+     "display_name": "Chih-Yuan Fang",
+     "is_corresponding": false,
+     "name": "Chih-Yuan Fang",
+     "orcid": "0000-0002-1265-0858",
+     "position": "middle"
+    },
+    {
+     "display_name": "Wan‐Ming Chen",
+     "is_corresponding": false,
+     "name": "Wan-Ming Chen",
+     "orcid": "0009-0009-6628-0635",
+     "position": "middle"
+    },
+    {
+     "display_name": "Szu‐Yuan Wu",
+     "is_corresponding": true,
+     "name": "Szu-Yuan Wu",
+     "orcid": "0000-0001-5637-558X",
+     "position": "last"
+    }
+   ],
+   "cited_by_count": 0,
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "openalex_id": "W7201950174",
+   "pmcid": "PMC13741560",
+   "source_id": "S14643628",
+   "status": "ok"
   },
   "43009101": {
    "authors": [
@@ -9183,6 +9341,93 @@
    "openalex_id": "W7224749251",
    "pmcid": "PMC13753582",
    "source_id": "S4210224575",
+   "status": "ok"
+  },
+  "43043994": {
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "status": "miss"
+  },
+  "43046176": {
+   "authors": [
+    {
+     "display_name": "Chih‐Lang Lin",
+     "is_corresponding": false,
+     "name": "Chih-Lang Lin",
+     "orcid": "0000-0002-1225-3895",
+     "position": "first"
+    },
+    {
+     "display_name": "Kuan-Chou Lin",
+     "is_corresponding": false,
+     "name": "Kuan-Chou Lin",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Jung‐Min Yu",
+     "is_corresponding": false,
+     "name": "Jung-Min Yu",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Chia‐Lun Chang",
+     "is_corresponding": false,
+     "name": "Chia-Lun Chang",
+     "orcid": "0000-0002-2597-0842",
+     "position": "middle"
+    },
+    {
+     "display_name": "Yu-Yi Lin",
+     "is_corresponding": false,
+     "name": "Yu-Yi Lin",
+     "orcid": "",
+     "position": "middle"
+    },
+    {
+     "display_name": "Chih-Yuan Fang",
+     "is_corresponding": false,
+     "name": "Chih-Yuan Fang",
+     "orcid": "0000-0002-1265-0858",
+     "position": "middle"
+    },
+    {
+     "display_name": "Wan‐Ming Chen",
+     "is_corresponding": false,
+     "name": "Wan-Ming Chen",
+     "orcid": "0009-0009-6628-0635",
+     "position": "middle"
+    },
+    {
+     "display_name": "Szu‐Yuan Wu",
+     "is_corresponding": true,
+     "name": "Szu-Yuan Wu",
+     "orcid": "0000-0001-5637-558X",
+     "position": "last"
+    }
+   ],
+   "cited_by_count": 0,
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "openalex_id": "W7203840619",
+   "pmcid": "PMC13779733",
+   "source_id": "S14643628",
+   "status": "ok"
+  },
+  "43050694": {
+   "authors": [
+    {
+     "display_name": "Joshua Wang",
+     "is_corresponding": true,
+     "name": "Joshua Wang",
+     "orcid": "0000-0002-9458-5665",
+     "position": "first"
+    }
+   ],
+   "cited_by_count": 0,
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "openalex_id": "W7236191175",
+   "pmcid": "",
+   "source_id": "S45123234",
    "status": "ok"
   }
  },
@@ -10074,6 +10319,21 @@
    "pmcid": "PMC13753582",
    "source": "europepmc",
    "status": "ok"
+  },
+  "43046176": {
+   "corresp": [
+    {
+     "email": "",
+     "given": "Szu-Yuan",
+     "surname": "Wu"
+    }
+   ],
+   "fetched_at": "2026-11-23T07:33:04+00:00",
+   "n_contribs": 8,
+   "note": "contrib-flag",
+   "pmcid": "PMC13779733",
+   "source": "europepmc",
+   "status": "ok"
   }
  },
  "sources": {
@@ -10129,6 +10389,12 @@
    "fetched_at": "2026-11-17T08:08:25+00:00",
    "impact_factor": 0.36,
    "name": "QJM",
+   "status": "ok"
+  },
+  "S14643628": {
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "impact_factor": 6.19,
+   "name": "BMC Geriatrics",
    "status": "ok"
   },
   "S146641495": {
@@ -10483,6 +10749,12 @@
    "fetched_at": "2026-11-17T08:08:25+00:00",
    "impact_factor": 2.82,
    "name": "Clinical Rheumatology",
+   "status": "ok"
+  },
+  "S45123234": {
+   "fetched_at": "2026-11-23T07:32:00+00:00",
+   "impact_factor": 3.34,
+   "name": "Inflammatory Bowel Diseases",
    "status": "ok"
   },
   "S45720283": {

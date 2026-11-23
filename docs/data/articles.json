@@ -1,5 +1,371 @@
 [
  {
+  "pmid": "43050694",
+  "title": "Clarifying index event selection in a TriNetX study of appendectomy in ulcerative colitis.",
+  "journal": "Inflammatory bowel diseases",
+  "journal_abbr": "Inflamm Bowel Dis",
+  "year": "2026",
+  "month": "Nov",
+  "volume": "",
+  "issue": "",
+  "pages": "",
+  "doi": "10.1093/ibd/izag254",
+  "pmc": "",
+  "entrez_date": "2026-11-18",
+  "pub_types": [
+   "Editorial",
+   "Comment"
+  ],
+  "authors": [
+   {
+    "name": "Joshua Wang",
+    "last": "Wang",
+    "fore": "Joshua",
+    "initials": "J",
+    "affiliations": [
+     "Department of Research, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, New Taipei City, 231, Taiwan.",
+     "School of Biomedical Sciences, Queensland University of Technology, Brisbane City, Queensland, 4000, Australia."
+    ],
+    "orcid_pubmed": "0000-0002-9458-5665",
+    "corr_pmc": false,
+    "corr_openalex": true,
+    "orcid": "0000-0002-9458-5665",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "",
+   "openalex_status": "ok",
+   "publisher": "Oxford University Press (OUP)",
+   "citations": 0,
+   "openalex_citations": 0,
+   "impact_factor": 3.34,
+   "pmcid_used": "",
+   "unmatched": []
+  },
+  "corresponding_method": "openalex",
+  "corresponding_source": "OpenAlex",
+  "corresponding_agreement": "",
+  "publisher": "Oxford University Press (OUP)",
+  "citations": 0,
+  "impact_factor": 3.34,
+  "campuses": [
+   "台北慈濟醫院"
+  ],
+  "first_author": "Joshua Wang",
+  "first_author_campuses": [
+   "台北慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Joshua Wang"
+  ],
+  "corresponding_campuses": [
+   "台北慈濟醫院"
+  ],
+  "n_authors": 1,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43050694/"
+ },
+ {
+  "pmid": "43046176",
+  "title": "Association of preoperative sodium-glucose cotransporter 2 (SGLT2) inhibitor use with postoperative delirium and long-term cognitive decline in older adults: a target trial emulation.",
+  "journal": "BMC geriatrics",
+  "journal_abbr": "BMC Geriatr",
+  "year": "2026",
+  "month": "Aug",
+  "volume": "26",
+  "issue": "1",
+  "pages": "",
+  "doi": "10.1186/s12877-026-08108-z",
+  "pmc": "PMC13779733",
+  "entrez_date": "2026-11-18",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Chih-Lang Lin",
+    "last": "Lin",
+    "fore": "Chih-Lang",
+    "initials": "CL",
+    "affiliations": [
+     "Division of Gastroenterology and Hepatology, Department of Internal Medicine, Dali Branch, Jen-Ai Hospital, Taichung, Taiwan.",
+     "College of Medicine, Chang Gung University, Taoyuan, Taiwan.",
+     "Liver Research Unit, Department of Gastroenterology and Hepatology, Keelung Branch, Chang Gung Memorial Hospital, Keelung, Taiwan.",
+     "Community Medicine Research Center, Keelung Branch, Chang Gung Memorial Hospital, Keelung, Taiwan.",
+     "Liver Research Center, Linkou Branch, Chang Gung Memorial Hospital, Taoyuan, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-1225-3895",
+    "campuses": [],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Kuan-Chou Lin",
+    "last": "Lin",
+    "fore": "Kuan-Chou",
+    "initials": "KC",
+    "affiliations": [
+     "Division of Oral and Maxillofacial Surgery, Department of Dentistry, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "School of Dentistry, College of Oral Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 2,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Jung-Min Yu",
+    "last": "Yu",
+    "fore": "Jung-Min",
+    "initials": "JM",
+    "affiliations": [
+     "Department of Cardiovascular Surgery, Taichung Tzu Chi Hospital, Taichung, Taiwan.",
+     "Department of Surgery, School of Medicine, Tzu Chi University, Hualien, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [
+     "台中慈濟醫院",
+     "慈濟大學"
+    ],
+    "emails": [],
+    "position": 3,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Chia-Lun Chang",
+    "last": "Chang",
+    "fore": "Chia-Lun",
+    "initials": "CL",
+    "affiliations": [
+     "Department of Hemato-Oncology, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "Department of Internal Medicine, School of Medicine, College of Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-2597-0842",
+    "campuses": [],
+    "emails": [],
+    "position": 4,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Yu-Yi Lin",
+    "last": "Lin",
+    "fore": "Yu-Yi",
+    "initials": "YY",
+    "affiliations": [
+     "Taipei Wego Private Senior High School, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [],
+    "emails": [],
+    "position": 5,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Chih-Yuan Fang",
+    "last": "Fang",
+    "fore": "Chih-Yuan",
+    "initials": "CY",
+    "affiliations": [
+     "Division of Oral and Maxillofacial Surgery, Department of Dentistry, Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan.",
+     "School of Dentistry, College of Oral Medicine, Taipei Medical University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0000-0002-1265-0858",
+    "campuses": [],
+    "emails": [],
+    "position": 6,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Wan-Ming Chen",
+    "last": "Chen",
+    "fore": "Wan-Ming",
+    "initials": "WM",
+    "affiliations": [
+     "Graduate Institute of Business Administration, College of Management, Fu Jen Catholic University, Taipei, Taiwan.",
+     "Artificial Intelligence Development Center, Fu Jen Catholic University, Taipei, Taiwan."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "0009-0009-6628-0635",
+    "campuses": [],
+    "emails": [],
+    "position": 7,
+    "is_first": false,
+    "is_last": false,
+    "is_corresponding": false
+   },
+   {
+    "name": "Szu-Yuan Wu",
+    "last": "Wu",
+    "fore": "Szu-Yuan",
+    "initials": "SY",
+    "affiliations": [
+     "Department of Food Nutrition and Health Biotechnology, College of Medical and Health Science, Asia University, Taichung, Taiwan. szuyuanwu5399@gmail.com.",
+     "Big Data Center, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Division of Radiation Oncology, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Department of Healthcare Administration, College of Medical and Health Science, Asia University, Taichung, Taiwan. szuyuanwu5399@gmail.com.",
+     "Cancer Center, Lo-Hsu Medical Foundation, Lotung Poh-Ai Hospital, Yilan, Taiwan. szuyuanwu5399@gmail.com.",
+     "Centers for Regional Anesthesia and Pain Medicine, Taipei Municipal Wan Fang Hospital, Taipei Medical University, Taipei, Taiwan. szuyuanwu5399@gmail.com."
+    ],
+    "orcid_pubmed": "0000-0001-5637-558X",
+    "corr_pmc": true,
+    "corr_openalex": true,
+    "orcid": "0000-0001-5637-558X",
+    "campuses": [],
+    "emails": [
+     "szuyuanwu5399@gmail.com."
+    ],
+    "position": 8,
+    "is_first": false,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "ok",
+   "openalex_status": "ok",
+   "publisher": "Springer Science and Business Media LLC",
+   "citations": 0,
+   "openalex_citations": 0,
+   "impact_factor": 6.19,
+   "pmcid_used": "PMC13779733",
+   "unmatched": []
+  },
+  "corresponding_method": "pmc",
+  "corresponding_source": "PMC全文",
+  "corresponding_agreement": "一致",
+  "publisher": "Springer Science and Business Media LLC",
+  "citations": 0,
+  "impact_factor": 6.19,
+  "campuses": [
+   "台中慈濟醫院",
+   "慈濟大學"
+  ],
+  "first_author": "Chih-Lang Lin",
+  "first_author_campuses": [],
+  "corresponding_authors": [
+   "Szu-Yuan Wu"
+  ],
+  "corresponding_campuses": [],
+  "n_authors": 8,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43046176/"
+ },
+ {
+  "pmid": "43043994",
+  "title": "Age Filtering Bias in a Retrospective Study of Pediatric Hydrocephalus.",
+  "journal": "Pediatric neurosurgery",
+  "journal_abbr": "Pediatr Neurosurg",
+  "year": "2026",
+  "month": "Nov",
+  "volume": "61",
+  "issue": "3",
+  "pages": "241-242",
+  "doi": "10.1159/000551837",
+  "pmc": "",
+  "entrez_date": "2026-11-17",
+  "pub_types": [
+   "Journal Article"
+  ],
+  "authors": [
+   {
+    "name": "Joshua Wang",
+    "last": "Wang",
+    "fore": "Joshua",
+    "initials": "J",
+    "affiliations": [
+     "Department of Research, Taipei Tzu Chi Hospital, Buddhist Tzu Chi Medical Foundation, New Taipei City, Taiwan.",
+     "School of Biomedical Sciences, Queensland University of Technology, Brisbane, QLD, Australia."
+    ],
+    "orcid_pubmed": "",
+    "corr_pmc": false,
+    "corr_openalex": false,
+    "orcid": "",
+    "campuses": [
+     "台北慈濟醫院"
+    ],
+    "emails": [],
+    "position": 1,
+    "is_first": true,
+    "is_last": true,
+    "is_corresponding": true
+   }
+  ],
+  "ext": {
+   "pmc_status": "",
+   "openalex_status": "miss",
+   "publisher": "S. Karger AG",
+   "citations": 1,
+   "openalex_citations": null,
+   "impact_factor": null,
+   "pmcid_used": "",
+   "unmatched": []
+  },
+  "corresponding_method": "last_author",
+  "corresponding_source": "末位作者(推定)",
+  "corresponding_agreement": "",
+  "publisher": "S. Karger AG",
+  "citations": 1,
+  "impact_factor": null,
+  "campuses": [
+   "台北慈濟醫院"
+  ],
+  "first_author": "Joshua Wang",
+  "first_author_campuses": [
+   "台北慈濟醫院"
+  ],
+  "corresponding_authors": [
+   "Joshua Wang"
+  ],
+  "corresponding_campuses": [
+   "台北慈濟醫院"
+  ],
+  "n_authors": 1,
+  "n_tzuchi_authors": 1,
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43043994/"
+ },
+ {
   "pmid": "43017182",
   "title": "Cohort definition concerns in a TriNetX study comparing adolescent and young adult sleeve gastrectomy outcomes.",
   "journal": "Obesity pillars",
@@ -551,7 +917,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0000-0002-1225-3895",
     "campuses": [],
     "emails": [],
     "position": 1,
@@ -633,7 +999,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0000-0002-2597-0842",
     "campuses": [],
     "emails": [],
     "position": 5,
@@ -653,7 +1019,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0000-0002-1265-0858",
     "campuses": [],
     "emails": [],
     "position": 6,
@@ -673,7 +1039,7 @@
     "orcid_pubmed": "",
     "corr_pmc": false,
     "corr_openalex": false,
-    "orcid": "",
+    "orcid": "0009-0009-6628-0635",
     "campuses": [],
     "emails": [],
     "position": 7,
@@ -696,7 +1062,7 @@
     ],
     "orcid_pubmed": "0000-0001-5637-558X",
     "corr_pmc": true,
-    "corr_openalex": false,
+    "corr_openalex": true,
     "orcid": "0000-0001-5637-558X",
     "campuses": [],
     "emails": [
@@ -710,20 +1076,20 @@
   ],
   "ext": {
    "pmc_status": "ok",
-   "openalex_status": "miss",
+   "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
    "citations": 0,
-   "openalex_citations": null,
-   "impact_factor": null,
+   "openalex_citations": 0,
+   "impact_factor": 6.19,
    "pmcid_used": "PMC13741560",
    "unmatched": []
   },
   "corresponding_method": "pmc",
   "corresponding_source": "PMC全文",
-  "corresponding_agreement": "",
+  "corresponding_agreement": "一致",
   "publisher": "Springer Science and Business Media LLC",
   "citations": 0,
-  "impact_factor": null,
+  "impact_factor": 6.19,
   "campuses": [
    "台中慈濟醫院",
    "慈濟大學"
@@ -1076,10 +1442,10 @@
   "journal": "Urologic oncology",
   "journal_abbr": "Urol Oncol",
   "year": "2026",
-  "month": "Sep",
-  "volume": "",
-  "issue": "",
-  "pages": "",
+  "month": "Nov",
+  "volume": "44",
+  "issue": "11",
+  "pages": "1086-1087",
   "doi": "10.1016/j.urolonc.2026.08.019",
   "pmc": "",
   "entrez_date": "2026-09-10",
@@ -1814,15 +2180,16 @@
   "journal": "Acta clinica Belgica",
   "journal_abbr": "Acta Clin Belg",
   "year": "2026",
-  "month": "Aug",
-  "volume": "",
-  "issue": "",
-  "pages": "1-8",
+  "month": "Dec",
+  "volume": "81",
+  "issue": "6",
+  "pages": "534-541",
   "doi": "10.1080/17843286.2026.2716102",
   "pmc": "",
   "entrez_date": "2026-08-10",
   "pub_types": [
-   "Journal Article"
+   "Journal Article",
+   "Comparative Study"
   ],
   "authors": [
    {
@@ -6765,7 +7132,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Wiley",
-   "citations": 5,
+   "citations": 7,
    "openalex_citations": 6,
    "impact_factor": 4.32,
    "pmcid_used": "",
@@ -6775,7 +7142,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Wiley",
-  "citations": 5,
+  "citations": 7,
   "impact_factor": 4.32,
   "campuses": [
    "大林慈濟醫院"
@@ -6991,7 +7358,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "MDPI AG",
-   "citations": 1,
+   "citations": 2,
    "openalex_citations": 1,
    "impact_factor": 4.71,
    "pmcid_used": "PMC12942526",
@@ -7001,7 +7368,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "MDPI AG",
-  "citations": 1,
+  "citations": 2,
   "impact_factor": 4.71,
   "campuses": [
    "台北慈濟醫院"
@@ -7393,7 +7760,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Springer Science and Business Media LLC",
-   "citations": 13,
+   "citations": 15,
    "openalex_citations": 13,
    "impact_factor": 7.09,
    "pmcid_used": "",
@@ -7403,7 +7770,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Springer Science and Business Media LLC",
-  "citations": 13,
+  "citations": 15,
   "impact_factor": 7.09,
   "campuses": [
    "台北慈濟醫院"
@@ -8093,7 +8460,7 @@
    "pmc_status": "ok",
    "openalex_status": "ok",
    "publisher": "Informa UK Limited",
-   "citations": 18,
+   "citations": 21,
    "openalex_citations": 18,
    "impact_factor": 6.18,
    "pmcid_used": "PMC12821341",
@@ -8103,7 +8470,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "一致",
   "publisher": "Informa UK Limited",
-  "citations": 18,
+  "citations": 21,
   "impact_factor": 6.18,
   "campuses": [
    "大林慈濟醫院"
@@ -14516,7 +14883,7 @@
    "pmc_status": "ok",
    "openalex_status": "nocorr",
    "publisher": "American Medical Association (AMA)",
-   "citations": 42,
+   "citations": 43,
    "openalex_citations": 42,
    "impact_factor": 5.26,
    "pmcid_used": "PMC12177727",
@@ -14526,7 +14893,7 @@
   "corresponding_source": "PMC全文",
   "corresponding_agreement": "",
   "publisher": "American Medical Association (AMA)",
-  "citations": 42,
+  "citations": 43,
   "impact_factor": 5.26,
   "campuses": [
    "大林慈濟醫院"
@@ -15251,7 +15618,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 8,
+   "citations": 9,
    "openalex_citations": 10,
    "impact_factor": 2.75,
    "pmcid_used": "",
@@ -15261,7 +15628,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 8,
+  "citations": 9,
   "impact_factor": 2.75,
   "campuses": [
    "花蓮慈濟醫院",
@@ -15555,7 +15922,7 @@
    "pmc_status": "",
    "openalex_status": "ok",
    "publisher": "Elsevier BV",
-   "citations": 30,
+   "citations": 31,
    "openalex_citations": 34,
    "impact_factor": 3.25,
    "pmcid_used": "",
@@ -15565,7 +15932,7 @@
   "corresponding_source": "OpenAlex",
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
-  "citations": 30,
+  "citations": 31,
   "impact_factor": 3.25,
   "campuses": [
    "台北慈濟醫院"

@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-17T08:44:39+00:00",
+ "generated_at": "2026-11-23T07:33:34+00:00",
  "query": "(Tzu Chi[ad] OR \"Buddhist Tzu Chi\"[ad] OR \"Tzu-Chi\"[ad] OR \"Dalin Tzu Chi\"[ad] OR \"Taipei Tzu Chi\"[ad] OR \"Hualien Tzu Chi\"[ad] OR \"Tzu Chi University\"[ad] OR \"Tzu Chi Medical Foundation\"[ad]) AND (TriNetX[tiab] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[tiab])",
  "query_translation": "(\"Tzu-Chi\"[Affiliation] OR \"Buddhist Tzu Chi\"[Affiliation] OR \"Tzu-Chi\"[Affiliation] OR \"Dalin Tzu Chi\"[Affiliation] OR \"Taipei Tzu Chi\"[Affiliation] OR \"Hualien Tzu Chi\"[Affiliation] OR \"Tzu Chi University\"[Affiliation] OR \"Tzu Chi Medical Foundation\"[Affiliation]) AND (\"TriNetX\"[Title/Abstract] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[Title/Abstract])",
- "pubmed_count": 115,
- "n_articles": 115,
- "n_tzu_chi_university": 28,
+ "pubmed_count": 118,
+ "n_articles": 118,
+ "n_tzu_chi_university": 29,
  "campus_table": [
   {
    "campus": "花蓮慈濟醫院",
@@ -22,24 +22,24 @@
   },
   {
    "campus": "台北慈濟醫院",
-   "articles": 71,
-   "first_author_articles": 46,
-   "corresponding_author_articles": 57,
-   "author_slots": 149
+   "articles": 73,
+   "first_author_articles": 48,
+   "corresponding_author_articles": 59,
+   "author_slots": 151
   },
   {
    "campus": "台中慈濟醫院",
-   "articles": 16,
+   "articles": 17,
    "first_author_articles": 1,
    "corresponding_author_articles": 11,
-   "author_slots": 17
+   "author_slots": 18
   },
   {
    "campus": "慈濟大學",
-   "articles": 28,
+   "articles": 29,
    "first_author_articles": 15,
    "corresponding_author_articles": 15,
-   "author_slots": 60
+   "author_slots": 61
   }
  ],
  "by_year": [
@@ -57,7 +57,7 @@
   },
   {
    "year": "2026",
-   "articles": 76
+   "articles": 79
   }
  ],
  "top_journals": [
@@ -86,6 +86,14 @@
    "articles": 3
   },
   {
+   "journal": "BMC geriatrics",
+   "articles": 2
+  },
+  {
+   "journal": "Pediatric neurosurgery",
+   "articles": 2
+  },
+  {
    "journal": "Pharmaceuticals (Basel, Switzerland)",
    "articles": 2
   },
@@ -112,25 +120,17 @@
   {
    "journal": "Journal of clinical medicine",
    "articles": 2
-  },
-  {
-   "journal": "Frontiers in nutrition",
-   "articles": 2
-  },
-  {
-   "journal": "Journal of the American Academy of Dermatology",
-   "articles": 2
   }
  ],
  "note_counting": "一篇文章若有多個院區的作者，會在每個院區各計一次；第一作者/通訊作者若有多重隸屬亦各計一次。",
  "corresponding_sources": [
   {
    "source": "PMC全文",
-   "articles": 51
+   "articles": 52
   },
   {
    "source": "OpenAlex",
-   "articles": 56
+   "articles": 57
   },
   {
    "source": "PubMed e-mail",
@@ -138,7 +138,7 @@
   },
   {
    "source": "末位作者(推定)",
-   "articles": 7
+   "articles": 8
   }
  ],
  "corresponding_disagreements": 1,
