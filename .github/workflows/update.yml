@@ -5,6 +5,12 @@ on:
     # 每週一 00:15 UTC = 台北時間 08:15
     - cron: "15 0 * * 1"
   workflow_dispatch:
+  # 修改 JCR IF 對照表或程式後自動重建
+  push:
+    branches: [main]
+    paths:
+      - "data/jcr_if.csv"
+      - "scripts/**"
 
 permissions:
   contents: write
@@ -41,11 +47,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p docs/data cache
-          git add -A docs/data cache
+          git add -A docs/data cache data
           if git diff --cached --quiet; then
             echo "No changes."
           else
             n=$(python -c "import json;print(len(json.load(open('docs/data/articles.json'))))")
-            git commit -m "data: weekly PubMed update ($(date -u +%F), ${n} articles)"
+            git commit -m "data: PubMed update ($(date -u +%F), ${n} articles)"
             git push
           fi

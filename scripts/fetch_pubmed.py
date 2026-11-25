@@ -40,6 +40,55 @@ from enrich import apply_cache, load_cache, refresh_cache, save_cache  # noqa: E
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "docs" / "data"
+JCR_FILE = ROOT / "data" / "jcr_if.csv"   # 人工維護的 JCR 官方 IF（優先於 OpenAlex 近似值）
+JCR_COLS = ["journal_abbr", "journal", "jif", "quartile", "jcr_year", "note"]
+
+
+def _jkey(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", (name or "").lower()).strip()
+
+
+def load_jcr() -> tuple[list[dict], dict]:
+    """Read data/jcr_if.csv -> (rows, lookup by normalised abbr / full name)."""
+    rows, idx = [], {}
+    if not JCR_FILE.exists():
+        return rows, idx
+    with open(JCR_FILE, newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            row = {k: (row.get(k) or "").strip() for k in JCR_COLS}
+            rows.append(row)
+            try:
+                jif = float(row["jif"])
+            except ValueError:
+                continue
+            hit = {"jif": jif, "quartile": row["quartile"].upper(), "jcr_year": row["jcr_year"]}
+            for k in (row["journal_abbr"], row["journal"]):
+                if k:
+                    idx[_jkey(k)] = hit
+    return rows, idx
+
+
+JCR_ROWS, JCR = load_jcr()
+
+
+def sync_jcr_file(records: list[dict]):
+    """Append journals that are not yet in data/jcr_if.csv (blank IF) so they can be filled in."""
+    known = {_jkey(r["journal_abbr"]) for r in JCR_ROWS} | {_jkey(r["journal"]) for r in JCR_ROWS if r["journal"]}
+    added = []
+    for r in records:
+        if _jkey(r["journal_abbr"]) not in known and _jkey(r["journal"]) not in known:
+            added.append({"journal_abbr": r["journal_abbr"], "journal": r["journal"], "jif": "", "quartile": "",
+                          "jcr_year": "", "note": ""})
+            known.add(_jkey(r["journal_abbr"]))
+    if not added and JCR_FILE.exists():
+        return
+    rows = sorted(JCR_ROWS + added, key=lambda x: x["journal_abbr"].lower())
+    JCR_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(JCR_FILE, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=JCR_COLS)
+        w.writeheader()
+        w.writerows(rows)
+    print(f"jcr_if.csv: +{len(added)} journals without JCR IF", file=sys.stderr)
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "tzuchi-trinetx-tracker"
@@ -313,7 +362,16 @@ def enrich(rec: dict) -> dict:
     )
     rec["publisher"] = ext.get("publisher", "")
     rec["citations"] = ext.get("citations") if ext.get("citations") is not None else ext.get("openalex_citations")
-    rec["impact_factor"] = ext.get("impact_factor")  # OpenAlex 2yr_mean_citedness (approx. IF)
+    # IF：data/jcr_if.csv 的 JCR 官方值優先；沒有才用 OpenAlex 2yr_mean_citedness 近似值
+    rec["impact_factor_openalex"] = ext.get("impact_factor")
+    jcr = JCR.get(_jkey(rec.get("journal_abbr"))) or JCR.get(_jkey(rec.get("journal")))
+    if jcr:
+        rec["impact_factor"], rec["if_source"] = jcr["jif"], "JCR"
+        rec["jcr_quartile"], rec["jcr_year"] = jcr["quartile"], jcr["jcr_year"]
+    else:
+        rec["impact_factor"] = ext.get("impact_factor")
+        rec["if_source"] = "OpenAlex近似" if rec["impact_factor"] is not None else ""
+        rec["jcr_quartile"], rec["jcr_year"] = "", ""
     rec["pmc"] = rec.get("pmc") or ext.get("pmcid_used", "")
 
     rec["campuses"] = list(OrderedDict.fromkeys(article_campuses))
@@ -387,7 +445,7 @@ def write_csvs(records: list[dict]):
         w = csv.writer(f)
         w.writerow(["PMID", "年份", "標題", "期刊", "期刊縮寫", "卷", "期", "頁碼", "DOI", "PMC",
                     "作者(全部)", "第一作者", "第一作者院區", "通訊作者", "通訊作者院區", "通訊作者來源",
-                    "PMC/OpenAlex一致性", "文章涉及院區", "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF(近似)",
+                    "PMC/OpenAlex一致性", "文章涉及院區", "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF", "IF來源", "JCR分區",
                     "PubMed收錄日", "PubMed連結"])
         for r in records:
             w.writerow([r["pmid"], r["year"], r["title"], r["journal"], r["journal_abbr"],
@@ -399,6 +457,7 @@ def write_csvs(records: list[dict]):
                         "; ".join(r["campuses"]), r["n_tzuchi_authors"], r["n_authors"],
                         r.get("publisher", ""), "" if r.get("citations") is None else r["citations"],
                         "" if r.get("impact_factor") is None else r["impact_factor"],
+                        r.get("if_source", ""), r.get("jcr_quartile", ""),
                         r["entrez_date"], r["pubmed_url"]])
     with open(DATA_DIR / "author_affiliations.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
@@ -492,7 +551,7 @@ def write_xlsx(records: list[dict], summary: dict):
     ws = wb.create_sheet("文章清單")
     cols = ["PMID", "年份", "標題", "期刊", "卷/期/頁", "DOI", "第一作者", "第一作者院區",
             "通訊作者", "通訊作者院區", "通訊作者來源", "PMC/OpenAlex一致性", "文章涉及院區",
-            "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF(近似)", "作者(全部)", "PubMed連結"]
+            "慈濟作者數", "作者總數", "出版社", "被引次數", "期刊IF", "IF來源", "作者(全部)", "PubMed連結"]
     src_fill = {"PMC全文": "C6EFCE", "OpenAlex": "DDEBF7", "PubMed e-mail": "FFF2CC", "末位作者(推定)": "F8CBAD"}
     ws.append(cols)
     for r in records:
@@ -503,10 +562,10 @@ def write_xlsx(records: list[dict], summary: dict):
                    "; ".join(r["corresponding_campuses"]), r.get("corresponding_source", ""),
                    r.get("corresponding_agreement", ""), "; ".join(r["campuses"]),
                    r["n_tzuchi_authors"], r["n_authors"], r.get("publisher", ""), r.get("citations"), r.get("impact_factor"),
-                   "; ".join(a["name"] for a in r["authors"]), r["pubmed_url"]])
+                   r.get("if_source", ""), "; ".join(a["name"] for a in r["authors"]), r["pubmed_url"]])
         rr = ws.max_row
-        ws.cell(row=rr, column=20).hyperlink = r["pubmed_url"]
-        ws.cell(row=rr, column=20).font = Font(color="0563C1", underline="single")
+        ws.cell(row=rr, column=21).hyperlink = r["pubmed_url"]
+        ws.cell(row=rr, column=21).font = Font(color="0563C1", underline="single")
         if r.get("corresponding_source") in src_fill:
             ws.cell(row=rr, column=11).fill = PatternFill("solid", fgColor=src_fill[r["corresponding_source"]])
         if r.get("corresponding_agreement") == "不一致":
@@ -514,31 +573,31 @@ def write_xlsx(records: list[dict], summary: dict):
         if r["doi"]:
             ws.cell(row=rr, column=6).hyperlink = f"https://doi.org/{r['doi']}"
             ws.cell(row=rr, column=6).font = Font(color="0563C1", underline="single")
-    style_header(ws, len(cols), [10, 6, 60, 30, 14, 26, 18, 18, 22, 18, 14, 12, 28, 8, 8, 22, 8, 10, 50, 36])
+    style_header(ws, len(cols), [10, 6, 60, 30, 14, 26, 18, 18, 22, 18, 14, 12, 28, 8, 8, 22, 8, 10, 12, 50, 36])
 
-    # --- Sheet 2b: 歷年 IF > 10 的文章 (IF = OpenAlex approximation) ---
+    # --- Sheet 2b: 歷年 IF > 10 的文章 (JCR 優先，否則 OpenAlex 近似) ---
     ws = wb.create_sheet("IF大於10文章")
-    cols = ["年份", "PMID", "標題", "期刊", "期刊IF(近似)", "被引次數", "第一作者", "第一作者院區",
+    cols = ["年份", "PMID", "標題", "期刊", "期刊IF", "IF來源", "被引次數", "第一作者", "第一作者院區",
             "通訊作者", "通訊作者院區", "DOI", "PubMed連結"]
     ws.append(cols)
     high = sorted((r for r in records if r.get("impact_factor") is not None and r["impact_factor"] > 10),
                   key=lambda r: (-r["impact_factor"], -(int(r["year"]) if r["year"].isdigit() else 0)))
     for r in high:
         ws.append([int(r["year"]) if r["year"].isdigit() else r["year"], r["pmid"], r["title"], r["journal"],
-                   r["impact_factor"], r.get("citations"), r["first_author"],
+                   r["impact_factor"], r.get("if_source", ""), r.get("citations"), r["first_author"],
                    "; ".join(r["first_author_campuses"]), "; ".join(r["corresponding_authors"]),
                    "; ".join(r["corresponding_campuses"]), r["doi"], r["pubmed_url"]])
         rr = ws.max_row
-        ws.cell(row=rr, column=12).hyperlink = r["pubmed_url"]
-        ws.cell(row=rr, column=12).font = Font(color="0563C1", underline="single")
+        ws.cell(row=rr, column=13).hyperlink = r["pubmed_url"]
+        ws.cell(row=rr, column=13).font = Font(color="0563C1", underline="single")
         if r["doi"]:
-            ws.cell(row=rr, column=11).hyperlink = f"https://doi.org/{r['doi']}"
-            ws.cell(row=rr, column=11).font = Font(color="0563C1", underline="single")
+            ws.cell(row=rr, column=12).hyperlink = f"https://doi.org/{r['doi']}"
+            ws.cell(row=rr, column=12).font = Font(color="0563C1", underline="single")
     if not high:
         ws.append(["目前沒有 IF > 10 的文章（或尚無 IF 資料）"])
-    style_header(ws, len(cols), [6, 10, 60, 30, 12, 10, 18, 18, 22, 18, 26, 36])
+    style_header(ws, len(cols), [6, 10, 60, 30, 10, 12, 10, 18, 18, 22, 18, 26, 36])
     ws.append([])
-    ws.append(["註：IF 為 OpenAlex 期刊 2yr_mean_citedness（近 2 年平均被引）之近似值，非 JCR 官方 Impact Factor。"])
+    ws.append(["註：IF 來源「JCR」取自 data/jcr_if.csv 人工維護之 JCR 官方值；「OpenAlex近似」為 OpenAlex 期刊 2yr_mean_citedness，可能與 JCR 差距很大，僅供參考。"])
 
     # --- Sheet 3: 作者與隸屬 ---
     ws = wb.create_sheet("作者與隸屬")
@@ -587,6 +646,7 @@ def build_outputs(records: list[dict], meta: dict, cache: dict | None = None):
         for r in records:
             apply_cache(r, cache)
     records = [enrich(r) for r in records]
+    sync_jcr_file(records)
     records.sort(key=lambda r: (r["year"], r["entrez_date"], r["pmid"]), reverse=True)
     summary = summarize(records, meta)
     DATA_DIR.mkdir(parents=True, exist_ok=True)

@@ -71,7 +71,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43050694/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43050694/",
+  "impact_factor_openalex": 3.34,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43046176",
@@ -290,7 +294,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43046176/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43046176/",
+  "impact_factor_openalex": 6.19,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43043994",
@@ -363,7 +371,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43043994/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43043994/",
+  "impact_factor_openalex": null,
+  "if_source": "",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43017182",
@@ -394,7 +406,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-3157-6411",
-    "corr_email": "ckianhwee@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -402,7 +413,8 @@
     "position": 1,
     "is_first": true,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "ckianhwee@gmail.com"
    },
    {
     "name": "Joshua Wang",
@@ -417,7 +429,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9458-5665",
-    "corr_email": "reillyjj@qut.edu.au",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -425,7 +436,8 @@
     "position": 2,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "reillyjj@qut.edu.au"
    }
   ],
   "ext": {
@@ -460,7 +472,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43017182/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43017182/",
+  "impact_factor_openalex": 7.18,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43012889",
@@ -535,7 +551,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43012889/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43012889/",
+  "impact_factor_openalex": 2.33,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43010906",
@@ -753,13 +773,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "",
-    "corr_email": "athletics910@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 10,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "athletics910@gmail.com"
    }
   ],
   "ext": {
@@ -790,7 +810,11 @@
   "corresponding_campuses": [],
   "n_authors": 10,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43010906/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43010906/",
+  "impact_factor_openalex": 6.73,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "43009101",
@@ -881,7 +905,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43009101/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43009101/",
+  "impact_factor_openalex": 2.9,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42995535",
@@ -1102,7 +1130,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42995535/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42995535/",
+  "impact_factor_openalex": 6.19,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42961971",
@@ -1175,7 +1207,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9242-9167",
-    "corr_email": "m.koo@utoronto.ca",
     "campuses": [
      "大林慈濟醫院"
     ],
@@ -1183,7 +1214,8 @@
     "position": 3,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "m.koo@utoronto.ca"
    }
   ],
   "ext": {
@@ -1217,7 +1249,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42961971/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42961971/",
+  "impact_factor_openalex": 4.3,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42943347",
@@ -1292,7 +1328,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9242-9167",
-    "corr_email": "m.koo@utoronto.ca",
     "campuses": [
      "大林慈濟醫院"
     ],
@@ -1300,7 +1335,8 @@
     "position": 3,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "m.koo@utoronto.ca"
    },
    {
     "name": "Ming-Chi Lu",
@@ -1315,7 +1351,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-9051-0351",
-    "corr_email": "m.koo@utoronto.ca",
     "campuses": [
      "大林慈濟醫院",
      "慈濟大學"
@@ -1324,7 +1359,8 @@
     "position": 4,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "m.koo@utoronto.ca"
    }
   ],
   "ext": {
@@ -1361,7 +1397,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42943347/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42943347/",
+  "impact_factor_openalex": 7.51,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42735295",
@@ -1434,7 +1474,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42735295/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42735295/",
+  "impact_factor_openalex": 1.92,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42722558",
@@ -1508,7 +1552,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42722558/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42722558/",
+  "impact_factor_openalex": 1.82,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42666597",
@@ -1539,7 +1587,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9458-5665",
-    "corr_email": "reillyjj@qut.edu.au",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -1547,7 +1594,8 @@
     "position": 1,
     "is_first": true,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "reillyjj@qut.edu.au"
    }
   ],
   "ext": {
@@ -1581,7 +1629,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42666597/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42666597/",
+  "impact_factor_openalex": 2.54,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42627966",
@@ -1670,7 +1722,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42627966/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42627966/",
+  "impact_factor_openalex": 3.98,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42587612",
@@ -1876,7 +1932,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "",
-    "corr_email": "sp1050@gms.tcu.edu.tw",
     "campuses": [
      "花蓮慈濟醫院",
      "慈濟大學"
@@ -1885,7 +1940,8 @@
     "position": 9,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "sp1050@gms.tcu.edu.tw"
    },
    {
     "name": "Kuang-Ting Yeh",
@@ -1903,7 +1959,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-6154-2167",
-    "corr_email": "sp1050@gms.tcu.edu.tw",
     "campuses": [
      "慈濟大學",
      "花蓮慈濟醫院"
@@ -1912,7 +1967,8 @@
     "position": 10,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "sp1050@gms.tcu.edu.tw"
    }
   ],
   "ext": {
@@ -1949,7 +2005,11 @@
   ],
   "n_authors": 10,
   "n_tzuchi_authors": 10,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42587612/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42587612/",
+  "impact_factor_openalex": 5.91,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42575952",
@@ -2172,7 +2232,11 @@
   "corresponding_campuses": [],
   "n_authors": 9,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42575952/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42575952/",
+  "impact_factor_openalex": 7.05,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42573076",
@@ -2319,7 +2383,11 @@
   "corresponding_campuses": [],
   "n_authors": 5,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42573076/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42573076/",
+  "impact_factor_openalex": 1.6,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42569116",
@@ -2391,7 +2459,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42569116/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42569116/",
+  "impact_factor_openalex": 5.26,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42546867",
@@ -2563,7 +2635,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546867/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546867/",
+  "impact_factor_openalex": 4.12,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42542195",
@@ -2637,7 +2713,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542195/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542195/",
+  "impact_factor_openalex": 5.49,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42525112",
@@ -2712,7 +2792,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525112/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525112/",
+  "impact_factor_openalex": 5.58,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42519970",
@@ -2914,7 +2998,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42519970/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42519970/",
+  "impact_factor_openalex": 4.41,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42512659",
@@ -2991,7 +3079,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9242-9167",
-    "corr_email": "m.koo@utoronto.ca",
     "campuses": [
      "大林慈濟醫院"
     ],
@@ -2999,7 +3086,8 @@
     "position": 3,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "m.koo@utoronto.ca"
    }
   ],
   "ext": {
@@ -3034,7 +3122,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42512659/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42512659/",
+  "impact_factor_openalex": 6.15,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42454708",
@@ -3107,7 +3199,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42454708/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42454708/",
+  "impact_factor_openalex": 2.52,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42423818",
@@ -3202,7 +3298,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42423818/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42423818/",
+  "impact_factor_openalex": 5.7,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42404804",
@@ -3334,13 +3434,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-4174-5036",
-    "corr_email": "ninaphsu@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "ninaphsu@gmail.com"
    }
   ],
   "ext": {
@@ -3373,7 +3473,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42404804/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42404804/",
+  "impact_factor_openalex": 9.72,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42400648",
@@ -3545,7 +3649,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42400648/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42400648/",
+  "impact_factor_openalex": 6.36,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42360816",
@@ -3633,7 +3741,11 @@
   "corresponding_campuses": [],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42360816/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42360816/",
+  "impact_factor_openalex": 4.77,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42348717",
@@ -3723,7 +3835,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42348717/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42348717/",
+  "impact_factor_openalex": 2.36,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42332278",
@@ -3910,7 +4026,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42332278/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42332278/",
+  "impact_factor_openalex": 5.77,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42328118",
@@ -4107,7 +4227,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -4115,7 +4234,8 @@
     "position": 8,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -4151,7 +4271,11 @@
   ],
   "n_authors": 8,
   "n_tzuchi_authors": 5,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42328118/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42328118/",
+  "impact_factor_openalex": 4.35,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42314565",
@@ -4312,7 +4436,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9028-9834",
-    "corr_email": "kwtsai6733@gmail.com",
     "campuses": [
      "台北慈濟醫院",
      "慈濟大學"
@@ -4323,7 +4446,8 @@
     "position": 7,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kwtsai6733@gmail.com"
    }
   ],
   "ext": {
@@ -4360,7 +4484,11 @@
   ],
   "n_authors": 7,
   "n_tzuchi_authors": 7,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42314565/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42314565/",
+  "impact_factor_openalex": 2.03,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42312779",
@@ -4391,7 +4519,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9458-5665",
-    "corr_email": "reillyjj@qut.edu.au",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -4401,7 +4528,8 @@
     "position": 1,
     "is_first": true,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "reillyjj@qut.edu.au"
    }
   ],
   "ext": {
@@ -4435,7 +4563,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312779/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312779/",
+  "impact_factor_openalex": 3.71,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42287777",
@@ -4611,7 +4743,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42287777/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42287777/",
+  "impact_factor_openalex": 4.84,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42198424",
@@ -4711,7 +4847,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-3612-653X",
-    "corr_email": "drhkhuang@gmail.com",
     "campuses": [
      "慈濟大學",
      "花蓮慈濟醫院"
@@ -4720,7 +4855,8 @@
     "position": 4,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "drhkhuang@gmail.com"
    }
   ],
   "ext": {
@@ -4757,7 +4893,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42198424/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42198424/",
+  "impact_factor_openalex": 7.51,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42195188",
@@ -4829,13 +4969,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "",
-    "corr_email": "1010280uijk@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 3,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "1010280uijk@gmail.com"
    },
    {
     "name": "Yee-Hsin Kao",
@@ -4849,13 +4989,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-9148-4087",
-    "corr_email": "1010280uijk@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 4,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "1010280uijk@gmail.com"
    }
   ],
   "ext": {
@@ -4888,7 +5028,11 @@
   "corresponding_campuses": [],
   "n_authors": 4,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42195188/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42195188/",
+  "impact_factor_openalex": 4.58,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42160992",
@@ -4977,7 +5121,11 @@
   "corresponding_campuses": [],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42160992/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42160992/",
+  "impact_factor_openalex": 3.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42158815",
@@ -5091,7 +5239,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -5099,7 +5246,8 @@
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -5131,7 +5279,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42158815/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42158815/",
+  "impact_factor_openalex": 4.35,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42121573",
@@ -5203,7 +5355,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9242-9167",
-    "corr_email": "m.koo@utoronto.ca",
     "campuses": [
      "大林慈濟醫院"
     ],
@@ -5211,7 +5362,8 @@
     "position": 3,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "m.koo@utoronto.ca"
    }
   ],
   "ext": {
@@ -5245,7 +5397,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42121573/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42121573/",
+  "impact_factor_openalex": 6.15,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42090641",
@@ -5512,7 +5668,11 @@
   "corresponding_campuses": [],
   "n_authors": 11,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42090641/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42090641/",
+  "impact_factor_openalex": 1.76,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42082123",
@@ -5624,7 +5784,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42082123/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42082123/",
+  "impact_factor_openalex": 5.49,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42080079",
@@ -5757,13 +5921,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9452-5179",
-    "corr_email": "096195@mail.fju.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "096195@mail.fju.edu.tw"
    }
   ],
   "ext": {
@@ -5793,7 +5957,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42080079/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42080079/",
+  "impact_factor_openalex": 4.35,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42066741",
@@ -5867,7 +6035,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42066741/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42066741/",
+  "impact_factor_openalex": 3.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42040918",
@@ -5940,7 +6112,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42040918/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42040918/",
+  "impact_factor_openalex": 4.38,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42035811",
@@ -6123,7 +6299,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 6,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035811/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035811/",
+  "impact_factor_openalex": 5.49,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "42000667",
@@ -6223,7 +6403,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42000667/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42000667/",
+  "impact_factor_openalex": 2.16,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41938481",
@@ -6296,7 +6480,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41938481/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41938481/",
+  "impact_factor_openalex": 1.08,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41923358",
@@ -6370,7 +6558,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41923358/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41923358/",
+  "impact_factor_openalex": 2.72,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41918007",
@@ -6626,7 +6818,11 @@
   ],
   "n_authors": 9,
   "n_tzuchi_authors": 9,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41918007/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41918007/",
+  "impact_factor_openalex": 4.73,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41915606",
@@ -6701,7 +6897,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41915606/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41915606/",
+  "impact_factor_openalex": 1.52,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41913376",
@@ -6792,7 +6992,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41913376/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41913376/",
+  "impact_factor_openalex": 1.65,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41905181",
@@ -6883,7 +7087,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41905181/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41905181/",
+  "impact_factor_openalex": 3.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41901672",
@@ -6937,7 +7145,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-5105-068X",
-    "corr_email": "dah1003@yahoo.com.tw",
     "campuses": [
      "花蓮慈濟醫院",
      "慈濟大學"
@@ -6946,7 +7153,8 @@
     "position": 2,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "dah1003@yahoo.com.tw"
    }
   ],
   "ext": {
@@ -6983,7 +7191,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41901672/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41901672/",
+  "impact_factor_openalex": 4.58,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41830903",
@@ -7158,7 +7370,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41830903/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41830903/",
+  "impact_factor_openalex": 4.32,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41762410",
@@ -7233,7 +7449,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41762410/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41762410/",
+  "impact_factor_openalex": 2.52,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41753118",
@@ -7345,13 +7565,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-0946-2343",
-    "corr_email": "01200@cych.org.tw",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "01200@cych.org.tw"
    }
   ],
   "ext": {
@@ -7381,7 +7601,11 @@
   "corresponding_campuses": [],
   "n_authors": 5,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41753118/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41753118/",
+  "impact_factor_openalex": 4.71,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41743061",
@@ -7496,7 +7720,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -7504,7 +7727,8 @@
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -7536,7 +7760,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41743061/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41743061/",
+  "impact_factor_openalex": 6.76,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41722866",
@@ -7634,7 +7862,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 1,
-  "impact_factor": 1.27,
+  "impact_factor": 12.3,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -7648,7 +7876,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41722866/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41722866/",
+  "impact_factor_openalex": 1.27,
+  "if_source": "JCR",
+  "jcr_quartile": "Q1",
+  "jcr_year": ""
  },
  {
   "pmid": "41721987",
@@ -7787,7 +8019,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41721987/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41721987/",
+  "impact_factor_openalex": 7.09,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41719970",
@@ -7885,7 +8121,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41719970/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41719970/",
+  "impact_factor_openalex": 2.19,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41658601",
@@ -7977,7 +8217,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-4971-5616",
-    "corr_email": "tc001311@tzuchi.com.tw",
     "campuses": [
      "台中慈濟醫院"
     ],
@@ -7985,7 +8224,8 @@
     "position": 4,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tc001311@tzuchi.com.tw"
    },
    {
     "name": "Tsing-Fen Ho",
@@ -7999,13 +8239,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-1061-6880",
-    "corr_email": "tc001311@tzuchi.com.tw",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tc001311@tzuchi.com.tw"
    }
   ],
   "ext": {
@@ -8038,7 +8278,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41658601/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41658601/",
+  "impact_factor_openalex": 4.66,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41651215",
@@ -8112,7 +8356,11 @@
   ],
   "n_authors": 1,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41651215/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41651215/",
+  "impact_factor_openalex": 1.6,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41609863",
@@ -8208,7 +8456,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41609863/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41609863/",
+  "impact_factor_openalex": 2.71,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41599875",
@@ -8300,13 +8552,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-4735-7504",
-    "corr_email": "022446@mail.fju.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 4,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "022446@mail.fju.edu.tw"
    },
    {
     "name": "Kuo-Cheng Lu",
@@ -8321,7 +8573,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "022446@mail.fju.edu.tw",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -8329,7 +8580,8 @@
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "022446@mail.fju.edu.tw"
    }
   ],
   "ext": {
@@ -8362,7 +8614,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41599875/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41599875/",
+  "impact_factor_openalex": 7.9,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41555749",
@@ -8419,13 +8675,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-8932-5095",
-    "corr_email": "yjchenmd@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 2,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "yjchenmd@gmail.com"
    },
    {
     "name": "Chun-Ying Wu",
@@ -8447,13 +8703,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "",
-    "corr_email": "cywu4@ym.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 3,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "cywu4@ym.edu.tw"
    }
   ],
   "ext": {
@@ -8486,7 +8742,11 @@
   "corresponding_campuses": [],
   "n_authors": 3,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41555749/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41555749/",
+  "impact_factor_openalex": 6.18,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41493687",
@@ -8582,7 +8842,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41493687/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41493687/",
+  "impact_factor_openalex": 2.52,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41490291",
@@ -8753,13 +9017,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-6669-092X",
-    "corr_email": "a01399@mail.fjuh.fju.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 8,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "a01399@mail.fjuh.fju.edu.tw"
    }
   ],
   "ext": {
@@ -8789,7 +9053,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41490291/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41490291/",
+  "impact_factor_openalex": 0.36,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41457357",
@@ -8960,7 +9228,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 5,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41457357/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41457357/",
+  "impact_factor_openalex": 5.84,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41453566",
@@ -9164,7 +9436,11 @@
   ],
   "n_authors": 7,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41453566/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41453566/",
+  "impact_factor_openalex": 2.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41387113",
@@ -9373,7 +9649,11 @@
   ],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41387113/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41387113/",
+  "impact_factor_openalex": 13.61,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41366181",
@@ -9469,7 +9749,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41366181/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41366181/",
+  "impact_factor_openalex": 2.82,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41364963",
@@ -9564,7 +9848,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364963/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364963/",
+  "impact_factor_openalex": 2.19,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41364874",
@@ -9830,7 +10118,11 @@
   "corresponding_campuses": [],
   "n_authors": 11,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364874/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41364874/",
+  "impact_factor_openalex": 1.76,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41252340",
@@ -9926,7 +10218,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41252340/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41252340/",
+  "impact_factor_openalex": 1.86,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41242897",
@@ -10024,7 +10320,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41242897/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41242897/",
+  "impact_factor_openalex": 0.87,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41167602",
@@ -10119,7 +10419,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41167602/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41167602/",
+  "impact_factor_openalex": 3.79,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41105233",
@@ -10295,7 +10599,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41105233/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41105233/",
+  "impact_factor_openalex": 2.72,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41014190",
@@ -10389,7 +10697,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41014190/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41014190/",
+  "impact_factor_openalex": 0.94,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40729752",
@@ -10592,7 +10904,11 @@
   ],
   "n_authors": 7,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40729752/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40729752/",
+  "impact_factor_openalex": 2.03,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41445831",
@@ -10789,7 +11105,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -10797,7 +11112,8 @@
     "position": 9,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -10831,7 +11147,11 @@
   ],
   "n_authors": 9,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41445831/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41445831/",
+  "impact_factor_openalex": 6.76,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41427560",
@@ -10919,7 +11239,11 @@
   "corresponding_campuses": [],
   "n_authors": 2,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41427560/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41427560/",
+  "impact_factor_openalex": 1.98,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41344335",
@@ -11103,7 +11427,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7477-0388",
-    "corr_email": "kolinkuo8@gmail.com",
     "campuses": [
      "台北慈濟醫院",
      "慈濟大學"
@@ -11112,7 +11435,8 @@
     "position": 8,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kolinkuo8@gmail.com"
    },
    {
     "name": "Der-Cherng Tarng",
@@ -11127,13 +11451,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0001-9017-2081",
-    "corr_email": "dctarng@vghtpe.gov.tw",
     "campuses": [],
     "emails": [],
     "position": 9,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "dctarng@vghtpe.gov.tw"
    }
   ],
   "ext": {
@@ -11168,7 +11492,11 @@
   ],
   "n_authors": 9,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41344335/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41344335/",
+  "impact_factor_openalex": 4.48,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41225710",
@@ -11283,7 +11611,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41225710/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41225710/",
+  "impact_factor_openalex": 3.34,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41209548",
@@ -11453,7 +11785,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -11461,7 +11792,8 @@
     "position": 8,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tch33730@tzuchi.com.tw"
    }
   ],
   "ext": {
@@ -11493,7 +11825,11 @@
   ],
   "n_authors": 8,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41209548/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41209548/",
+  "impact_factor_openalex": 4.35,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41180502",
@@ -11568,7 +11904,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -11576,7 +11911,8 @@
     "position": 3,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -11610,7 +11946,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41180502/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41180502/",
+  "impact_factor_openalex": 2.9,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41108405",
@@ -11663,7 +12003,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9458-5665",
-    "corr_email": "reillyjj@qut.edu.au",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -11671,7 +12010,8 @@
     "position": 2,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "reillyjj@qut.edu.au"
    }
   ],
   "ext": {
@@ -11705,7 +12045,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41108405/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41108405/",
+  "impact_factor_openalex": 4.05,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41105984",
@@ -11841,7 +12185,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41105984/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41105984/",
+  "impact_factor_openalex": 3.67,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41091540",
@@ -11939,7 +12287,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41091540/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41091540/",
+  "impact_factor_openalex": 3.08,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41058624",
@@ -12053,7 +12405,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -12061,7 +12412,8 @@
     "position": 5,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tch33730@tzuchi.com.tw"
    },
    {
     "name": "Chung-Chi Yang",
@@ -12078,13 +12430,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0009-0000-8271-2885",
-    "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tch33730@tzuchi.com.tw"
    }
   ],
   "ext": {
@@ -12117,7 +12469,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41058624/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41058624/",
+  "impact_factor_openalex": 4.66,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41044787",
@@ -12421,7 +12777,11 @@
   "corresponding_campuses": [],
   "n_authors": 13,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41044787/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41044787/",
+  "impact_factor_openalex": 6.18,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41025681",
@@ -12537,7 +12897,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41025681/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41025681/",
+  "impact_factor_openalex": 1.2,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "41021093",
@@ -12650,7 +13014,11 @@
   ],
   "n_authors": 3,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41021093/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41021093/",
+  "impact_factor_openalex": 2.82,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40976497",
@@ -12886,7 +13254,11 @@
   ],
   "n_authors": 9,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40976497/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40976497/",
+  "impact_factor_openalex": 2.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40967057",
@@ -12981,7 +13353,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40967057/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40967057/",
+  "impact_factor_openalex": 2.19,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40938392",
@@ -13126,7 +13502,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40938392/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40938392/",
+  "impact_factor_openalex": 3.1,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40859911",
@@ -13220,7 +13600,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40859911/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40859911/",
+  "impact_factor_openalex": 1.08,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40822843",
@@ -13314,7 +13698,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "kuochenglu@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -13322,7 +13705,8 @@
     "position": 4,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kuochenglu@gmail.com"
    }
   ],
   "ext": {
@@ -13356,7 +13740,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40822843/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40822843/",
+  "impact_factor_openalex": 2.86,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40818996",
@@ -13493,7 +13881,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40818996/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40818996/",
+  "impact_factor_openalex": 6.54,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40807197",
@@ -13606,13 +13998,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-8772-011X",
-    "corr_email": "wucc@mail.ndmctsgh.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "wucc@mail.ndmctsgh.edu.tw"
    },
    {
     "name": "Kuo-Cheng Lu",
@@ -13627,7 +14019,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "wucc@mail.ndmctsgh.edu.tw",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -13635,7 +14026,8 @@
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "wucc@mail.ndmctsgh.edu.tw"
    }
   ],
   "ext": {
@@ -13668,7 +14060,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40807197/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40807197/",
+  "impact_factor_openalex": 4.71,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40757430",
@@ -13837,7 +14233,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40757430/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40757430/",
+  "impact_factor_openalex": 5.84,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40753836",
@@ -13974,7 +14374,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40753836/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40753836/",
+  "impact_factor_openalex": 0.89,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40741611",
@@ -14089,13 +14493,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-5761-8114",
-    "corr_email": "terrychen.a@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "terrychen.a@gmail.com"
    },
    {
     "name": "Chung-Chao Liang",
@@ -14110,7 +14514,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "",
-    "corr_email": "stone@tzuchi.com.tw",
     "campuses": [
      "花蓮慈濟醫院",
      "慈濟大學"
@@ -14119,7 +14522,8 @@
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "stone@tzuchi.com.tw"
    }
   ],
   "ext": {
@@ -14156,7 +14560,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40741611/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40741611/",
+  "impact_factor_openalex": 2.9,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40723190",
@@ -14275,13 +14683,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-3285-8581",
-    "corr_email": "treemanhealth@gmail.com",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "treemanhealth@gmail.com"
    },
    {
     "name": "Kuo-Cheng Lu",
@@ -14296,7 +14704,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "treemanhealth@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -14304,7 +14711,8 @@
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "treemanhealth@gmail.com"
    }
   ],
   "ext": {
@@ -14341,7 +14749,11 @@
   ],
   "n_authors": 6,
   "n_tzuchi_authors": 4,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40723190/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40723190/",
+  "impact_factor_openalex": 6.13,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40722700",
@@ -14413,7 +14825,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-7062-8560",
-    "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -14421,7 +14832,8 @@
     "position": 3,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tch33730@tzuchi.com.tw"
    },
    {
     "name": "Chien-Lin Lu",
@@ -14436,13 +14848,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9452-5179",
-    "corr_email": "tch33730@tzuchi.com.tw",
     "campuses": [],
     "emails": [],
     "position": 4,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "tch33730@tzuchi.com.tw"
    }
   ],
   "ext": {
@@ -14475,7 +14887,11 @@
   ],
   "n_authors": 4,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40722700/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40722700/",
+  "impact_factor_openalex": 6.02,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40722632",
@@ -14595,7 +15011,6 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9028-9834",
-    "corr_email": "kwtsai6733@gmail.com",
     "campuses": [
      "台北慈濟醫院"
     ],
@@ -14603,7 +15018,8 @@
     "position": 5,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "kwtsai6733@gmail.com"
    }
   ],
   "ext": {
@@ -14639,7 +15055,11 @@
   ],
   "n_authors": 5,
   "n_tzuchi_authors": 5,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40722632/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40722632/",
+  "impact_factor_openalex": 6.02,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40701318",
@@ -14734,7 +15154,11 @@
   ],
   "n_authors": 2,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40701318/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40701318/",
+  "impact_factor_openalex": 2.12,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40531497",
@@ -14909,7 +15333,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40531497/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40531497/",
+  "impact_factor_openalex": 5.26,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40362848",
@@ -15042,13 +15470,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9452-5179",
-    "corr_email": "096195@mail.fju.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "096195@mail.fju.edu.tw"
    }
   ],
   "ext": {
@@ -15080,7 +15508,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40362848/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40362848/",
+  "impact_factor_openalex": 7.9,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40361386",
@@ -15234,13 +15666,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-9452-5179",
-    "corr_email": "096195@mail.fju.edu.tw",
     "campuses": [],
     "emails": [],
     "position": 7,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "096195@mail.fju.edu.tw"
    }
   ],
   "ext": {
@@ -15272,7 +15704,11 @@
   "corresponding_campuses": [],
   "n_authors": 7,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40361386/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40361386/",
+  "impact_factor_openalex": 6.13,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40245096",
@@ -15387,13 +15823,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0002-0639-3533",
-    "corr_email": "yjchenmd@vghtc.gov.tw",
     "campuses": [],
     "emails": [],
     "position": 5,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "yjchenmd@vghtc.gov.tw"
    },
    {
     "name": "Chun-Ying Wu",
@@ -15410,13 +15846,13 @@
     "corr_pmc": true,
     "corr_openalex": true,
     "orcid": "0000-0003-4207-2312",
-    "corr_email": "yjchenmd@vghtc.gov.tw",
     "campuses": [],
     "emails": [],
     "position": 6,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "yjchenmd@vghtc.gov.tw"
    }
   ],
   "ext": {
@@ -15449,7 +15885,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40245096/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40245096/",
+  "impact_factor_openalex": 11.62,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "40057043",
@@ -15645,7 +16085,11 @@
   ],
   "n_authors": 7,
   "n_tzuchi_authors": 3,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40057043/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40057043/",
+  "impact_factor_openalex": 2.75,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "39709670",
@@ -15948,7 +16392,11 @@
   ],
   "n_authors": 13,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39709670/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39709670/",
+  "impact_factor_openalex": 3.25,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "39613228",
@@ -16118,7 +16566,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39613228/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39613228/",
+  "impact_factor_openalex": 1.33,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "39585798",
@@ -16328,7 +16780,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39585798/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39585798/",
+  "impact_factor_openalex": 1.56,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "39171569",
@@ -16540,7 +16996,11 @@
   "corresponding_campuses": [],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39171569/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39171569/",
+  "impact_factor_openalex": 5.84,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "38981737",
@@ -16745,7 +17205,11 @@
   ],
   "n_authors": 8,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38981737/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38981737/",
+  "impact_factor_openalex": 2.89,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  },
  {
   "pmid": "38878041",
@@ -16903,7 +17367,7 @@
   "corresponding_agreement": "",
   "publisher": "Elsevier BV",
   "citations": 51,
-  "impact_factor": 1.27,
+  "impact_factor": 12.3,
   "campuses": [
    "大林慈濟醫院"
   ],
@@ -16918,7 +17382,11 @@
   "corresponding_campuses": [],
   "n_authors": 6,
   "n_tzuchi_authors": 2,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38878041/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38878041/",
+  "impact_factor_openalex": 1.27,
+  "if_source": "JCR",
+  "jcr_quartile": "Q1",
+  "jcr_year": ""
  },
  {
   "pmid": "37905636",
@@ -17053,7 +17521,6 @@
     "corr_pmc": true,
     "corr_openalex": false,
     "orcid": "0000-0003-1688-1685",
-    "corr_email": "yunanhuang83@gmail.com",
     "campuses": [],
     "emails": [
      "yunanhuang83@gmail.com."
@@ -17061,7 +17528,8 @@
     "position": 6,
     "is_first": false,
     "is_last": false,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "yunanhuang83@gmail.com"
    },
    {
     "name": "Pen-Hua Su",
@@ -17076,7 +17544,6 @@
     "corr_pmc": true,
     "corr_openalex": false,
     "orcid": "0000-0003-4174-5036",
-    "corr_email": "yunanhuang83@gmail.com",
     "campuses": [],
     "emails": [
      "ninaphsu@gmail.com."
@@ -17084,7 +17551,8 @@
     "position": 7,
     "is_first": false,
     "is_last": true,
-    "is_corresponding": true
+    "is_corresponding": true,
+    "corr_email": "yunanhuang83@gmail.com"
    }
   ],
   "ext": {
@@ -17117,6 +17585,10 @@
   "corresponding_campuses": [],
   "n_authors": 7,
   "n_tzuchi_authors": 1,
-  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37905636/"
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37905636/",
+  "impact_factor_openalex": 2.26,
+  "if_source": "OpenAlex近似",
+  "jcr_quartile": "",
+  "jcr_year": ""
  }
 ]
