@@ -4557,6 +4557,24 @@
    "publisher": "Oxford University Press (OUP)",
    "status": "ok",
    "type": "journal-article"
+  },
+  "43073596": {
+   "authors": [
+    {
+     "family": "Wang",
+     "given": "Joshua",
+     "orcid": "0000-0002-9458-5665",
+     "sequence": "first"
+    }
+   ],
+   "citations": 0,
+   "fetched_at": "2026-11-25T15:29:17+00:00",
+   "license": [
+    "https://www.springernature.com/gp/researchers/text-and-data-mining"
+   ],
+   "publisher": "Springer Science and Business Media LLC",
+   "status": "ok",
+   "type": "journal-article"
   }
  },
  "openalex": {
@@ -9429,6 +9447,23 @@
    "pmcid": "",
    "source_id": "S45123234",
    "status": "ok"
+  },
+  "43073596": {
+   "authors": [
+    {
+     "display_name": "Joshua Wang",
+     "is_corresponding": true,
+     "name": "Joshua Wang",
+     "orcid": "0000-0002-9458-5665",
+     "position": "first"
+    }
+   ],
+   "cited_by_count": 0,
+   "fetched_at": "2026-11-25T15:29:16+00:00",
+   "openalex_id": "W7238793546",
+   "pmcid": "",
+   "source_id": "S116608325",
+   "status": "ok"
   }
  },
  "pmc": {
@@ -10365,6 +10400,12 @@
    "fetched_at": "2026-11-17T08:08:25+00:00",
    "impact_factor": 2.26,
    "name": "In Vivo",
+   "status": "ok"
+  },
+  "S116608325": {
+   "fetched_at": "2026-11-25T15:29:16+00:00",
+   "impact_factor": 3.37,
+   "name": "Journal of General Internal Medicine",
    "status": "ok"
   },
   "S126162762": {

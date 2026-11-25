@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-25T15:24:32+00:00",
+ "generated_at": "2026-11-25T15:29:17+00:00",
  "query": "(Tzu Chi[ad] OR \"Buddhist Tzu Chi\"[ad] OR \"Tzu-Chi\"[ad] OR \"Dalin Tzu Chi\"[ad] OR \"Taipei Tzu Chi\"[ad] OR \"Hualien Tzu Chi\"[ad] OR \"Tzu Chi University\"[ad] OR \"Tzu Chi Medical Foundation\"[ad]) AND (TriNetX[tiab] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[tiab])",
  "query_translation": "(\"Tzu-Chi\"[Affiliation] OR \"Buddhist Tzu Chi\"[Affiliation] OR \"Tzu-Chi\"[Affiliation] OR \"Dalin Tzu Chi\"[Affiliation] OR \"Taipei Tzu Chi\"[Affiliation] OR \"Hualien Tzu Chi\"[Affiliation] OR \"Tzu Chi University\"[Affiliation] OR \"Tzu Chi Medical Foundation\"[Affiliation]) AND (\"TriNetX\"[Title/Abstract] OR \"TriNetX\"[All Fields] OR \"TriNetX Research Network\"[Title/Abstract])",
- "pubmed_count": 118,
- "n_articles": 118,
+ "pubmed_count": 119,
+ "n_articles": 119,
  "n_tzu_chi_university": 29,
  "campus_table": [
   {
@@ -22,10 +22,10 @@
   },
   {
    "campus": "台北慈濟醫院",
-   "articles": 73,
-   "first_author_articles": 48,
-   "corresponding_author_articles": 59,
-   "author_slots": 151
+   "articles": 74,
+   "first_author_articles": 49,
+   "corresponding_author_articles": 60,
+   "author_slots": 152
   },
   {
    "campus": "台中慈濟醫院",
@@ -57,7 +57,7 @@
   },
   {
    "year": "2026",
-   "articles": 79
+   "articles": 80
   }
  ],
  "top_journals": [
@@ -130,7 +130,7 @@
   },
   {
    "source": "OpenAlex",
-   "articles": 57
+   "articles": 58
   },
   {
    "source": "PubMed e-mail",
