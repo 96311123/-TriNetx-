@@ -56,7 +56,11 @@ PubMed 本身沒有通訊作者欄位，因此依下列優先順序判定，每�
 
 - 同時有 PMC 與 OpenAlex 結果時會比對，不一致的文章在網頁與 Excel 中標紅，方便人工複核。
 - **Crossref 沒有通訊作者欄位**，用於補充 ORCID、出版社、被引次數。
-- **期刊 IF(近似)**：取自 OpenAlex 期刊的 `2yr_mean_citedness`（近 2 年平均被引），與 JCR 官方 Impact Factor 相近但不相同；官方 IF 為 Clarivate 付費資料，無免費 API。
+- **期刊 IF**：優先採用 `data/jcr_if.csv`（人工維護的 Clarivate JCR 官方 IF／分區）。
+  每次更新會把資料中出現、但表內沒有的期刊自動補成空白列；在 GitHub 上直接編輯該檔填入 `jif`、`quartile`、`jcr_year` 並 commit，
+  Actions 會自動重建網站。`journal_abbr` 須與 PubMed 期刊縮寫（NLM TA）相同，大小寫與標點不拘。
+- 表內沒有 JCR 值的期刊，才退而使用 OpenAlex 期刊的 `2yr_mean_citedness`（近 2 年平均被引），網頁標「≈」、Excel 標「OpenAlex近似」。
+  這個近似值可能與 JCR 差距很大（例：J Am Acad Dermatol 近似值約 1.3，JCR 為 12.3），會讓高 IF 文章漏列，請以 JCR 為準。
 - 外部查詢結果存於 `cache/enrich_cache.json` 並一起 commit；每週只查新文章或過期項目
   （OpenAlex 找到 90 天／未找到 14 天、PMC 找到永久／未找到 30 天、Crossref 7 天更新被引次數）。
 - 只想跑 PubMed、不查外部來源：`python scripts/fetch_pubmed.py --no-external`（仍會套用既有快取）。
